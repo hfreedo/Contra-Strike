@@ -1,0 +1,44 @@
+{
+  "herramienta": "image_gen integrada",
+  "referencias": [
+    "Portadas/Contra_Strike/Contra_Strike_PC_Demo.png",
+    "Analisis de demos/evidencia/Contra_Strike/Recursos/escenario.png"
+  ],
+  "assets": [
+    {
+      "key": "fondo",
+      "file": "Fondos/fondo_menu_alien.png",
+      "alpha": false,
+      "prompt": "Use case: stylized-concept. Production-ready separate game menu asset for the SCHOOL demo Contra Strike, faithful to the provided actual alien level and approved cover. Reference 1 is the approved cover art direction; reference 2 is the actual side-scroller environment palette/forms. Rich stylized digital game art, dark indigo cavern, reddish burgundy ribbed alien architecture, restrained magenta/violet luminous capsules and warm copper highlights. Mysterious EXPLORATION, child-appropriate, no horror, weapons, ammunition, gore, skulls, enemies or franchise logos. Asset: landscape 16:9 FULL-BLEED menu background only, around 1536x864 or larger. A deep atmospheric alien cavern with reddish raised walkways, coiled conduits and purple capsule lights, winding route receding into a violet haze. Near platform along the bottom-left for a separately composited explorer; subtle foreground structure at left/bottom. Keep upper-right and middle-right relatively calm, dark and low-detail so a separate title and three buttons can be placed there. No characters, silhouettes, text, logos, UI, panel, arrows, school seal or border. This is for a menu, not a repeating gameplay texture. Preserve recognizable environment rather than a generic space station.",
+      "source": "C:\\Users\\Soul Hoshi\\.codex\\generated_images\\01a141af-5368-74d3-a5a1-5bd6360de1b5\\exec-00da7554-4826-4381-8a58-31ebf556ae22.png"
+    },
+    {
+      "key": "personaje",
+      "file": "Personaje/explorador_sin_armas.png",
+      "alpha": true,
+      "prompt": "Use case: stylized-concept. Production-ready separate game menu asset for the SCHOOL demo Contra Strike, faithful to the provided actual alien level and approved cover. Reference 1 is the approved cover art direction; reference 2 is the actual side-scroller environment palette/forms. Rich stylized digital game art, dark indigo cavern, reddish burgundy ribbed alien architecture, restrained magenta/violet luminous capsules and warm copper highlights. Mysterious EXPLORATION, child-appropriate, no horror, weapons, ammunition, gore, skulls, enemies or franchise logos. Asset: ONE isolated complete full-body explorer cutout on a TRUE TRANSPARENT background, portrait 2:3. Match the protagonist in the approved cover: adult athletic build, short dark hair, red headband with two short cloth tails, plain dark sleeveless shirt, bright blue trousers, dark blue boots. SEEN FROM BEHIND, looking slightly toward the right into the adventure; face not visible. Calm standing pose, arms relaxed and BOTH HANDS EMPTY, fingers natural and anatomically correct. Entire legs, boots, head and hands visible with safe margins. Violet rim light and warm copper side light coherent with cave, crisp game illustration edges. No platform, scenery, shadow on a floor, logo, text, weapon, backpack, belt pouches, holster or tactical equipment. Cutout must be a complete reusable menu layer, not a cover.",
+      "source": "C:\\Users\\Soul Hoshi\\.codex\\generated_images\\01a141af-5368-74d3-a5a1-5bd6360de1b5\\exec-360c534b-a3b0-49c3-bcb3-a5e4ade02255.png"
+    },
+    {
+      "key": "titulo",
+      "file": "Titulo/contra_strike.png",
+      "alpha": true,
+      "prompt": "Use case: stylized-concept. Production-ready separate game menu asset for the SCHOOL demo Contra Strike, faithful to the provided actual alien level and approved cover. Reference 1 is the approved cover art direction; reference 2 is the actual side-scroller environment palette/forms. Rich stylized digital game art, dark indigo cavern, reddish burgundy ribbed alien architecture, restrained magenta/violet luminous capsules and warm copper highlights. Mysterious EXPLORATION, child-appropriate, no horror, weapons, ammunition, gore, skulls, enemies or franchise logos. Use case: logo-brand. Asset: ONE isolated game TITLE graphic on TRUE TRANSPARENT background. Exact text only: 'CONTRA' on first line and 'STRIKE' on second line. Bold broad slightly beveled ADVENTURE lettering in warm metallic ivory/gold with copper-red edge and very subtle violet rim, inspired by the approved cover title without adding any licensed franchise mark. Landscape around 3:2, title fills most of canvas with equal safety margins; short contained dark outline makes text readable over a cavern. Clean transparent outside the lettering. No subtitle, PC label, DEMO label, school seal, character, background plate, floating decorations or other words. Highly readable at 420 pixels width.",
+      "source": "C:\\Users\\Soul Hoshi\\.codex\\generated_images\\01a141af-5368-74d3-a5a1-5bd6360de1b5\\exec-508af03b-7b6c-4952-85b6-ea4197e12e25.png"
+    },
+    {
+      "key": "boton",
+      "file": "Interfaz/boton_alien_vacio.png",
+      "alpha": true,
+      "prompt": "Use case: stylized-concept. Production-ready separate game menu asset for the SCHOOL demo Contra Strike, faithful to the provided actual alien level and approved cover. Reference 1 is the approved cover art direction; reference 2 is the actual side-scroller environment palette/forms. Rich stylized digital game art, dark indigo cavern, reddish burgundy ribbed alien architecture, restrained magenta/violet luminous capsules and warm copper highlights. Mysterious EXPLORATION, child-appropriate, no horror, weapons, ammunition, gore, skulls, enemies or franchise logos. Use case: ui-mockup. Asset: ONE horizontal EMPTY reusable UI button on TRUE TRANSPARENT background, 3:1 aspect ratio, front view. Rounded rectangular dark aubergine center with even matte color for overlaid editable cream text; burgundy biomechanical ribbed frame with restrained copper-red edging and small violet luminous capsule inset at each end. Symmetrical clean outline, alien architecture from actual level adapted to school-friendly adventure menu. Most of the interior 75% width EMPTY and high contrast. Crisp readable silhouette at 300x100. Equal transparent safety margins, no cast floor shadow. No text, letters, numbers, icon, cursor, character, scenery, watermark. Only one button; no multiple states in one image.",
+      "source": "C:\\Users\\Soul Hoshi\\.codex\\generated_images\\01a141af-5368-74d3-a5a1-5bd6360de1b5\\exec-b1a693e9-2566-48f8-aa5b-03fefedd14b0.png"
+    },
+    {
+      "key": "panel",
+      "file": "Interfaz/panel_alien_vacio.png",
+      "alpha": true,
+      "prompt": "Use case: stylized-concept. Production-ready separate game menu asset for the SCHOOL demo Contra Strike, faithful to the provided actual alien level and approved cover. Reference 1 is the approved cover art direction; reference 2 is the actual side-scroller environment palette/forms. Rich stylized digital game art, dark indigo cavern, reddish burgundy ribbed alien architecture, restrained magenta/violet luminous capsules and warm copper highlights. Mysterious EXPLORATION, child-appropriate, no horror, weapons, ammunition, gore, skulls, enemies or franchise logos. Use case: ui-mockup. Asset: ONE large EMPTY rectangular popup UI panel on TRUE TRANSPARENT background, landscape 3:2. Broad flat very dark indigo-violet writing area occupies 85% of panel, suitable for large readable text. Restrained burgundy ribbed alien frame at the edges with small violet capsule lights at four corners and warm copper-red accents. Same family as a dark alien doorway frame, welcoming mystery not horror. Front orthographic view with softly chamfered corners and narrow equal transparent safety margins. Center EMPTY, smooth and uncluttered. No title, text, logo, buttons, character or background scenery.",
+      "source": "C:\\Users\\Soul Hoshi\\.codex\\generated_images\\01a141af-5368-74d3-a5a1-5bd6360de1b5\\exec-01148857-11ab-4e77-ac24-158e8772bce8.png"
+    }
+  ]
+}

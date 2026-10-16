@@ -1,0 +1,21 @@
+{
+  "resultado": "PASS",
+  "total": 13,
+  "tests": [
+    "854x366: imágenes y encuadre del menú",
+    "854x366: ayuda abre y cierra",
+    "854x366: creditos abre y cierra",
+    "854x366: jugar abre y cierra",
+    "854x366: ESC cierra ayuda",
+    "854x366: hover disponible",
+    "1280x720: imágenes y encuadre del menú",
+    "1280x720: ayuda abre y cierra",
+    "1280x720: creditos abre y cierra",
+    "1280x720: jugar abre y cierra",
+    "1280x720: ESC cierra ayuda",
+    "1280x720: hover disponible",
+    "Movimiento reducido respetado"
+  ],
+  "errors": [],
+  "alcance": "Vista HTML de los assets y paneles. No ejecuta el CAPX ni prueba el motor Construct 2."
+}

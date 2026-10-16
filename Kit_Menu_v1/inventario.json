@@ -1,0 +1,68 @@
+[
+  {
+    "archivo": "Assets/Fondos/fondo_menu_alien.png",
+    "dimensiones": [
+      1672,
+      941
+    ],
+    "transparente": false,
+    "bytes": 2437731,
+    "sha256": "28213f255de56b0bd8ede5ba4432f6ec97ae0b925d14a21cca55208c22e02a7f",
+    "uso": "fondo"
+  },
+  {
+    "archivo": "Assets/Personaje/explorador_sin_armas.png",
+    "dimensiones": [
+      1024,
+      1536
+    ],
+    "transparente": true,
+    "bytes": 1875343,
+    "sha256": "7767654909903cef0f7d9a6594cb91fd16b6a8717fb335ea2a6e3dd7d38406c4",
+    "uso": "personaje"
+  },
+  {
+    "archivo": "Assets/Titulo/contra_strike.png",
+    "dimensiones": [
+      1536,
+      1024
+    ],
+    "transparente": true,
+    "bytes": 2254221,
+    "sha256": "f7c5218056be0f33da5fde6b061a5519120dad1483341a94674116642690b47a",
+    "uso": "titulo"
+  },
+  {
+    "archivo": "Assets/Interfaz/boton_alien_vacio.png",
+    "dimensiones": [
+      2172,
+      724
+    ],
+    "transparente": true,
+    "bytes": 1735204,
+    "sha256": "6f30bf3e278cae8171196450ef53ee4bdfa38a3b00f345231e58a29ac8726a4c",
+    "uso": "boton"
+  },
+  {
+    "archivo": "Assets/Interfaz/panel_alien_vacio.png",
+    "dimensiones": [
+      1536,
+      1024
+    ],
+    "transparente": true,
+    "bytes": 2238141,
+    "sha256": "dfc3b144809034d09669f4cecf0d5bf6601bb727dc9c306137f805d0b7c081e7",
+    "uso": "panel"
+  },
+  {
+    "archivo": "Assets/Colegio/logo_colegio_transparente.png",
+    "dimensiones": [
+      1254,
+      1254
+    ],
+    "transparente": true,
+    "bytes": 1437174,
+    "sha256": "e5032764ea89eb48d7908e0f0d940cc1ade6cf02128ae5dc901178d975d9a199",
+    "uso": "escudo escolar existente, sin regenerar"
+  }
+]

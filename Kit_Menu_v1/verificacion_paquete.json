@@ -1,0 +1,10 @@
+{
+  "resultado": "PASS",
+  "archivo": "C:\\Users\\Soul Hoshi\\Documents\\ChatGPT\\PAL - Desarrollo de videojuegos\\Entregas\\Actuales\\Contra_Strike\\Contra_Strike_menu_actual.zip",
+  "sha256": "03014e37746688d87a5b22b996b6e5af1d883b9f3081e3e317635e2adcc4f105",
+  "archivos": 24,
+  "extraccion_verificada": "C:\\Users\\Soul Hoshi\\Documents\\ChatGPT\\PAL - Desarrollo de videojuegos\\Entregas\\Historial\\Verificaciones_temporales\\strike-menu-7f52023f\\Contra_Strike_menu_v1",
+  "hashes_extraidos": "PASS",
+  "menu_854x366_y_1280x720": "13 comprobaciones HTML PASS",
+  "limite": "Assets y referencia HTML, no modifica ni ejecuta Construct 2."
+}

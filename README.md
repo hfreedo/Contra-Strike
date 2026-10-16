@@ -5,11 +5,11 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/hfreedo/Contra-Strike/releases/latest/download/Contra_Strike_original.capx">
-    <img src="https://img.shields.io/badge/🎮_Descargar_Proyecto_Construct_2-Contra__Strike.capx-7c3aed?style=for-the-badge" alt="Descargar CAPX">
+  <a href="https://github.com/hfreedo/Contra-Strike/releases/latest/download/Contra_Strike_con_menu.capx">
+    <img src="https://img.shields.io/badge/🎮_Descargar_Juego_Integrado_con_Menú-Contra__Strike__con__menu.capx-22c55e?style=for-the-badge" alt="Descargar CAPX con Menú">
   </a>
-  <a href="https://github.com/hfreedo/Contra-Strike/releases/latest/download/Contra_Strike_Kit_Completo_v1.zip">
-    <img src="https://img.shields.io/badge/📦_Descargar_Kit_de_Menú_+_Juego-Contra__Strike__v1.zip-2563eb?style=for-the-badge" alt="Descargar Kit Completo ZIP">
+  <a href="https://github.com/hfreedo/Contra-Strike/releases/latest/download/Contra_Strike_original.capx">
+    <img src="https://img.shields.io/badge/🕹️_Descargar_Proyecto_Original-Contra__Strike__original.capx-7c3aed?style=for-the-badge" alt="Descargar CAPX Original">
   </a>
 </p>
 
@@ -17,7 +17,7 @@
 
 ## 👋 ¡Bienvenidos al repositorio oficial de Contra Strike!
 
-Este repositorio contiene el proyecto base de **Contra Strike** desarrollado en **Construct 2**, junto con el **Kit de Menú v1** (imágenes separadas con transparencia, coordenadas exactas de posición para Construct 2, vista interactiva HTML y portada oficial) listo para que el equipo lo integre y personalice en clase.
+Este repositorio contiene el proyecto de **Contra Strike** desarrollado en **Construct 2**, incluyendo la **versión integrada con menú interactivo (`Contra_Strike_con_menu.capx`)**, el **Kit de Menú v1** con assets separados y coordenadas de posición, vistas de fondo extendido y la **portada imprimible para el stand escolar**.
 
 ---
 
@@ -25,19 +25,33 @@ Este repositorio contiene el proyecto base de **Contra Strike** desarrollado en 
 
 Tienes **tres formas** de obtener los archivos:
 
-1. **Solo quiero el archivo `.capx` para abrirlo en Construct 2:**
-   - Haz clic en el botón violeta superior **🎮 Descargar Proyecto Construct 2 (`Contra_Strike.capx`)** o entra en [`Proyecto/Contra_Strike_original.capx`](Proyecto/Contra_Strike_original.capx) y pulsa **Download raw file**.
-2. **Quiero el paquete completo `.zip` (Juego + Kit de Menú + Portada):**
-   - Haz clic en el botón azul **📦 Descargar Kit de Menú + Juego (`Contra_Strike_v1.zip`)** o visita la sección [**Releases (Lanzamientos)**](https://github.com/hfreedo/Contra-Strike/releases).
+1. **Quiero el juego completo con Menú listo para jugar en Construct 2 (⭐ Muy Recomendado):**
+   - Haz clic en el botón verde superior **🎮 Descargar Juego Integrado con Menú (`Contra_Strike_con_menu.capx`)** o entra en [`Proyecto/Contra_Strike_con_menu.capx`](Proyecto/Contra_Strike_con_menu.capx) y pulsa **Download raw file**.
+   - ¡Ya tiene el menú conectado, controles de pausa con `ESC`, música ajustada y la animación inicial corregida!
+2. **Quiero descargar los archivos individuales o el paquete de la entrega:**
+   - Visita la sección [**Releases (Lanzamientos)**](https://github.com/hfreedo/Contra-Strike/releases), donde puedes descargar:
+     - `Contra_Strike_con_menu.capx` (Juego integrado listo para jugar)
+     - `Contra_Strike_original.capx` (Versión original previa del alumno)
+     - `Contra_Strike_Kit_Completo_v1.zip` (Paquete con proyecto y assets de menú)
 3. **Quiero descargar todo el repositorio desde GitHub:**
    - Arriba a la derecha en esta página, haz clic en el botón verde **`<> Code`** y selecciona **`Download ZIP`**. Luego descomprime el archivo en tu computadora.
 
-> [!IMPORTANT]
-> **Consejo antes de editar en Construct 2:** Abre `Proyecto/Contra_Strike_original.capx` y guárdalo con un nombre nuevo (por ejemplo, `Contra_Strike_con_menu_v1.capx`) antes de agregar el menú, para mantener siempre un respaldo limpio.
+---
+
+## 🎮 2. ¿Cómo funciona la versión integrada `Contra_Strike_con_menu.capx`?
+
+Esta entrega unifica el juego del alumno con la interfaz de usuario:
+- **Al abrir el proyecto:** El primer layout es **`Menu`** (`854 × 366`).
+- **`JUGAR DEMO`:** Abre directamente el nivel jugable (`Layout 1`).
+- **`CÓMO JUGAR` y `CRÉDITOS`:** Muestran paneles informativos con los controles y datos del colegio sin salirse del juego.
+- **Regreso al Menú:** Durante la partida, presionar la tecla **`ESC`** o el botón de menú abre un diálogo de confirmación:
+  - *SÍ, VOLVER:* Regresa al menú inicial, silencia la música del juego y reanuda la escala temporal.
+  - *CANCELAR / ESC:* Vuelve inmediatamente a la acción de la partida.
+- **Corrección de animación:** El sprite del personaje ahora inicia correctamente en pose `quieto` en vez de `Default`.
 
 ---
 
-## 🖼️ 2. Vista previa del Menú Principal (`Kit_Menu_v1/`)
+## 🖼️ 3. Vista previa del Menú Principal (`Kit_Menu_v1/`)
 
 | Ventana Original del Proyecto (`854 × 366`) | Composición Alternativa HD (`1280 × 720`) |
 |:---:|:---:|
@@ -51,61 +65,30 @@ Tienes **tres formas** de obtener los archivos:
 
 ---
 
-## 🛠️ 3. Guía Paso a Paso: Cómo integrar el Menú en Construct 2
+## 🖨️ 4. Materiales Imprimibles para la Exposición (`Imprimibles_Contra_Strike/`)
 
-Sigue estos pasos en **Construct 2** para armar el menú principal exactamente igual a la vista previa:
-
-### Paso 1: Crear el Layout y las Capas
-1. Abre tu copia del proyecto en Construct 2. **Conserva la resolución original de ventana `854 × 366`** (no la cambies a `1280 × 720` para no alterar la cámara del nivel jugable).
-2. Crea un nuevo Layout llamado **`Menu`** (con tamaño `854 × 366`) y su hoja de eventos **`Menu_Events`**. Configura `Menu` como el *First layout* del proyecto.
-3. Dentro del layout `Menu`, crea **4 capas** en este orden (de abajo hacia arriba):
-   - `Fondo`
-   - `Personaje`
-   - `Interfaz`
-   - `Paneles` *(configúrala inicialmente como **Invisible**)*
-
-### Paso 2: Importar los Sprites (`Kit_Menu_v1/Assets/`)
-Importa cada archivo PNG como objeto **Sprite** (con el punto de origen en el **Centro** y sin comportamientos físicos `Solid` ni `Platform`):
-
-| Objeto Sprite sugerido | Archivo PNG en `Kit_Menu_v1/Assets/` | Capa | Posición `X, Y` (`854×366`) | Tamaño `Ancho × Alto` (`854×366`) |
-|---|---|---|:---:|:---:|
-| `FondoMenu` | [`Fondos/fondo_menu_alien.png`](Kit_Menu_v1/Assets/Fondos/fondo_menu_alien.png) | `Fondo` | `427, 183` | `854 × 480.63` |
-| `ExploradorMenu` | [`Personaje/explorador_sin_armas.png`](Kit_Menu_v1/Assets/Personaje/explorador_sin_armas.png) | `Personaje` | `209.23, 183.59` | `190.32 × 285.48` |
-| `TituloMenu` | [`Titulo/contra_strike.png`](Kit_Menu_v1/Assets/Titulo/contra_strike.png) | `Interfaz` | `614.88, 73.2` | `186.66 × 124.44` |
-| `BtnJugar` | [`Interfaz/boton_alien_vacio.png`](Kit_Menu_v1/Assets/Interfaz/boton_alien_vacio.png) | `Interfaz` | `614.88, 175.68` | `164.7 × 54.9` |
-| `BtnComoJugar` | [`Interfaz/boton_alien_vacio.png`](Kit_Menu_v1/Assets/Interfaz/boton_alien_vacio.png) | `Interfaz` | `614.88, 243.39` | `164.7 × 54.9` |
-| `BtnCreditos` | [`Interfaz/boton_alien_vacio.png`](Kit_Menu_v1/Assets/Interfaz/boton_alien_vacio.png) | `Interfaz` | `614.88, 311.1` | `164.7 × 54.9` |
-| `LogoColegio` | [`Colegio/logo_colegio_transparente.png`](Kit_Menu_v1/Assets/Colegio/logo_colegio_transparente.png) | `Interfaz` | `819.23, 322.08` | `54.9 × 54.9` |
-| `PanelModal` | [`Interfaz/panel_alien_vacio.png`](Kit_Menu_v1/Assets/Interfaz/panel_alien_vacio.png) | `Paneles` | `427, 183` | `483.12 × 322.08` |
-
-*(Si en el futuro deciden trabajar en `1280 × 720`, todas las coordenadas equivalentes están en [`Kit_Menu_v1/posiciones_construct.csv`](Kit_Menu_v1/posiciones_construct.csv)).*
-
-### Paso 3: Agregar los Textos y Programar los Eventos
-1. Coloca un objeto **Text** centrado sobre cada botón (`JUGAR DEMO`, `CÓMO JUGAR`, `CRÉDITOS`) con fuente **Segoe UI Bold** (tamaño ~12 pt en `854×366`) en color crema claro (`#FFF0D2`).
-2. En `Menu_Events`, crea una variable global o local `PanelMenu = 0` y programa:
-   - **Al hacer clic en `BtnJugar` (si `PanelMenu = 0`):** Ir al layout de juego (`System → Go to layout → Layout 1`).
-   - **Al hacer clic en `BtnComoJugar` (si `PanelMenu = 0`):** Cambiar `PanelMenu = 1`, hacer visible la capa `Paneles` y mostrar los controles:
-     - **Flechas Izquierda / Derecha (`←` / `→`):** Moverse por la base alienígena.
-     - **Flecha Arriba (`↑`):** Saltar entre plataformas.
-   - **Al hacer clic en `BtnCreditos` (si `PanelMenu = 0`):** Cambiar `PanelMenu = 2`, hacer visible la capa `Paneles` y mostrar el nombre del colegio y los integrantes del grupo.
-   - **Al hacer clic en `VOLVER` o presionar `ESC` (si `PanelMenu > 0`):** Ocultar la capa `Paneles` y volver `PanelMenu = 0`.
-
-📄 *Consulta la guía completa con todos los detalles técnicos en [`Kit_Menu_v1/GUIA_CONSTRUCT_2.md`](Kit_Menu_v1/GUIA_CONSTRUCT_2.md).*
+| Material | Archivo PDF listo para imprimir (A4) | Contenido |
+|---|---|---|
+| **Portada Promocional 12×18 (v1)** | [`Portada_Contra_Strike_12x18_A4_v1.pdf`](Imprimibles_Contra_Strike/01_Portada_Imprimible/Imprimir/Portada_Contra_Strike_12x18_A4_v1.pdf) · [Digital](Imprimibles_Contra_Strike/01_Portada_Imprimible/Digital/Portada_Contra_Strike_PC_Demo_v1.png) | Portada retail con arte del juego y logo oficial, lista para recortar a 12 × 18 cm para cajas de DVD o soporte de mesa. [Leer instrucciones](Imprimibles_Contra_Strike/01_Portada_Imprimible/LEEME.md) |
 
 ---
 
-## 📂 4. Estructura de carpetas del repositorio
+## 📂 5. Estructura de carpetas del repositorio
 
 ```text
 Contra-Strike/
 ├── Proyecto/
-│   └── Contra_Strike_original.capx     # ⭐ Proyecto original de Construct 2 para abrir y editar
-├── Kit_Menu_v1/                        # Kit completo de Menú de Exploración v1
-│   ├── Assets/                         # PNGs separados (Fondo, Explorador, Título, Botón, Panel, Escudo)
-│   ├── GUIA_CONSTRUCT_2.md             # Instrucciones paso a paso para importar el menú
-│   ├── posiciones_construct.csv        # Tabla de coordenadas exactas (854x366 y 1280x720)
-│   ├── Vista_previa.html               # Simulador interactivo del menú en el navegador
-│   └── Vista_854x366.png               # Capturas de referencia de cada pantalla
+│   ├── Contra_Strike_con_menu.capx     # ⭐ Juego integrado completo listo para abrir en Construct 2
+│   ├── Contra_Strike_original.capx     # Versión original base del alumno
+│   ├── LEEME_INTEGRACION.md            # Explicación de eventos y navegación
+│   └── Vista_fondo/                    # Verificación y vista del escenario extendido
+├── Imprimibles_Contra_Strike/          # 🖨️ Materiales listos para imprimir en A4
+│   └── 01_Portada_Imprimible/          # Carátula 12x18 cm en A4 y versión digital
+├── Kit_Menu_v1/                        # Kit de assets separados de menú
+│   ├── Assets/                         # PNGs transparentes (Fondo, Personaje, Botones, Título, Escudo)
+│   ├── GUIA_CONSTRUCT_2.md             # Guía manual de importación para Construct 2
+│   ├── posiciones_construct.csv        # Tabla de coordenadas exactas para los layouts
+│   └── Vista_previa.html               # Simulador interactivo en HTML
 └── Portadas/
-    └── Contra_Strike_PC_Demo.png       # Portada promocional oficial en alta resolución
+    └── Contra_Strike_PC_Demo.png       # Ilustración de portada oficial en alta definición
 ```

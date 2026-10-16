@@ -1,0 +1,34 @@
+{
+  "resultado": "PASS",
+  "vistas": [
+    {
+      "camara": "inicio",
+      "pixeles_blancos": {
+        "antes": 259,
+        "despues": 0
+      }
+    },
+    {
+      "camara": "arriba",
+      "pixeles_blancos": {
+        "antes": 78314,
+        "despues": 0
+      }
+    },
+    {
+      "camara": "abajo",
+      "pixeles_blancos": {
+        "antes": 9394,
+        "despues": 0
+      }
+    },
+    {
+      "camara": "final",
+      "pixeles_blancos": {
+        "antes": 84,
+        "despues": 0
+      }
+    }
+  ],
+  "alcance": "Composición HTML de capas, no ejecución del motor Construct 2."
+}

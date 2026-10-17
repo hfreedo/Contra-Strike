@@ -1,0 +1,25 @@
+{
+  "archivo": "propuesta_combate_v1.png",
+  "dimensiones": [
+    1536,
+    1024
+  ],
+  "modo": "RGBA",
+  "alfa": [
+    0,
+    254
+  ],
+  "sha256": "24b49e23abbd4a299c8301173902dc1b5120daf58cfe6edfaf77194bd4ff2ada",
+  "estado": "Lámina conceptual, no sprite sheet listo para importar. No integrado en CAPX.",
+  "filas": [
+    "Escarabajo: propuestas de ciclo de caminar",
+    "Dron: propuestas de flotación",
+    "Pulso cian: propuestas de vuelo",
+    "Impacto: propuestas de expansión y disipación"
+  ],
+  "pendientes": [
+    "Separar cuadros y limpiar el fondo",
+    "Alinear centros, proporciones, suelo y colisiones",
+    "Crear los estados restantes y probar continuidad en el motor"
+  ]
+}

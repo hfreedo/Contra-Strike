@@ -1,0 +1,130 @@
+{
+  "generacion": "image_gen integrado",
+  "atlas": [
+    1254,
+    1254
+  ],
+  "assets": {
+    "marco": {
+      "archivo": "marco.png",
+      "recorte_atlas": [
+        6,
+        214,
+        1249,
+        489
+      ],
+      "dimensiones": [
+        224,
+        48
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "b96358d590a2657b692a3d6ba9220245c715783a8d4cf6f3711b57291a048123"
+    },
+    "lleno": {
+      "archivo": "lleno.png",
+      "recorte_atlas": [
+        69,
+        620,
+        379,
+        749
+      ],
+      "dimensiones": [
+        50,
+        24
+      ],
+      "alpha": [
+        252,
+        254
+      ],
+      "sha256": "f0c1f7868f33bd87db2fde802b57e28a1b6441d7c2aa8b2738834e5a8b1349b9"
+    },
+    "vacio": {
+      "archivo": "vacio.png",
+      "recorte_atlas": [
+        474,
+        620,
+        784,
+        749
+      ],
+      "dimensiones": [
+        50,
+        24
+      ],
+      "alpha": [
+        252,
+        254
+      ],
+      "sha256": "708e44e91b8044bca8f74eb5538891e017b054e8a39dc80011094e2efe1e5b43"
+    },
+    "danio": {
+      "archivo": "danio.png",
+      "recorte_atlas": [
+        875,
+        620,
+        1185,
+        749
+      ],
+      "dimensiones": [
+        50,
+        24
+      ],
+      "alpha": [
+        252,
+        253
+      ],
+      "sha256": "210195d7b966375a2bacab9f5695f97b6a405ca0b05f6050c3dd5ed42e217052"
+    },
+    "icono": {
+      "archivo": "icono.png",
+      "recorte_atlas": [
+        61,
+        886,
+        296,
+        1105
+      ],
+      "dimensiones": [
+        32,
+        32
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "5fff549e9d67ebf27b3402789523d6262f5417e7147b2e035493e5027820f5e9"
+    },
+    "boton": {
+      "archivo": "boton.png",
+      "recorte_atlas": [
+        398,
+        904,
+        1229,
+        1096
+      ],
+      "dimensiones": [
+        144,
+        38
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "1acf956e336b3a26fdc11105df5b61db3fd0989575df9d2fed454a790a576fa7"
+    }
+  },
+  "origenes": "Centrales; colocar los segmentos detrás del marco",
+  "segmentos_relativos_al_marco": {
+    "centros_x": [
+      54,
+      112,
+      170
+    ],
+    "centro_y": 25,
+    "ancho": 50,
+    "alto": 24
+  },
+  "estado": "HD integrado en el CAPX vigente; contador numérico retirado; 22 comprobaciones de ejecución PASS.",
+  "pruebas": "Pruebas_energia_HD/verificacion_energia_runtime.json"
+}

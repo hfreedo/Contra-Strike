@@ -1,0 +1,64 @@
+{
+  "sha256": "bd97c860cbf4e19088fbcf1fe78a51f1e502c9c0a1ff5ce22820a0e535baec49",
+  "sha256_antes": "1dab1df3f2ff92f72e84f00934a805046caa3e0cb5ce6d7ab74da535f6c126f4",
+  "respaldo": "C:\\Users\\Soul Hoshi\\Documents\\ChatGPT\\PAL - Desarrollo de videojuegos\\Entregas\\Historial\\Superadas\\Contra_Strike\\Antes_de_UI_HD_1dab1df3f2\\Contra_Strike_con_menu.capx",
+  "imagenes_reemplazadas": {
+    "Animations/CS_EnergiaMarco/Default/000.png": "marco.png",
+    "Animations/CS_EnergiaIcono/Default/000.png": "icono.png",
+    "Animations/CS_Reintentar/Default/000.png": "boton.png",
+    "Animations/CS_DerrotaMenu/Default/000.png": "boton.png",
+    "Animations/CS_Energia1/lleno/000.png": "lleno.png",
+    "Animations/CS_Energia1/vacio/000.png": "vacio.png",
+    "Animations/CS_Energia1/danio/000.png": "danio.png",
+    "Animations/CS_Energia2/lleno/000.png": "lleno.png",
+    "Animations/CS_Energia2/vacio/000.png": "vacio.png",
+    "Animations/CS_Energia2/danio/000.png": "danio.png",
+    "Animations/CS_Energia3/lleno/000.png": "lleno.png",
+    "Animations/CS_Energia3/vacio/000.png": "vacio.png",
+    "Animations/CS_Energia3/danio/000.png": "danio.png"
+  },
+  "contador_eliminado": {
+    "tipo": "CS_EnergiaTexto",
+    "uid": "467",
+    "eventos": [
+      "8807293601490442"
+    ]
+  },
+  "instancias_ui_ajustadas": {
+    "464": {
+      "tipo": "CS_Energia1",
+      "antes": "<instance type=\"CS_Energia1\" uid=\"464\"><properties><initial-visibility>Visible</initial-visibility><initial-animation>lleno</initial-animation><initial-frame>0</initial-frame><collisions>Disabled</collisions></properties><blend-mode>0</blend-mode><effect-fallback>0</effect-fallback><world><x>67</x><y>34</y><z>0</z><width>50</width><height>24</height><depth>0</depth><hotspotX>0.5</hotspotX><hotspotY>0.5</hotspotY><angle>0</angle><opacity>1</opacity></world></instance>",
+      "despues": "<instance type=\"CS_Energia1\" uid=\"464\"><properties><initial-visibility>Visible</initial-visibility><initial-animation>lleno</initial-animation><initial-frame>0</initial-frame><collisions>Disabled</collisions></properties><blend-mode>0</blend-mode><effect-fallback>0</effect-fallback><world><x>55.2</x><y>32</y><z>0</z><width>40</width><height>19.2</height><depth>0</depth><hotspotX>0.5</hotspotX><hotspotY>0.5</hotspotY><angle>0</angle><opacity>1</opacity></world></instance>"
+    },
+    "465": {
+      "tipo": "CS_Energia2",
+      "antes": "<instance type=\"CS_Energia2\" uid=\"465\"><properties><initial-visibility>Visible</initial-visibility><initial-animation>lleno</initial-animation><initial-frame>0</initial-frame><collisions>Disabled</collisions></properties><blend-mode>0</blend-mode><effect-fallback>0</effect-fallback><world><x>117</x><y>34</y><z>0</z><width>50</width><height>24</height><depth>0</depth><hotspotX>0.5</hotspotX><hotspotY>0.5</hotspotY><angle>0</angle><opacity>1</opacity></world></instance>",
+      "despues": "<instance type=\"CS_Energia2\" uid=\"465\"><properties><initial-visibility>Visible</initial-visibility><initial-animation>lleno</initial-animation><initial-frame>0</initial-frame><collisions>Disabled</collisions></properties><blend-mode>0</blend-mode><effect-fallback>0</effect-fallback><world><x>101.6</x><y>32</y><z>0</z><width>40</width><height>19.2</height><depth>0</depth><hotspotX>0.5</hotspotX><hotspotY>0.5</hotspotY><angle>0</angle><opacity>1</opacity></world></instance>"
+    },
+    "466": {
+      "tipo": "CS_Energia3",
+      "antes": "<instance type=\"CS_Energia3\" uid=\"466\"><properties><initial-visibility>Visible</initial-visibility><initial-animation>lleno</initial-animation><initial-frame>0</initial-frame><collisions>Disabled</collisions></properties><blend-mode>0</blend-mode><effect-fallback>0</effect-fallback><world><x>167</x><y>34</y><z>0</z><width>50</width><height>24</height><depth>0</depth><hotspotX>0.5</hotspotX><hotspotY>0.5</hotspotY><angle>0</angle><opacity>1</opacity></world></instance>",
+      "despues": "<instance type=\"CS_Energia3\" uid=\"466\"><properties><initial-visibility>Visible</initial-visibility><initial-animation>lleno</initial-animation><initial-frame>0</initial-frame><collisions>Disabled</collisions></properties><blend-mode>0</blend-mode><effect-fallback>0</effect-fallback><world><x>148</x><y>32</y><z>0</z><width>40</width><height>19.2</height><depth>0</depth><hotspotX>0.5</hotspotX><hotspotY>0.5</hotspotY><angle>0</angle><opacity>1</opacity></world></instance>"
+    },
+    "462": {
+      "tipo": "CS_EnergiaMarco",
+      "antes": "<instance type=\"CS_EnergiaMarco\" uid=\"462\"><properties><initial-visibility>Visible</initial-visibility><initial-animation>Default</initial-animation><initial-frame>0</initial-frame><collisions>Disabled</collisions></properties><blend-mode>0</blend-mode><effect-fallback>0</effect-fallback><world><x>119</x><y>36</y><z>0</z><width>214</width><height>48</height><depth>0</depth><hotspotX>0.5</hotspotX><hotspotY>0.5</hotspotY><angle>0</angle><opacity>1</opacity></world></instance>",
+      "despues": "<instance type=\"CS_EnergiaMarco\" uid=\"462\"><properties><initial-visibility>Visible</initial-visibility><initial-animation>Default</initial-animation><initial-frame>0</initial-frame><collisions>Disabled</collisions></properties><blend-mode>0</blend-mode><effect-fallback>0</effect-fallback><world><x>101.6</x><y>31.2</y><z>0</z><width>179.2</width><height>38.4</height><depth>0</depth><hotspotX>0.5</hotspotX><hotspotY>0.5</hotspotY><angle>0</angle><opacity>1</opacity></world></instance>"
+    },
+    "463": {
+      "tipo": "CS_EnergiaIcono",
+      "antes": "<instance type=\"CS_EnergiaIcono\" uid=\"463\"><properties><initial-visibility>Visible</initial-visibility><initial-animation>Default</initial-animation><initial-frame>0</initial-frame><collisions>Disabled</collisions></properties><blend-mode>0</blend-mode><effect-fallback>0</effect-fallback><world><x>248</x><y>36</y><z>0</z><width>30</width><height>30</height><depth>0</depth><hotspotX>0.5</hotspotX><hotspotY>0.5</hotspotY><angle>0</angle><opacity>1</opacity></world></instance>",
+      "despues": "<instance type=\"CS_EnergiaIcono\" uid=\"463\"><properties><initial-visibility>Visible</initial-visibility><initial-animation>Default</initial-animation><initial-frame>0</initial-frame><collisions>Disabled</collisions></properties><blend-mode>0</blend-mode><effect-fallback>0</effect-fallback><world><x>212</x><y>31.2</y><z>0</z><width>25.6</width><height>25.6</height><depth>0</depth><hotspotX>0.5</hotspotX><hotspotY>0.5</hotspotY><angle>0</angle><opacity>1</opacity></world></instance>"
+    },
+    "470": {
+      "tipo": "CS_DerrotaCuerpo",
+      "antes": "<instance type=\"CS_DerrotaCuerpo\" uid=\"470\"><properties><text>Has usado tus tres cargas.\n¡Vuelve a intentarlo!</text><initial-visibility>Visible</initial-visibility><font>Segoe UI,-15,700,0</font><color>235,250,255</color><horizontal-alignment>Center</horizontal-alignment><vertical-alignment>Center</vertical-alignment><hotspot>Top-left</hotspot><wrapping>Word</wrapping><line-height>0</line-height></properties><blend-mode>0</blend-mode><effect-fallback>0</effect-fallback><world><x>242</x><y>150</y><z>0</z><width>370</width><height>57</height><depth>0</depth><hotspotX>0</hotspotX><hotspotY>0</hotspotY><angle>0</angle><opacity>1</opacity></world></instance>",
+      "despues": "<instance type=\"CS_DerrotaCuerpo\" uid=\"470\"><properties><text>Tu energía se agotó.\n¡Vuelve a intentarlo!</text><initial-visibility>Visible</initial-visibility><font>Segoe UI,-15,700,0</font><color>235,250,255</color><horizontal-alignment>Center</horizontal-alignment><vertical-alignment>Center</vertical-alignment><hotspot>Top-left</hotspot><wrapping>Word</wrapping><line-height>0</line-height></properties><blend-mode>0</blend-mode><effect-fallback>0</effect-fallback><world><x>242</x><y>150</y><z>0</z><width>370</width><height>57</height><depth>0</depth><hotspotX>0</hotspotX><hotspotY>0</hotspotY><angle>0</angle><opacity>1</opacity></world></instance>"
+    }
+  },
+  "reglas": "Las reglas de energía, reaparición, pausa, derrota y controles no se modifican.",
+  "estado": "UI HD al 80% y física suave vigentes; energía y controles comprobados en Pruebas_energia_actual.",
+  "pruebas": "Pruebas_energia_actual/verificacion_energia_runtime.json",
+  "reduccion": "reduccion_indicador.json",
+  "ajuste_movimiento": "ajuste_movimiento.json"
+}

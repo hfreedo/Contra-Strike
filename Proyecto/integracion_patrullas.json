@@ -1,0 +1,132 @@
+{
+  "sha256": "a3edf6a4e9a8769930cb0cce3ad681b1edea7f2d0d9e23501106e436aaa48bdb",
+  "sha256_antes": "bd97c860cbf4e19088fbcf1fe78a51f1e502c9c0a1ff5ce22820a0e535baec49",
+  "respaldo": "C:\\Users\\Soul Hoshi\\Documents\\ChatGPT\\PAL - Desarrollo de videojuegos\\Entregas\\Historial\\Superadas\\Contra_Strike\\Antes_de_patrullas_bd97c860cb\\Contra_Strike_con_menu.capx",
+  "enemigos": [
+    {
+      "tipo": "CS_AlienBipedo",
+      "carpeta": "Bipedo",
+      "gif": "conter alien walking.gif",
+      "canvas": [
+        48,
+        48
+      ],
+      "poly": [
+        [
+          0.2,
+          0.1
+        ],
+        [
+          0.6,
+          0.1
+        ],
+        [
+          0.6,
+          0.94
+        ],
+        [
+          0.2,
+          0.94
+        ]
+      ],
+      "piso": 13,
+      "x": 1150,
+      "min": 1090,
+      "max": 1275,
+      "speed": 45,
+      "native_left": true,
+      "uid": 576,
+      "feet_y": 384.6092102049995,
+      "frames": 4,
+      "duration_ms": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "crop": [
+        59,
+        83,
+        441,
+        465
+      ],
+      "sha256_gif": "503d8ec70960640e92cd7a2ccf58d1ee6385456c4c0ea2d62a2a21f9c93173b6"
+    },
+    {
+      "tipo": "CS_AlienCorredor",
+      "carpeta": "Corredor",
+      "gif": "alien 2 walking.gif",
+      "canvas": [
+        64,
+        32
+      ],
+      "poly": [
+        [
+          0.38,
+          0.12
+        ],
+        [
+          0.9,
+          0.12
+        ],
+        [
+          0.9,
+          0.94
+        ],
+        [
+          0.38,
+          0.94
+        ]
+      ],
+      "piso": 3,
+      "x": 1900,
+      "min": 1830,
+      "max": 2000,
+      "speed": 55,
+      "native_left": false,
+      "uid": 577,
+      "feet_y": 360.2092102049996,
+      "frames": 12,
+      "duration_ms": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "crop": [
+        0,
+        8,
+        512,
+        256
+      ],
+      "sha256_gif": "c6cbd45f258111bf209a0cf3b5d051377bdbc8519432ff4c874932960e59b18d"
+    }
+  ],
+  "eventos": [
+    "8807293601490596",
+    "8807293601490600",
+    "8807293601490606",
+    "8807293601490612",
+    "8807293601490620",
+    "8807293601490629",
+    "8807293601490633",
+    "8807293601490639",
+    "8807293601490645",
+    "8807293601490653"
+  ],
+  "estado": "Integrado; 19 pruebas puntuales de patrullas y 22 de energía/controles PASS en vista previa de Construct 2",
+  "alcance": "Dos patrullas con contacto dañino y protección existente. No se añaden disparos ni animaciones de derrota.",
+  "pruebas": {
+    "patrullas": 19,
+    "energia": 22
+  },
+  "preservacion": "Todos los tipos e instancias anteriores y sus eventos permanecen idénticos; PNG previos intactos; límites contienen todo el dibujo dentro de su suelo."
+}

@@ -1,0 +1,33 @@
+{
+  "sha256": "bd97c860cbf4e19088fbcf1fe78a51f1e502c9c0a1ff5ce22820a0e535baec49",
+  "sha256_antes": "8f3b2cb2eb5e0b45938d3fef262248c31e655daa790bce1b5473703bd92c24ee",
+  "respaldo": "C:\\Users\\Soul Hoshi\\Documents\\ChatGPT\\PAL - Desarrollo de videojuegos\\Entregas\\Historial\\Superadas\\Contra_Strike\\Antes_de_movimiento_suave_8f3b2cb2eb\\Contra_Strike_con_menu.capx",
+  "uid": "361",
+  "parametros": {
+    "max-speed": {
+      "antes": "330",
+      "despues": "240"
+    },
+    "acceleration": {
+      "antes": "2500",
+      "despues": "1800"
+    },
+    "deceleration": {
+      "antes": "2500",
+      "despues": "2200"
+    },
+    "jump-strength": {
+      "antes": "650",
+      "despues": "560"
+    },
+    "gravity": {
+      "antes": "1500",
+      "despues": "1150"
+    }
+  },
+  "estado": "Aplicado y comprobado en vista previa de Construct 2",
+  "preservacion": "Sólo cinco propiedades Platform cambiaron; geometría, eventos, recursos y demás propiedades idénticos.",
+  "pruebas_movimiento": 25,
+  "pruebas_energia": 22,
+  "alcance": "Saltos aislados con preparación de posición; no prueba completa del nivel. El avance automático sin planificar los saltos cae en el tramo de apoyos estrechos de x≈1379."
+}

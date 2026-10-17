@@ -1,0 +1,56 @@
+{
+  "marco": {
+    "archivo": "marco.png",
+    "ancho": 107,
+    "alto": 24,
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  "lleno": {
+    "archivo": "lleno.png",
+    "ancho": 25,
+    "alto": 12,
+    "alpha": [
+      255,
+      255
+    ]
+  },
+  "vacio": {
+    "archivo": "vacio.png",
+    "ancho": 25,
+    "alto": 12,
+    "alpha": [
+      255,
+      255
+    ]
+  },
+  "danio": {
+    "archivo": "danio.png",
+    "ancho": 25,
+    "alto": 12,
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  "icono": {
+    "archivo": "icono.png",
+    "ancho": 15,
+    "alto": 15,
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  "boton": {
+    "archivo": "boton.png",
+    "ancho": 72,
+    "alto": 19,
+    "alpha": [
+      0,
+      255
+    ]
+  }
+}

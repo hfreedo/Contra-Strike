@@ -1,0 +1,227 @@
+{
+  "generador": "image_gen integrado",
+  "estado": "Cinco bases estáticas preparadas para animar; sin importar al CAPX.",
+  "preparacion": "Recorte del encuadre y escala proporcional por vecino más cercano; no se redibujaron los originales.",
+  "assets": [
+    {
+      "nombre": "Conducto",
+      "original": "Conducto\\original_generado.png",
+      "original_dimensiones": [
+        1774,
+        887
+      ],
+      "recorte": [
+        80,
+        299,
+        1694,
+        622
+      ],
+      "base_animacion": "Conducto\\Base_para_animar.png",
+      "dimensiones_animacion": [
+        256,
+        128
+      ],
+      "dimensiones_referencia_juego": [
+        128,
+        64
+      ],
+      "posicion_dibujo_en_base": [
+        10,
+        40
+      ],
+      "tamano_dibujo": [
+        236,
+        47
+      ],
+      "origen_construct": [
+        0.5,
+        0.5
+      ],
+      "fps_sugeridos": 8,
+      "cuadros_sugeridos": 8,
+      "loop": true,
+      "collisions": false,
+      "sha256_base": "79cac8033e6afa21372bf10a3f62f793384d08f32d5572d962d86f91045b3531",
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "nombre": "Respiradero",
+      "original": "Respiradero\\original_generado.png",
+      "original_dimensiones": [
+        1024,
+        1536
+      ],
+      "recorte": [
+        234,
+        394,
+        791,
+        1224
+      ],
+      "base_animacion": "Respiradero\\Base_para_animar.png",
+      "dimensiones_animacion": [
+        128,
+        192
+      ],
+      "dimensiones_referencia_juego": [
+        32,
+        48
+      ],
+      "posicion_dibujo_en_base": [
+        29,
+        76
+      ],
+      "tamano_dibujo": [
+        70,
+        104
+      ],
+      "origen_construct": [
+        0.5,
+        0.5
+      ],
+      "fps_sugeridos": 8,
+      "cuadros_sugeridos": 12,
+      "loop": true,
+      "collisions": false,
+      "sha256_base": "e1cbe074bb6c5eac76fada35fb325d60955e9852c870019b6f777b77f9bbdcf0",
+      "alpha": [
+        0,
+        254
+      ]
+    },
+    {
+      "nombre": "Luz",
+      "original": "Luz\\original_generado.png",
+      "original_dimensiones": [
+        1254,
+        1254
+      ],
+      "recorte": [
+        173,
+        192,
+        1082,
+        1081
+      ],
+      "base_animacion": "Luz\\Base_para_animar.png",
+      "dimensiones_animacion": [
+        128,
+        128
+      ],
+      "dimensiones_referencia_juego": [
+        32,
+        32
+      ],
+      "posicion_dibujo_en_base": [
+        12,
+        13
+      ],
+      "tamano_dibujo": [
+        104,
+        102
+      ],
+      "origen_construct": [
+        0.5,
+        0.5
+      ],
+      "fps_sugeridos": 6,
+      "cuadros_sugeridos": 8,
+      "loop": true,
+      "collisions": false,
+      "sha256_base": "2e964480ccc3262ce368ce8c8a3ee2d719d860cf8e9b102725cd6784fd0c00e4",
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "nombre": "Gotas",
+      "original": "Gotas\\original_generado.png",
+      "original_dimensiones": [
+        1024,
+        1536
+      ],
+      "recorte": [
+        266,
+        140,
+        759,
+        849
+      ],
+      "base_animacion": "Gotas\\Base_para_animar.png",
+      "dimensiones_animacion": [
+        64,
+        128
+      ],
+      "dimensiones_referencia_juego": [
+        16,
+        32
+      ],
+      "posicion_dibujo_en_base": [
+        11,
+        5
+      ],
+      "tamano_dibujo": [
+        42,
+        61
+      ],
+      "origen_construct": [
+        0.5,
+        0.5
+      ],
+      "fps_sugeridos": 8,
+      "cuadros_sugeridos": 12,
+      "loop": true,
+      "collisions": false,
+      "sha256_base": "f8aaf0b2cc99bd015179ea68e0d6f0e3d69d9fc5a61d1fdb34c0b1e31aaa181f",
+      "alpha": [
+        0,
+        254
+      ]
+    },
+    {
+      "nombre": "Panel",
+      "original": "Panel\\original_generado.png",
+      "original_dimensiones": [
+        1536,
+        1024
+      ],
+      "recorte": [
+        145,
+        266,
+        1392,
+        770
+      ],
+      "base_animacion": "Panel\\Base_para_animar.png",
+      "dimensiones_animacion": [
+        192,
+        128
+      ],
+      "dimensiones_referencia_juego": [
+        48,
+        32
+      ],
+      "posicion_dibujo_en_base": [
+        16,
+        31
+      ],
+      "tamano_dibujo": [
+        160,
+        65
+      ],
+      "origen_construct": [
+        0.5,
+        0.5
+      ],
+      "fps_sugeridos": 8,
+      "cuadros_sugeridos": 8,
+      "loop": true,
+      "collisions": false,
+      "sha256_base": "141400ad9ca1c270e4f5430fd7cb875a1a36e51bbeff770ffe0dd2b0571e6b90",
+      "alpha": [
+        0,
+        253
+      ]
+    }
+  ]
+}

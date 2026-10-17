@@ -1,0 +1,1304 @@
+{
+  "resolucion_original": [
+    2813,
+    240
+  ],
+  "resolucion_limpia": [
+    2813,
+    240
+  ],
+  "capsulas_retiradas": 20,
+  "pixeles_modificados": 26686,
+  "pixeles_fuera_de_zonas_modificados": 0,
+  "operaciones": [
+    {
+      "nombre": "capsula_1",
+      "rectangulo": [
+        924,
+        48,
+        956,
+        80
+      ],
+      "origen_pixeles": [
+        860,
+        16,
+        892,
+        48
+      ]
+    },
+    {
+      "nombre": "capsula_2",
+      "rectangulo": [
+        956,
+        48,
+        988,
+        80
+      ],
+      "origen_pixeles": [
+        860,
+        16,
+        892,
+        48
+      ]
+    },
+    {
+      "nombre": "capsula_3",
+      "rectangulo": [
+        1020,
+        80,
+        1052,
+        112
+      ],
+      "origen_pixeles": [
+        860,
+        16,
+        892,
+        48
+      ]
+    },
+    {
+      "nombre": "capsula_4",
+      "rectangulo": [
+        1052,
+        80,
+        1084,
+        112
+      ],
+      "origen_pixeles": [
+        860,
+        16,
+        892,
+        48
+      ]
+    },
+    {
+      "nombre": "capsula_5",
+      "rectangulo": [
+        1212,
+        80,
+        1244,
+        112
+      ],
+      "origen_pixeles": [
+        860,
+        16,
+        892,
+        48
+      ]
+    },
+    {
+      "nombre": "capsula_6",
+      "rectangulo": [
+        1244,
+        80,
+        1276,
+        112
+      ],
+      "origen_pixeles": [
+        860,
+        16,
+        892,
+        48
+      ]
+    },
+    {
+      "nombre": "capsula_7",
+      "rectangulo": [
+        2332,
+        80,
+        2364,
+        112
+      ],
+      "origen_pixeles": [
+        860,
+        16,
+        892,
+        48
+      ]
+    },
+    {
+      "nombre": "capsula_8",
+      "rectangulo": [
+        2364,
+        80,
+        2396,
+        112
+      ],
+      "origen_pixeles": [
+        860,
+        16,
+        892,
+        48
+      ]
+    },
+    {
+      "nombre": "capsula_9",
+      "rectangulo": [
+        1724,
+        112,
+        1756,
+        144
+      ],
+      "origen_pixeles": [
+        860,
+        16,
+        892,
+        48
+      ]
+    },
+    {
+      "nombre": "capsula_10",
+      "rectangulo": [
+        1756,
+        112,
+        1788,
+        144
+      ],
+      "origen_pixeles": [
+        860,
+        16,
+        892,
+        48
+      ]
+    },
+    {
+      "nombre": "capsula_11",
+      "rectangulo": [
+        2012,
+        112,
+        2044,
+        144
+      ],
+      "origen_pixeles": [
+        860,
+        16,
+        892,
+        48
+      ]
+    },
+    {
+      "nombre": "capsula_12",
+      "rectangulo": [
+        2044,
+        112,
+        2076,
+        144
+      ],
+      "origen_pixeles": [
+        860,
+        16,
+        892,
+        48
+      ]
+    },
+    {
+      "nombre": "capsula_13",
+      "rectangulo": [
+        1468,
+        208,
+        1500,
+        240
+      ],
+      "origen_pixeles": [
+        860,
+        16,
+        892,
+        48
+      ]
+    },
+    {
+      "nombre": "capsula_14",
+      "rectangulo": [
+        1500,
+        208,
+        1532,
+        240
+      ],
+      "origen_pixeles": [
+        860,
+        16,
+        892,
+        48
+      ]
+    },
+    {
+      "nombre": "capsula_15",
+      "rectangulo": [
+        1532,
+        208,
+        1564,
+        240
+      ],
+      "origen_pixeles": [
+        860,
+        16,
+        892,
+        48
+      ]
+    },
+    {
+      "nombre": "capsula_16",
+      "rectangulo": [
+        1884,
+        208,
+        1916,
+        240
+      ],
+      "origen_pixeles": [
+        860,
+        16,
+        892,
+        48
+      ]
+    },
+    {
+      "nombre": "capsula_17",
+      "rectangulo": [
+        1916,
+        208,
+        1948,
+        240
+      ],
+      "origen_pixeles": [
+        860,
+        16,
+        892,
+        48
+      ]
+    },
+    {
+      "nombre": "capsula_18",
+      "rectangulo": [
+        2204,
+        208,
+        2236,
+        240
+      ],
+      "origen_pixeles": [
+        860,
+        16,
+        892,
+        48
+      ]
+    },
+    {
+      "nombre": "capsula_19",
+      "rectangulo": [
+        2236,
+        208,
+        2268,
+        240
+      ],
+      "origen_pixeles": [
+        860,
+        16,
+        892,
+        48
+      ]
+    },
+    {
+      "nombre": "capsula_20",
+      "rectangulo": [
+        2588,
+        208,
+        2620,
+        240
+      ],
+      "origen_pixeles": [
+        2556,
+        208,
+        2588,
+        240
+      ]
+    },
+    {
+      "nombre": "criatura_naranja_alta",
+      "rectangulo": [
+        576,
+        64,
+        608,
+        96
+      ],
+      "origen_pixeles": [
+        576,
+        96,
+        608,
+        128
+      ]
+    },
+    {
+      "nombre": "criatura_naranja_baja",
+      "rectangulo": [
+        464,
+        144,
+        496,
+        176
+      ],
+      "origen_pixeles": [
+        496,
+        144,
+        528,
+        176
+      ]
+    },
+    {
+      "nombre": "proyectil_techo",
+      "rectangulo": [
+        2636,
+        16,
+        2668,
+        48
+      ],
+      "origen_pixeles": [
+        2604,
+        16,
+        2636,
+        48
+      ]
+    },
+    {
+      "nombre": "jefe_y_apendices",
+      "rectangulo": [
+        2684,
+        48,
+        2780,
+        200
+      ],
+      "origen_pixeles": "negro opaco del vacío original"
+    },
+    {
+      "nombre": "arista_muro_jefe",
+      "rectangulo": [
+        2780,
+        81,
+        2781,
+        82
+      ],
+      "origen_pixeles": [
+        2780,
+        17,
+        2781,
+        18
+      ]
+    },
+    {
+      "nombre": "arista_muro_jefe",
+      "rectangulo": [
+        2780,
+        83,
+        2781,
+        84
+      ],
+      "origen_pixeles": [
+        2780,
+        19,
+        2781,
+        20
+      ]
+    },
+    {
+      "nombre": "arista_muro_jefe",
+      "rectangulo": [
+        2780,
+        84,
+        2781,
+        85
+      ],
+      "origen_pixeles": [
+        2780,
+        20,
+        2781,
+        21
+      ]
+    },
+    {
+      "nombre": "arista_muro_jefe",
+      "rectangulo": [
+        2780,
+        99,
+        2781,
+        100
+      ],
+      "origen_pixeles": [
+        2780,
+        35,
+        2781,
+        36
+      ]
+    },
+    {
+      "nombre": "arista_muro_jefe",
+      "rectangulo": [
+        2780,
+        101,
+        2781,
+        102
+      ],
+      "origen_pixeles": [
+        2780,
+        37,
+        2781,
+        38
+      ]
+    },
+    {
+      "nombre": "arista_muro_jefe",
+      "rectangulo": [
+        2780,
+        102,
+        2781,
+        103
+      ],
+      "origen_pixeles": [
+        2780,
+        38,
+        2781,
+        39
+      ]
+    },
+    {
+      "nombre": "arista_muro_jefe",
+      "rectangulo": [
+        2780,
+        103,
+        2781,
+        104
+      ],
+      "origen_pixeles": [
+        2780,
+        39,
+        2781,
+        40
+      ]
+    },
+    {
+      "nombre": "arista_muro_jefe",
+      "rectangulo": [
+        2780,
+        106,
+        2781,
+        107
+      ],
+      "origen_pixeles": [
+        2780,
+        42,
+        2781,
+        43
+      ]
+    },
+    {
+      "nombre": "arista_muro_jefe",
+      "rectangulo": [
+        2780,
+        109,
+        2781,
+        110
+      ],
+      "origen_pixeles": [
+        2780,
+        45,
+        2781,
+        46
+      ]
+    },
+    {
+      "nombre": "arista_muro_jefe",
+      "rectangulo": [
+        2780,
+        111,
+        2781,
+        112
+      ],
+      "origen_pixeles": [
+        2780,
+        47,
+        2781,
+        48
+      ]
+    },
+    {
+      "nombre": "arista_muro_jefe",
+      "rectangulo": [
+        2780,
+        122,
+        2781,
+        123
+      ],
+      "origen_pixeles": [
+        2780,
+        26,
+        2781,
+        27
+      ]
+    },
+    {
+      "nombre": "arista_muro_jefe",
+      "rectangulo": [
+        2780,
+        125,
+        2781,
+        126
+      ],
+      "origen_pixeles": [
+        2780,
+        29,
+        2781,
+        30
+      ]
+    },
+    {
+      "nombre": "arista_muro_jefe",
+      "rectangulo": [
+        2780,
+        129,
+        2781,
+        130
+      ],
+      "origen_pixeles": [
+        2780,
+        33,
+        2781,
+        34
+      ]
+    },
+    {
+      "nombre": "arista_muro_jefe",
+      "rectangulo": [
+        2780,
+        138,
+        2781,
+        139
+      ],
+      "origen_pixeles": [
+        2780,
+        42,
+        2781,
+        43
+      ]
+    },
+    {
+      "nombre": "arista_muro_jefe",
+      "rectangulo": [
+        2780,
+        141,
+        2781,
+        142
+      ],
+      "origen_pixeles": [
+        2780,
+        45,
+        2781,
+        46
+      ]
+    },
+    {
+      "nombre": "arista_muro_jefe",
+      "rectangulo": [
+        2780,
+        143,
+        2781,
+        144
+      ],
+      "origen_pixeles": [
+        2780,
+        47,
+        2781,
+        48
+      ]
+    },
+    {
+      "nombre": "arista_muro_jefe",
+      "rectangulo": [
+        2780,
+        150,
+        2781,
+        151
+      ],
+      "origen_pixeles": [
+        2780,
+        22,
+        2781,
+        23
+      ]
+    },
+    {
+      "nombre": "arista_muro_jefe",
+      "rectangulo": [
+        2780,
+        151,
+        2781,
+        152
+      ],
+      "origen_pixeles": [
+        2780,
+        23,
+        2781,
+        24
+      ]
+    },
+    {
+      "nombre": "arista_muro_jefe",
+      "rectangulo": [
+        2780,
+        160,
+        2781,
+        161
+      ],
+      "origen_pixeles": [
+        2780,
+        32,
+        2781,
+        33
+      ]
+    },
+    {
+      "nombre": "arista_muro_jefe",
+      "rectangulo": [
+        2780,
+        161,
+        2781,
+        162
+      ],
+      "origen_pixeles": [
+        2780,
+        33,
+        2781,
+        34
+      ]
+    },
+    {
+      "nombre": "arista_muro_jefe",
+      "rectangulo": [
+        2780,
+        162,
+        2781,
+        163
+      ],
+      "origen_pixeles": [
+        2780,
+        34,
+        2781,
+        35
+      ]
+    },
+    {
+      "nombre": "arista_muro_jefe",
+      "rectangulo": [
+        2780,
+        163,
+        2781,
+        164
+      ],
+      "origen_pixeles": [
+        2780,
+        35,
+        2781,
+        36
+      ]
+    },
+    {
+      "nombre": "arista_muro_jefe",
+      "rectangulo": [
+        2780,
+        164,
+        2781,
+        165
+      ],
+      "origen_pixeles": [
+        2780,
+        36,
+        2781,
+        37
+      ]
+    },
+    {
+      "nombre": "arista_muro_jefe",
+      "rectangulo": [
+        2780,
+        168,
+        2781,
+        169
+      ],
+      "origen_pixeles": [
+        2780,
+        40,
+        2781,
+        41
+      ]
+    },
+    {
+      "nombre": "criatura_suelo_1",
+      "rectangulo": [
+        2424,
+        176,
+        2460,
+        212
+      ],
+      "origen_pixeles": "vacío y franjas del piso rojo/gris, con fase horizontal conservada"
+    },
+    {
+      "nombre": "criatura_suelo_2",
+      "rectangulo": [
+        2456,
+        176,
+        2492,
+        212
+      ],
+      "origen_pixeles": "vacío y franjas del piso rojo/gris, con fase horizontal conservada"
+    },
+    {
+      "nombre": "criatura_suelo_3",
+      "rectangulo": [
+        2504,
+        176,
+        2540,
+        212
+      ],
+      "origen_pixeles": "vacío y franjas del piso rojo/gris, con fase horizontal conservada"
+    },
+    {
+      "nombre": "criatura_suelo_4",
+      "rectangulo": [
+        2568,
+        176,
+        2604,
+        212
+      ],
+      "origen_pixeles": "vacío y franjas del piso rojo/gris, con fase horizontal conservada"
+    },
+    {
+      "nombre": "criatura_suelo_5",
+      "rectangulo": [
+        2708,
+        176,
+        2744,
+        212
+      ],
+      "origen_pixeles": "vacío y franjas del piso rojo/gris, con fase horizontal conservada"
+    },
+    {
+      "nombre": "criatura_suelo_6",
+      "rectangulo": [
+        2740,
+        176,
+        2780,
+        212
+      ],
+      "origen_pixeles": "vacío y franjas del piso rojo/gris, con fase horizontal conservada"
+    },
+    {
+      "nombre": "borde_suelo_sala_jefe",
+      "rectangulo": [
+        2684,
+        192,
+        2780,
+        212
+      ],
+      "origen_pixeles": "franja de piso gris del mismo mapa, con fase conservada"
+    },
+    {
+      "nombre": "Marcadores superiores y orbe",
+      "rectangulo": [
+        68,
+        72,
+        124,
+        88
+      ],
+      "donante": [
+        132,
+        72,
+        188,
+        88
+      ]
+    },
+    {
+      "nombre": "Orbe y letra B iniciales",
+      "rectangulo": [
+        66,
+        214,
+        124,
+        232
+      ],
+      "donante": [
+        2,
+        214,
+        60,
+        232
+      ]
+    },
+    {
+      "nombre": "Orbe del segundo tramo",
+      "rectangulo": [
+        992,
+        214,
+        1024,
+        232
+      ],
+      "donante": [
+        928,
+        214,
+        960,
+        232
+      ]
+    },
+    {
+      "nombre": "Simbolo naranja sobre techo",
+      "rectangulo": [
+        992,
+        0,
+        1024,
+        16
+      ],
+      "donante": "negro opaco original"
+    },
+    {
+      "nombre": "Punto aislado en vacío",
+      "rectangulo": [
+        699,
+        100,
+        700,
+        101
+      ],
+      "donante": "negro opaco original"
+    },
+    {
+      "nombre": "Punto aislado en vacío",
+      "rectangulo": [
+        700,
+        100,
+        701,
+        101
+      ],
+      "donante": "negro opaco original"
+    },
+    {
+      "nombre": "Punto aislado en vacío",
+      "rectangulo": [
+        699,
+        101,
+        700,
+        102
+      ],
+      "donante": "negro opaco original"
+    },
+    {
+      "nombre": "Punto aislado en vacío",
+      "rectangulo": [
+        689,
+        104,
+        690,
+        105
+      ],
+      "donante": "negro opaco original"
+    },
+    {
+      "nombre": "Contaminación de color en borde de pared",
+      "rectangulo": [
+        2780,
+        80,
+        2781,
+        81
+      ],
+      "donante": [
+        2780,
+        16,
+        2781,
+        17
+      ]
+    },
+    {
+      "nombre": "Contaminación de color en borde de pared",
+      "rectangulo": [
+        2780,
+        82,
+        2781,
+        83
+      ],
+      "donante": [
+        2780,
+        18,
+        2781,
+        19
+      ]
+    },
+    {
+      "nombre": "Contaminación de color en borde de pared",
+      "rectangulo": [
+        2780,
+        85,
+        2781,
+        86
+      ],
+      "donante": [
+        2780,
+        21,
+        2781,
+        22
+      ]
+    },
+    {
+      "nombre": "Contaminación de color en borde de pared",
+      "rectangulo": [
+        2780,
+        98,
+        2781,
+        99
+      ],
+      "donante": [
+        2780,
+        34,
+        2781,
+        35
+      ]
+    },
+    {
+      "nombre": "Contaminación de color en borde de pared",
+      "rectangulo": [
+        2780,
+        100,
+        2781,
+        101
+      ],
+      "donante": [
+        2780,
+        36,
+        2781,
+        37
+      ]
+    },
+    {
+      "nombre": "Contaminación de color en borde de pared",
+      "rectangulo": [
+        2780,
+        104,
+        2781,
+        105
+      ],
+      "donante": [
+        2780,
+        40,
+        2781,
+        41
+      ]
+    },
+    {
+      "nombre": "Contaminación de color en borde de pared",
+      "rectangulo": [
+        2780,
+        105,
+        2781,
+        106
+      ],
+      "donante": [
+        2780,
+        41,
+        2781,
+        42
+      ]
+    },
+    {
+      "nombre": "Contaminación de color en borde de pared",
+      "rectangulo": [
+        2780,
+        107,
+        2781,
+        108
+      ],
+      "donante": [
+        2780,
+        43,
+        2781,
+        44
+      ]
+    },
+    {
+      "nombre": "Contaminación de color en borde de pared",
+      "rectangulo": [
+        2780,
+        108,
+        2781,
+        109
+      ],
+      "donante": [
+        2780,
+        44,
+        2781,
+        45
+      ]
+    },
+    {
+      "nombre": "Contaminación de color en borde de pared",
+      "rectangulo": [
+        2780,
+        110,
+        2781,
+        111
+      ],
+      "donante": [
+        2780,
+        46,
+        2781,
+        47
+      ]
+    },
+    {
+      "nombre": "Contaminación de color en borde de pared",
+      "rectangulo": [
+        2780,
+        123,
+        2781,
+        124
+      ],
+      "donante": [
+        2780,
+        27,
+        2781,
+        28
+      ]
+    },
+    {
+      "nombre": "Contaminación de color en borde de pared",
+      "rectangulo": [
+        2780,
+        124,
+        2781,
+        125
+      ],
+      "donante": [
+        2780,
+        28,
+        2781,
+        29
+      ]
+    },
+    {
+      "nombre": "Contaminación de color en borde de pared",
+      "rectangulo": [
+        2780,
+        126,
+        2781,
+        127
+      ],
+      "donante": [
+        2780,
+        30,
+        2781,
+        31
+      ]
+    },
+    {
+      "nombre": "Contaminación de color en borde de pared",
+      "rectangulo": [
+        2780,
+        127,
+        2781,
+        128
+      ],
+      "donante": [
+        2780,
+        31,
+        2781,
+        32
+      ]
+    },
+    {
+      "nombre": "Contaminación de color en borde de pared",
+      "rectangulo": [
+        2780,
+        128,
+        2781,
+        129
+      ],
+      "donante": [
+        2780,
+        32,
+        2781,
+        33
+      ]
+    },
+    {
+      "nombre": "Contaminación de color en borde de pared",
+      "rectangulo": [
+        2780,
+        130,
+        2781,
+        131
+      ],
+      "donante": [
+        2780,
+        34,
+        2781,
+        35
+      ]
+    },
+    {
+      "nombre": "Contaminación de color en borde de pared",
+      "rectangulo": [
+        2780,
+        136,
+        2781,
+        137
+      ],
+      "donante": [
+        2780,
+        40,
+        2781,
+        41
+      ]
+    },
+    {
+      "nombre": "Contaminación de color en borde de pared",
+      "rectangulo": [
+        2780,
+        137,
+        2781,
+        138
+      ],
+      "donante": [
+        2780,
+        41,
+        2781,
+        42
+      ]
+    },
+    {
+      "nombre": "Contaminación de color en borde de pared",
+      "rectangulo": [
+        2780,
+        139,
+        2781,
+        140
+      ],
+      "donante": [
+        2780,
+        43,
+        2781,
+        44
+      ]
+    },
+    {
+      "nombre": "Contaminación de color en borde de pared",
+      "rectangulo": [
+        2780,
+        140,
+        2781,
+        141
+      ],
+      "donante": [
+        2780,
+        44,
+        2781,
+        45
+      ]
+    },
+    {
+      "nombre": "Contaminación de color en borde de pared",
+      "rectangulo": [
+        2780,
+        142,
+        2781,
+        143
+      ],
+      "donante": [
+        2780,
+        46,
+        2781,
+        47
+      ]
+    },
+    {
+      "nombre": "Contaminación de color en borde de pared",
+      "rectangulo": [
+        2780,
+        146,
+        2781,
+        147
+      ],
+      "donante": [
+        2780,
+        18,
+        2781,
+        19
+      ]
+    },
+    {
+      "nombre": "Contaminación de color en borde de pared",
+      "rectangulo": [
+        2780,
+        147,
+        2781,
+        148
+      ],
+      "donante": [
+        2780,
+        19,
+        2781,
+        20
+      ]
+    },
+    {
+      "nombre": "Contaminación de color en borde de pared",
+      "rectangulo": [
+        2780,
+        155,
+        2781,
+        156
+      ],
+      "donante": [
+        2780,
+        27,
+        2781,
+        28
+      ]
+    },
+    {
+      "nombre": "Contaminación de color en borde de pared",
+      "rectangulo": [
+        2780,
+        156,
+        2781,
+        157
+      ],
+      "donante": [
+        2780,
+        28,
+        2781,
+        29
+      ]
+    },
+    {
+      "nombre": "Contaminación de color en borde de pared",
+      "rectangulo": [
+        2780,
+        197,
+        2781,
+        198
+      ],
+      "donante": [
+        2780,
+        37,
+        2781,
+        38
+      ]
+    },
+    {
+      "nombre": "Dos puntos violetas ajenos al suelo",
+      "rectangulo": [
+        2616,
+        208,
+        2618,
+        209
+      ],
+      "donante": [
+        2584,
+        208,
+        2586,
+        209
+      ]
+    }
+  ],
+  "sha256_original": "a9a9ce6df49f3dafbec59a6befd3c9940c523351f12e44b14bf6122b8ffb087d",
+  "sha256_limpio": "471c617d2f66abac72dad4b6f4f9efad0d286154fc09ce8e143b96c66ad92914",
+  "metodo": "Edición directa por código autorizada por el usuario; píxeles de zonas donantes del propio mapa. Sin reescalado ni suavizado.",
+  "nota": "Retirados también B/M, orbes y símbolo superior; limpieza adicional por píxeles, sin modificar terreno ni XML."
+}

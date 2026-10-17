@@ -1,0 +1,7 @@
+{
+  "version": "v19.0",
+  "archivo": "Contra_Strike_con_menu.capx",
+  "sha256": "dabc531220a95f2d690851846a9db8fcc2df2ae7b9712d3461232ae41e98a9a2",
+  "validacion": "El editor Construct 2 Free confirmó 60 eventos. Antes de la última corrección de cierre de Ayuda pasaron 22 pruebas de energía/pausa/derrota/reinicio, 19 de cámara/saltos y nueve de capas/atmósfera. La corrección final de cierre tiene comprobación XML y tabla de estados; su ejecución en motor quedó pendiente. No se afirma un recorrido completo.",
+  "actualizado": "2026-10-17"
+}

@@ -1,0 +1,27 @@
+{
+  "sha256": "55793c30e0f6a81fcc0d25c5ecf88376d039fbc6bc3d39a181ab4fdc996c5340",
+  "sha256_antes": "4ec65d0564b46b28a2ca415abcfb216742f5db26f258231a5dace7cb418d46e2",
+  "respaldo": "C:\\Users\\Soul Hoshi\\Documents\\ChatGPT\\PAL - Desarrollo de videojuegos\\Entregas\\Historial\\Superadas\\Contra_Strike\\Antes_de_penumbra_4ec65d0564\\Contra_Strike_con_menu.capx",
+  "mapa_rect": [
+    0.9179925299997649,
+    67.409210205,
+    3486.9179925299995,
+    433.409210205
+  ],
+  "extension_mascara": [
+    -854,
+    -366,
+    8854,
+    1326
+  ],
+  "tono_antes": "<instance type=\"CS_AtmTono\" uid=\"810\"><properties><initial-visibility>Visible</initial-visibility><initial-animation>Default</initial-animation><initial-frame>0</initial-frame><collisions>Disabled</collisions></properties><blend-mode>0</blend-mode><effect-fallback>0</effect-fallback><world><x>427</x><y>183</y><z>0</z><width>854</width><height>366</height><depth>0</depth><hotspotX>0.5</hotspotX><hotspotY>0.5</hotspotY><angle>0</angle><opacity>.85</opacity></world></instance>",
+  "tono_despues": "<instance type=\"CS_AtmTono\" uid=\"810\"><properties><initial-visibility>Visible</initial-visibility><initial-animation>Default</initial-animation><initial-frame>0</initial-frame><collisions>Disabled</collisions></properties><blend-mode>0</blend-mode><effect-fallback>0</effect-fallback><world><x>427</x><y>183</y><z>0</z><width>854</width><height>366</height><depth>0</depth><hotspotX>0.5</hotspotX><hotspotY>0.5</hotspotY><angle>0</angle><opacity>1</opacity></world></instance>",
+  "accion_antes": "<action type=\"CS_AtmTono\" id=\"-16\" sid=\"8807293601490973\"><param id=\"0\" name=\"Opacity\">85*CS_AmbActivado</param></action>",
+  "accion_despues": "<action type=\"CS_AtmTono\" id=\"-16\" sid=\"8807293601490973\"><param id=\"0\" name=\"Opacity\">100*CS_AmbActivado</param></action>",
+  "textura_vineta_antes": "e781874e6ca6b598f372a5889acf187599022956668d1372fa6390bcd77f0d35",
+  "evento_nuevo": "8807293601491093",
+  "estado": "Revisado visualmente; nueve comprobaciones puntuales en motor real PASS",
+  "alcance": "Oscurece márgenes de cámara y el espacio fuera del bitmap original con una máscara fija al mundo. No modifica luz ni bruma de v15.",
+  "pruebas": "Pruebas_penumbra/verificacion_penumbra_runtime.json",
+  "preservacion": "Sin cambios en jugabilidad, luz suave, bruma ni geometría. Sólo textura y opacidad de la viñeta anterior y nueva máscara exterior."
+}

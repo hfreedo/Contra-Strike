@@ -1,0 +1,106 @@
+{
+  "sha256": "31fff8c6783f68630391d8f67aa6ce61cfab167ab38a112a1ced9a31fc661e1f",
+  "sha256_antes": "a8a78c804113c4949997d0a41057bf757b32112c40fc50ed1ac785947d338247",
+  "respaldo": "C:\\Users\\Soul Hoshi\\Documents\\ChatGPT\\PAL - Desarrollo de videojuegos\\Entregas\\Historial\\Superadas\\Contra_Strike\\Antes_de_atmosfera_v2_a8a78c8041\\Contra_Strike_con_menu.capx",
+  "eventos_nuevos": [
+    "8807293601490970",
+    "8807293601490974",
+    "8807293601490979",
+    "8807293601490984",
+    "8807293601490989"
+  ],
+  "halos_ajustados": {
+    "678": {
+      "antes": "<instance type=\"CS_AmbHaloAmbar\" uid=\"678\"><properties><initial-visibility>Visible</initial-visibility><initial-animation>Default</initial-animation><initial-frame>0</initial-frame><collisions>Disabled</collisions></properties><instance-variables><Fase>0</Fase><Frecuencia>65</Frecuencia><MinLuz>12</MinLuz><MaxLuz>78</MaxLuz></instance-variables><blend-mode>1</blend-mode><effect-fallback>0</effect-fallback><world><x>450</x><y>285</y><z>0</z><width>175</width><height>72</height><depth>0</depth><hotspotX>0.5</hotspotX><hotspotY>0.5</hotspotY><angle>0</angle><opacity>0.25</opacity></world></instance>",
+      "despues": "<instance type=\"CS_AmbHaloAmbar\" uid=\"678\"><properties><initial-visibility>Visible</initial-visibility><initial-animation>Default</initial-animation><initial-frame>0</initial-frame><collisions>Disabled</collisions></properties><instance-variables><Fase>0</Fase><Frecuencia>65</Frecuencia><MinLuz>34</MinLuz><MaxLuz>94</MaxLuz></instance-variables><blend-mode>1</blend-mode><effect-fallback>0</effect-fallback><world><x>450</x><y>285</y><z>0</z><width>367.5</width><height>151.2</height><depth>0</depth><hotspotX>0.5</hotspotX><hotspotY>0.5</hotspotY><angle>0</angle><opacity>.55</opacity></world></instance>"
+    },
+    "679": {
+      "antes": "<instance type=\"CS_AmbHaloAmbar\" uid=\"679\"><properties><initial-visibility>Visible</initial-visibility><initial-animation>Default</initial-animation><initial-frame>0</initial-frame><collisions>Disabled</collisions></properties><instance-variables><Fase>53</Fase><Frecuencia>72</Frecuencia><MinLuz>12</MinLuz><MaxLuz>78</MaxLuz></instance-variables><blend-mode>1</blend-mode><effect-fallback>0</effect-fallback><world><x>2480</x><y>285</y><z>0</z><width>175</width><height>72</height><depth>0</depth><hotspotX>0.5</hotspotX><hotspotY>0.5</hotspotY><angle>0</angle><opacity>0.25</opacity></world></instance>",
+      "despues": "<instance type=\"CS_AmbHaloAmbar\" uid=\"679\"><properties><initial-visibility>Visible</initial-visibility><initial-animation>Default</initial-animation><initial-frame>0</initial-frame><collisions>Disabled</collisions></properties><instance-variables><Fase>53</Fase><Frecuencia>72</Frecuencia><MinLuz>34</MinLuz><MaxLuz>94</MaxLuz></instance-variables><blend-mode>1</blend-mode><effect-fallback>0</effect-fallback><world><x>2480</x><y>285</y><z>0</z><width>367.5</width><height>151.2</height><depth>0</depth><hotspotX>0.5</hotspotX><hotspotY>0.5</hotspotY><angle>0</angle><opacity>.55</opacity></world></instance>"
+    },
+    "680": {
+      "antes": "<instance type=\"CS_AmbHaloAmbar\" uid=\"680\"><properties><initial-visibility>Visible</initial-visibility><initial-animation>Default</initial-animation><initial-frame>0</initial-frame><collisions>Disabled</collisions></properties><instance-variables><Fase>106</Fase><Frecuencia>79</Frecuencia><MinLuz>12</MinLuz><MaxLuz>78</MaxLuz></instance-variables><blend-mode>1</blend-mode><effect-fallback>0</effect-fallback><world><x>980</x><y>290</y><z>0</z><width>90</width><height>90</height><depth>0</depth><hotspotX>0.5</hotspotX><hotspotY>0.5</hotspotY><angle>0</angle><opacity>0.25</opacity></world></instance>",
+      "despues": "<instance type=\"CS_AmbHaloAmbar\" uid=\"680\"><properties><initial-visibility>Visible</initial-visibility><initial-animation>Default</initial-animation><initial-frame>0</initial-frame><collisions>Disabled</collisions></properties><instance-variables><Fase>106</Fase><Frecuencia>79</Frecuencia><MinLuz>34</MinLuz><MaxLuz>94</MaxLuz></instance-variables><blend-mode>1</blend-mode><effect-fallback>0</effect-fallback><world><x>980</x><y>290</y><z>0</z><width>189.0</width><height>189.0</height><depth>0</depth><hotspotX>0.5</hotspotX><hotspotY>0.5</hotspotY><angle>0</angle><opacity>.55</opacity></world></instance>"
+    },
+    "681": {
+      "antes": "<instance type=\"CS_AmbHaloAmbar\" uid=\"681\"><properties><initial-visibility>Visible</initial-visibility><initial-animation>Default</initial-animation><initial-frame>0</initial-frame><collisions>Disabled</collisions></properties><instance-variables><Fase>159</Fase><Frecuencia>86</Frecuencia><MinLuz>12</MinLuz><MaxLuz>78</MaxLuz></instance-variables><blend-mode>1</blend-mode><effect-fallback>0</effect-fallback><world><x>2110</x><y>260</y><z>0</z><width>90</width><height>90</height><depth>0</depth><hotspotX>0.5</hotspotX><hotspotY>0.5</hotspotY><angle>0</angle><opacity>0.25</opacity></world></instance>",
+      "despues": "<instance type=\"CS_AmbHaloAmbar\" uid=\"681\"><properties><initial-visibility>Visible</initial-visibility><initial-animation>Default</initial-animation><initial-frame>0</initial-frame><collisions>Disabled</collisions></properties><instance-variables><Fase>159</Fase><Frecuencia>86</Frecuencia><MinLuz>34</MinLuz><MaxLuz>94</MaxLuz></instance-variables><blend-mode>1</blend-mode><effect-fallback>0</effect-fallback><world><x>2110</x><y>260</y><z>0</z><width>189.0</width><height>189.0</height><depth>0</depth><hotspotX>0.5</hotspotX><hotspotY>0.5</hotspotY><angle>0</angle><opacity>.55</opacity></world></instance>"
+    },
+    "682": {
+      "antes": "<instance type=\"CS_AmbHaloAmbar\" uid=\"682\"><properties><initial-visibility>Visible</initial-visibility><initial-animation>Default</initial-animation><initial-frame>0</initial-frame><collisions>Disabled</collisions></properties><instance-variables><Fase>212</Fase><Frecuencia>93</Frecuencia><MinLuz>12</MinLuz><MaxLuz>78</MaxLuz></instance-variables><blend-mode>1</blend-mode><effect-fallback>0</effect-fallback><world><x>1450</x><y>280</y><z>0</z><width>110</width><height>75</height><depth>0</depth><hotspotX>0.5</hotspotX><hotspotY>0.5</hotspotY><angle>0</angle><opacity>0.25</opacity></world></instance>",
+      "despues": "<instance type=\"CS_AmbHaloAmbar\" uid=\"682\"><properties><initial-visibility>Visible</initial-visibility><initial-animation>Default</initial-animation><initial-frame>0</initial-frame><collisions>Disabled</collisions></properties><instance-variables><Fase>212</Fase><Frecuencia>93</Frecuencia><MinLuz>34</MinLuz><MaxLuz>94</MaxLuz></instance-variables><blend-mode>1</blend-mode><effect-fallback>0</effect-fallback><world><x>1450</x><y>280</y><z>0</z><width>231.0</width><height>157.5</height><depth>0</depth><hotspotX>0.5</hotspotX><hotspotY>0.5</hotspotY><angle>0</angle><opacity>.55</opacity></world></instance>"
+    },
+    "683": {
+      "antes": "<instance type=\"CS_AmbHaloAmbar\" uid=\"683\"><properties><initial-visibility>Visible</initial-visibility><initial-animation>Default</initial-animation><initial-frame>0</initial-frame><collisions>Disabled</collisions></properties><instance-variables><Fase>265</Fase><Frecuencia>100</Frecuencia><MinLuz>12</MinLuz><MaxLuz>78</MaxLuz></instance-variables><blend-mode>1</blend-mode><effect-fallback>0</effect-fallback><world><x>3100</x><y>280</y><z>0</z><width>110</width><height>75</height><depth>0</depth><hotspotX>0.5</hotspotX><hotspotY>0.5</hotspotY><angle>0</angle><opacity>0.25</opacity></world></instance>",
+      "despues": "<instance type=\"CS_AmbHaloAmbar\" uid=\"683\"><properties><initial-visibility>Visible</initial-visibility><initial-animation>Default</initial-animation><initial-frame>0</initial-frame><collisions>Disabled</collisions></properties><instance-variables><Fase>265</Fase><Frecuencia>100</Frecuencia><MinLuz>34</MinLuz><MaxLuz>94</MaxLuz></instance-variables><blend-mode>1</blend-mode><effect-fallback>0</effect-fallback><world><x>3100</x><y>280</y><z>0</z><width>231.0</width><height>157.5</height><depth>0</depth><hotspotX>0.5</hotspotX><hotspotY>0.5</hotspotY><angle>0</angle><opacity>.55</opacity></world></instance>"
+    },
+    "684": {
+      "antes": "<instance type=\"CS_AmbHaloVioleta\" uid=\"684\"><properties><initial-visibility>Visible</initial-visibility><initial-animation>Default</initial-animation><initial-frame>0</initial-frame><collisions>Disabled</collisions></properties><instance-variables><Fase>318</Fase><Frecuencia>107</Frecuencia><MinLuz>12</MinLuz><MaxLuz>78</MaxLuz></instance-variables><blend-mode>1</blend-mode><effect-fallback>0</effect-fallback><world><x>125</x><y>250</y><z>0</z><width>128</width><height>112</height><depth>0</depth><hotspotX>0.5</hotspotX><hotspotY>0.5</hotspotY><angle>0</angle><opacity>0.25</opacity></world></instance>",
+      "despues": "<instance type=\"CS_AmbHaloVioleta\" uid=\"684\"><properties><initial-visibility>Visible</initial-visibility><initial-animation>Default</initial-animation><initial-frame>0</initial-frame><collisions>Disabled</collisions></properties><instance-variables><Fase>318</Fase><Frecuencia>107</Frecuencia><MinLuz>34</MinLuz><MaxLuz>94</MaxLuz></instance-variables><blend-mode>1</blend-mode><effect-fallback>0</effect-fallback><world><x>125</x><y>250</y><z>0</z><width>268.8</width><height>235.2</height><depth>0</depth><hotspotX>0.5</hotspotX><hotspotY>0.5</hotspotY><angle>0</angle><opacity>.55</opacity></world></instance>"
+    },
+    "685": {
+      "antes": "<instance type=\"CS_AmbHaloVioleta\" uid=\"685\"><properties><initial-visibility>Visible</initial-visibility><initial-animation>Default</initial-animation><initial-frame>0</initial-frame><collisions>Disabled</collisions></properties><instance-variables><Fase>371</Fase><Frecuencia>114</Frecuencia><MinLuz>12</MinLuz><MaxLuz>78</MaxLuz></instance-variables><blend-mode>1</blend-mode><effect-fallback>0</effect-fallback><world><x>1700</x><y>265</y><z>0</z><width>128</width><height>112</height><depth>0</depth><hotspotX>0.5</hotspotX><hotspotY>0.5</hotspotY><angle>0</angle><opacity>0.25</opacity></world></instance>",
+      "despues": "<instance type=\"CS_AmbHaloVioleta\" uid=\"685\"><properties><initial-visibility>Visible</initial-visibility><initial-animation>Default</initial-animation><initial-frame>0</initial-frame><collisions>Disabled</collisions></properties><instance-variables><Fase>371</Fase><Frecuencia>114</Frecuencia><MinLuz>34</MinLuz><MaxLuz>94</MaxLuz></instance-variables><blend-mode>1</blend-mode><effect-fallback>0</effect-fallback><world><x>1700</x><y>265</y><z>0</z><width>268.8</width><height>235.2</height><depth>0</depth><hotspotX>0.5</hotspotX><hotspotY>0.5</hotspotY><angle>0</angle><opacity>.55</opacity></world></instance>"
+    },
+    "686": {
+      "antes": "<instance type=\"CS_AmbHaloVioleta\" uid=\"686\"><properties><initial-visibility>Visible</initial-visibility><initial-animation>Default</initial-animation><initial-frame>0</initial-frame><collisions>Disabled</collisions></properties><instance-variables><Fase>424</Fase><Frecuencia>121</Frecuencia><MinLuz>12</MinLuz><MaxLuz>78</MaxLuz></instance-variables><blend-mode>1</blend-mode><effect-fallback>0</effect-fallback><world><x>2900</x><y>270</y><z>0</z><width>128</width><height>112</height><depth>0</depth><hotspotX>0.5</hotspotX><hotspotY>0.5</hotspotY><angle>0</angle><opacity>0.25</opacity></world></instance>",
+      "despues": "<instance type=\"CS_AmbHaloVioleta\" uid=\"686\"><properties><initial-visibility>Visible</initial-visibility><initial-animation>Default</initial-animation><initial-frame>0</initial-frame><collisions>Disabled</collisions></properties><instance-variables><Fase>424</Fase><Frecuencia>121</Frecuencia><MinLuz>34</MinLuz><MaxLuz>94</MaxLuz></instance-variables><blend-mode>1</blend-mode><effect-fallback>0</effect-fallback><world><x>2900</x><y>270</y><z>0</z><width>268.8</width><height>235.2</height><depth>0</depth><hotspotX>0.5</hotspotX><hotspotY>0.5</hotspotY><angle>0</angle><opacity>.55</opacity></world></instance>"
+    },
+    "687": {
+      "antes": "<instance type=\"CS_AmbHaloVioleta\" uid=\"687\"><properties><initial-visibility>Visible</initial-visibility><initial-animation>Default</initial-animation><initial-frame>0</initial-frame><collisions>Disabled</collisions></properties><instance-variables><Fase>477</Fase><Frecuencia>128</Frecuencia><MinLuz>12</MinLuz><MaxLuz>78</MaxLuz></instance-variables><blend-mode>1</blend-mode><effect-fallback>0</effect-fallback><world><x>35</x><y>360</y><z>0</z><width>145</width><height>100</height><depth>0</depth><hotspotX>0.5</hotspotX><hotspotY>0.5</hotspotY><angle>0</angle><opacity>0.25</opacity></world></instance>",
+      "despues": "<instance type=\"CS_AmbHaloVioleta\" uid=\"687\"><properties><initial-visibility>Visible</initial-visibility><initial-animation>Default</initial-animation><initial-frame>0</initial-frame><collisions>Disabled</collisions></properties><instance-variables><Fase>477</Fase><Frecuencia>128</Frecuencia><MinLuz>34</MinLuz><MaxLuz>94</MaxLuz></instance-variables><blend-mode>1</blend-mode><effect-fallback>0</effect-fallback><world><x>35</x><y>360</y><z>0</z><width>304.5</width><height>210.0</height><depth>0</depth><hotspotX>0.5</hotspotX><hotspotY>0.5</hotspotY><angle>0</angle><opacity>.55</opacity></world></instance>"
+    },
+    "688": {
+      "antes": "<instance type=\"CS_AmbHaloVioleta\" uid=\"688\"><properties><initial-visibility>Visible</initial-visibility><initial-animation>Default</initial-animation><initial-frame>0</initial-frame><collisions>Disabled</collisions></properties><instance-variables><Fase>530</Fase><Frecuencia>135</Frecuencia><MinLuz>12</MinLuz><MaxLuz>78</MaxLuz></instance-variables><blend-mode>1</blend-mode><effect-fallback>0</effect-fallback><world><x>1190</x><y>360</y><z>0</z><width>145</width><height>100</height><depth>0</depth><hotspotX>0.5</hotspotX><hotspotY>0.5</hotspotY><angle>0</angle><opacity>0.25</opacity></world></instance>",
+      "despues": "<instance type=\"CS_AmbHaloVioleta\" uid=\"688\"><properties><initial-visibility>Visible</initial-visibility><initial-animation>Default</initial-animation><initial-frame>0</initial-frame><collisions>Disabled</collisions></properties><instance-variables><Fase>530</Fase><Frecuencia>135</Frecuencia><MinLuz>34</MinLuz><MaxLuz>94</MaxLuz></instance-variables><blend-mode>1</blend-mode><effect-fallback>0</effect-fallback><world><x>1190</x><y>360</y><z>0</z><width>304.5</width><height>210.0</height><depth>0</depth><hotspotX>0.5</hotspotX><hotspotY>0.5</hotspotY><angle>0</angle><opacity>.55</opacity></world></instance>"
+    },
+    "689": {
+      "antes": "<instance type=\"CS_AmbHaloVioleta\" uid=\"689\"><properties><initial-visibility>Visible</initial-visibility><initial-animation>Default</initial-animation><initial-frame>0</initial-frame><collisions>Disabled</collisions></properties><instance-variables><Fase>583</Fase><Frecuencia>142</Frecuencia><MinLuz>12</MinLuz><MaxLuz>78</MaxLuz></instance-variables><blend-mode>1</blend-mode><effect-fallback>0</effect-fallback><world><x>2720</x><y>336</y><z>0</z><width>145</width><height>100</height><depth>0</depth><hotspotX>0.5</hotspotX><hotspotY>0.5</hotspotY><angle>0</angle><opacity>0.25</opacity></world></instance>",
+      "despues": "<instance type=\"CS_AmbHaloVioleta\" uid=\"689\"><properties><initial-visibility>Visible</initial-visibility><initial-animation>Default</initial-animation><initial-frame>0</initial-frame><collisions>Disabled</collisions></properties><instance-variables><Fase>583</Fase><Frecuencia>142</Frecuencia><MinLuz>34</MinLuz><MaxLuz>94</MaxLuz></instance-variables><blend-mode>1</blend-mode><effect-fallback>0</effect-fallback><world><x>2720</x><y>336</y><z>0</z><width>304.5</width><height>210.0</height><depth>0</depth><hotspotX>0.5</hotspotX><hotspotY>0.5</hotspotY><angle>0</angle><opacity>.55</opacity></world></instance>"
+    }
+  },
+  "texturas_reemplazadas": {
+    "Animations/CS_AmbHaloVioleta/Default/000.png": {
+      "antes": "dddb9e7e03e7c2fa97d3ca8ffab56baea1cf8d536b9ccc23723897f3f2ea1ea0",
+      "despues": "483447d4c0f7e793172aac685adcf5d1eb771310004f35b25247dca9f62be22d"
+    },
+    "Animations/CS_AmbHaloAmbar/Default/000.png": {
+      "antes": "56c84c6360f62fa505c7ebaa6ac60468980ad3712893e5c58f8a7359d999acdd",
+      "despues": "6d486c7bbbd857c072826382ef734e0c6fb2539cb65792a7db7ec62a6b540878"
+    }
+  },
+  "tipos_nuevos": [
+    "CS_AtmTono",
+    "CS_AtmBrumaLejos",
+    "CS_AtmBrumaCerca",
+    "CS_AtmMota"
+  ],
+  "instancias_nuevas": [
+    810,
+    811,
+    812,
+    813,
+    814,
+    815,
+    816,
+    817,
+    818,
+    819,
+    820,
+    821,
+    822
+  ],
+  "capas": [
+    "Atm_Tono",
+    "Atm_Resplandores",
+    "Atm_Bruma"
+  ],
+  "estado": "Atmósfera revisada visualmente; 14 comprobaciones de atmósfera y 22 de energía/controles PASS en vista previa real",
+  "alcance": "Contraste azul, viñeta, halos más amplios, dos planos de bruma y diez motas. Resplandores simulados sin sombras físicas.",
+  "pruebas": {
+    "atmosfera": 14,
+    "energia": 22
+  },
+  "preservacion": "Sólo doce halos existentes ajustados y movidos a una capa de resplandores; dos texturas de halo sustituidas. Todos los demás tipos, instancias y eventos anteriores permanecen idénticos.",
+  "comparacion": "Pruebas_atmosfera_v2/Comparacion_atmosfera.png"
+}

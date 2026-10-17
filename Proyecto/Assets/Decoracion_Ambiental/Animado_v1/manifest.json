@@ -1,0 +1,295 @@
+{
+  "sha256": "a8a78c804113c4949997d0a41057bf757b32112c40fc50ed1ac785947d338247",
+  "sha256_antes": "8820145e093384e050464355302940881976632306d55cece9b72858cdef4463",
+  "respaldo": "C:\\Users\\Soul Hoshi\\Documents\\ChatGPT\\PAL - Desarrollo de videojuegos\\Entregas\\Historial\\Superadas\\Contra_Strike\\Antes_de_ambiente_8820145e09\\Contra_Strike_con_menu.capx",
+  "eventos": [
+    "8807293601490811",
+    "8807293601490815",
+    "8807293601490820",
+    "8807293601490824",
+    "8807293601490828",
+    "8807293601490832",
+    "8807293601490836",
+    "8807293601490840",
+    "8807293601490844",
+    "8807293601490848",
+    "8807293601490853"
+  ],
+  "tipos": [
+    "CS_AmbConducto",
+    "CS_AmbVentila",
+    "CS_AmbPanel",
+    "CS_AmbLuz",
+    "CS_AmbCristal",
+    "CS_AmbHaloVioleta",
+    "CS_AmbHaloAmbar",
+    "CS_AmbChispa"
+  ],
+  "instancias": [
+    {
+      "uid": "678",
+      "tipo": "CS_AmbHaloAmbar"
+    },
+    {
+      "uid": "679",
+      "tipo": "CS_AmbHaloAmbar"
+    },
+    {
+      "uid": "680",
+      "tipo": "CS_AmbHaloAmbar"
+    },
+    {
+      "uid": "681",
+      "tipo": "CS_AmbHaloAmbar"
+    },
+    {
+      "uid": "682",
+      "tipo": "CS_AmbHaloAmbar"
+    },
+    {
+      "uid": "683",
+      "tipo": "CS_AmbHaloAmbar"
+    },
+    {
+      "uid": "684",
+      "tipo": "CS_AmbHaloVioleta"
+    },
+    {
+      "uid": "685",
+      "tipo": "CS_AmbHaloVioleta"
+    },
+    {
+      "uid": "686",
+      "tipo": "CS_AmbHaloVioleta"
+    },
+    {
+      "uid": "687",
+      "tipo": "CS_AmbHaloVioleta"
+    },
+    {
+      "uid": "688",
+      "tipo": "CS_AmbHaloVioleta"
+    },
+    {
+      "uid": "689",
+      "tipo": "CS_AmbHaloVioleta"
+    },
+    {
+      "uid": "690",
+      "tipo": "CS_AmbConducto"
+    },
+    {
+      "uid": "691",
+      "tipo": "CS_AmbConducto"
+    },
+    {
+      "uid": "692",
+      "tipo": "CS_AmbVentila"
+    },
+    {
+      "uid": "693",
+      "tipo": "CS_AmbVentila"
+    },
+    {
+      "uid": "694",
+      "tipo": "CS_AmbPanel"
+    },
+    {
+      "uid": "695",
+      "tipo": "CS_AmbPanel"
+    },
+    {
+      "uid": "696",
+      "tipo": "CS_AmbLuz"
+    },
+    {
+      "uid": "697",
+      "tipo": "CS_AmbLuz"
+    },
+    {
+      "uid": "698",
+      "tipo": "CS_AmbLuz"
+    },
+    {
+      "uid": "699",
+      "tipo": "CS_AmbCristal"
+    },
+    {
+      "uid": "700",
+      "tipo": "CS_AmbCristal"
+    },
+    {
+      "uid": "701",
+      "tipo": "CS_AmbCristal"
+    },
+    {
+      "uid": "702",
+      "tipo": "CS_AmbChispa"
+    },
+    {
+      "uid": "703",
+      "tipo": "CS_AmbChispa"
+    },
+    {
+      "uid": "704",
+      "tipo": "CS_AmbChispa"
+    },
+    {
+      "uid": "705",
+      "tipo": "CS_AmbChispa"
+    },
+    {
+      "uid": "706",
+      "tipo": "CS_AmbChispa"
+    },
+    {
+      "uid": "707",
+      "tipo": "CS_AmbChispa"
+    },
+    {
+      "uid": "708",
+      "tipo": "CS_AmbChispa"
+    },
+    {
+      "uid": "709",
+      "tipo": "CS_AmbChispa"
+    }
+  ],
+  "fuentes": [
+    [
+      "CS_AmbConducto",
+      450,
+      285,
+      128,
+      64,
+      "CS_AmbHaloAmbar",
+      175,
+      72
+    ],
+    [
+      "CS_AmbConducto",
+      2480,
+      285,
+      128,
+      64,
+      "CS_AmbHaloAmbar",
+      175,
+      72
+    ],
+    [
+      "CS_AmbVentila",
+      980,
+      290,
+      32,
+      48,
+      "CS_AmbHaloAmbar",
+      90,
+      90
+    ],
+    [
+      "CS_AmbVentila",
+      2110,
+      260,
+      32,
+      48,
+      "CS_AmbHaloAmbar",
+      90,
+      90
+    ],
+    [
+      "CS_AmbPanel",
+      1450,
+      280,
+      48,
+      32,
+      "CS_AmbHaloAmbar",
+      110,
+      75
+    ],
+    [
+      "CS_AmbPanel",
+      3100,
+      280,
+      48,
+      32,
+      "CS_AmbHaloAmbar",
+      110,
+      75
+    ],
+    [
+      "CS_AmbLuz",
+      125,
+      250,
+      32,
+      32,
+      "CS_AmbHaloVioleta",
+      128,
+      112
+    ],
+    [
+      "CS_AmbLuz",
+      1700,
+      265,
+      32,
+      32,
+      "CS_AmbHaloVioleta",
+      128,
+      112
+    ],
+    [
+      "CS_AmbLuz",
+      2900,
+      270,
+      32,
+      32,
+      "CS_AmbHaloVioleta",
+      128,
+      112
+    ],
+    [
+      "CS_AmbCristal",
+      35,
+      360,
+      40,
+      48,
+      "CS_AmbHaloVioleta",
+      145,
+      100
+    ],
+    [
+      "CS_AmbCristal",
+      1190,
+      360,
+      40,
+      48,
+      "CS_AmbHaloVioleta",
+      145,
+      100
+    ],
+    [
+      "CS_AmbCristal",
+      2720,
+      336,
+      40,
+      48,
+      "CS_AmbHaloVioleta",
+      145,
+      100
+    ]
+  ],
+  "tecla_comparacion": "L",
+  "estado": "Integrado; 16 pruebas de ambiente y 22 de energía/controles PASS en vista previa de Construct 2",
+  "alcance": "Resplandores aditivos y pulsaciones, sin sombras ni iluminación física. Ocho chispas reutilizadas, sin creación ilimitada.",
+  "ajustes_visuales": "Cristal inicial x=35; conductos y=285 para cámara de suelo.",
+  "pruebas": {
+    "ambiente": 16,
+    "energia": 22
+  },
+  "preservacion": [
+    "ZIP y todos los XML válidos",
+    "Todos los recursos y archivos previos, salvo los tres XML ampliados, idénticos",
+    "Cada tipo, instancia y evento anterior conservado íntegro, incluida la edición local del usuario",
+    "Decoración delante del mapa y detrás del jugador"
+  ],
+  "preview": "Pruebas_ambiente/Vista_previa_ambiente.gif"
+}

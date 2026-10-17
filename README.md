@@ -73,10 +73,29 @@ Esta entrega unifica el juego del alumno con la interfaz de usuario:
 
 ---
 
+## 📚 Documentación del equipo en Office
+
+Los tres documentos editables están en [`Documentacion/`](Documentacion/):
+
+| Archivo | Contenido | Descarga directa |
+|---|---|---|
+| [GDD Contra Strike.docx](Documentacion/GDD%20Contra%20Strike.docx) | Nueve páginas ilustradas con reglas, organización, responsabilidades, bitácora y pruebas pendientes. | [Descargar Word](https://github.com/hfreedo/Contra-Strike/raw/refs/heads/main/Documentacion/GDD%20Contra%20Strike.docx) |
+| [Inventario Contra Strike.xlsx](Documentacion/Inventario%20Contra%20Strike.xlsx) | 19 recursos agrupados, 25 miniaturas y una copia M4A de escucha de la música incrustada. | [Descargar Excel](https://github.com/hfreedo/Contra-Strike/raw/refs/heads/main/Documentacion/Inventario%20Contra%20Strike.xlsx) |
+| [Guía Contra Strike.pptx](Documentacion/Gu%C3%ADa%20Contra%20Strike.pptx) | Diez diapositivas con controles, consejos y enlaces para recorrer la guía. | [Descargar PowerPoint](https://github.com/hfreedo/Contra-Strike/raw/refs/heads/main/Documentacion/Gu%C3%ADa%20Contra%20Strike.pptx) |
+
+Para escuchar los audios, descargar el inventario, abrirlo en Excel de escritorio para Windows y hacer doble clic en el icono. La reproducción usa el programa asociado a M4A del equipo. Para usar los enlaces de la guía, iniciar el modo presentación en PowerPoint.
+
+El GDD usa un tono de trabajo del grupo e incluye campos para completar integrantes, responsables y créditos. Los documentos muestran el uso de Construct 2 para crear el juego y de Office para organizarlo y explicarlo. También se incluyen al descargar el repositorio con **Code → Download ZIP**.
+
+La documentación toma como referencia la revisión v8 con el mapa limpio. Las capturas identifican las pruebas puntuales anteriores del cuerpo físico y los techos. El recorrido completo sigue pendiente. Esta demo se centra en explorar y saltar; todavía no incorpora disparos, enemigos, puntos ni una victoria programada.
+
+---
+
 ## 📂 5. Estructura de carpetas del repositorio
 
 ```text
 Contra-Strike/
+├── Documentacion/                   # GDD Word, inventario Excel y guía PowerPoint
 ├── Proyecto/
 │   ├── Contra_Strike_con_menu.capx     # ⭐ Juego integrado completo listo para abrir en Construct 2
 │   ├── Contra_Strike_original.capx     # Versión original base del alumno

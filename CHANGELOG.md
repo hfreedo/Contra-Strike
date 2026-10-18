@@ -2,6 +2,17 @@
 
 Las etapas locales se documentan como hitos incluidos en la entrega actual; no se inventaron commits ni publicaciones retroactivas. Las versiones ya publicadas siguen disponibles en [Releases](https://github.com/hfreedo/Contra-Strike/releases) y en el historial de Git.
 
+## v21.0 — 2026-10-18
+
+- Título Flow integrado: 95 cuadros transparentes y respuesta al cursor.
+- Doce sonidos sintetizados conectados a eventos, con OGG y M4A; música conservada a -18 dB.
+- Pausa, reanudación, reinicio y salida controlan las etiquetas de audio.
+- Misil de ocho cuadros orientado por su trayectoria; explosión de 19 cuadros y una reproducción en el impacto.
+- Posición de explosión corregida con BBoxTop para respetar suelos girados.
+- Checkpoint de la arena comprobado. 88 eventos, 12 espacios libres y cuatro capas.
+- 74 pruebas puntuales de motor PASS y tres impactos de trayectoria natural observados.
+- Inventario Excel actualizado a 59 recursos, 78 miniaturas y 13 audios catalogados.
+
 ## v20.0 — 2026-10-18
 
 - Jefe mecha al final del mapa: nueve animaciones y 72 cuadros.

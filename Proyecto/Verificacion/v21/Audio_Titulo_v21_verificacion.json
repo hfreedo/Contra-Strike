@@ -1,0 +1,433 @@
+{
+  "resultado": "PASS",
+  "total": 25,
+  "tests": [
+    "Título Flow con 95 cuadros",
+    "Título se anima dentro del menú",
+    "Título responde al cursor sin desplazar su centro",
+    "Título recupera su tamaño",
+    "Cursor reproduce un solo sonido al entrar al botón",
+    "El sonido del cursor no se repite cada tick",
+    "Volver al botón reproduce otra confirmación de entrada",
+    "Ayuda muestra el disparo y la meta del mecha",
+    "Ayuda se cierra con ESC",
+    "Confirmación del menú se reproduce",
+    "Ambiente del nivel comienza una sola vez",
+    "Contexto de audio está ejecutándose",
+    "Salida de audio del nivel tiene señal",
+    "Disparo real reproduce su efecto",
+    "Pausa detiene voces de audio además del juego",
+    "Durante pausa no queda señal del nivel",
+    "Reanudar recupera audio del nivel",
+    "Aviso del mecha tiene sonido",
+    "Lanzamiento de misil reproduce su sonido",
+    "Un impacto reproduce exactamente una explosión sonora",
+    "El daño del impacto tiene sonido",
+    "Victoria suena con el juego detenido",
+    "Reintentar reinicia nivel y sonido ambiente",
+    "Volver al menú detiene audio del nivel",
+    "Sin errores JavaScript ni archivos fallidos"
+  ],
+  "sha256": "91dbff5936b949fb2069203df21cb2d8814ab962aa49a5538c4a663e4d8ef585",
+  "errors": [],
+  "failed": [],
+  "proof": {
+    "starts": [
+      {
+        "t": 3029.800000011921,
+        "duration": 10,
+        "context": "running"
+      },
+      {
+        "t": 3132.300000011921,
+        "duration": 0.009977324263038548,
+        "context": "running"
+      },
+      {
+        "t": 3182.800000011921,
+        "duration": 0.23708333333333334,
+        "context": "running"
+      },
+      {
+        "t": 5739,
+        "duration": 0.07708333333333334,
+        "context": "running"
+      },
+      {
+        "t": 6429.200000047684,
+        "duration": 0.07708333333333334,
+        "context": "running"
+      },
+      {
+        "t": 6604.600000023842,
+        "duration": 0.23708333333333334,
+        "context": "running"
+      },
+      {
+        "t": 6706.900000035763,
+        "duration": 0.07708333333333334,
+        "context": "running"
+      },
+      {
+        "t": 6803,
+        "duration": 0.23708333333333334,
+        "context": "running"
+      },
+      {
+        "t": 7694.900000035763,
+        "duration": 10,
+        "context": "running"
+      },
+      {
+        "t": 8258.700000047684,
+        "duration": 0.21708333333333332,
+        "context": "running"
+      },
+      {
+        "t": 8993.900000035763,
+        "duration": 10,
+        "context": "running"
+      },
+      {
+        "t": 9319.300000011921,
+        "duration": 0.6170833333333333,
+        "context": "running"
+      },
+      {
+        "t": 9529.400000035763,
+        "duration": 0.6970833333333334,
+        "context": "running"
+      },
+      {
+        "t": 9635.900000035763,
+        "duration": 1.2,
+        "context": "running"
+      },
+      {
+        "t": 9636.400000035763,
+        "duration": 0.24708333333333332,
+        "context": "running"
+      },
+      {
+        "t": 10046.400000035763,
+        "duration": 1.55,
+        "context": "running"
+      },
+      {
+        "t": 10516.200000047684,
+        "duration": 0.23708333333333334,
+        "context": "running"
+      },
+      {
+        "t": 10522.700000047684,
+        "duration": 10,
+        "context": "running"
+      },
+      {
+        "t": 10745.900000035763,
+        "duration": 0.23708333333333334,
+        "context": "running"
+      }
+    ],
+    "stops": [
+      {
+        "t": 3134.900000035763,
+        "duration": 10
+      },
+      {
+        "t": 3181.5,
+        "duration": 10
+      },
+      {
+        "t": 3181.5,
+        "duration": 0.21708333333333332
+      },
+      {
+        "t": 3182.2000000476837,
+        "duration": 0.21708333333333332
+      },
+      {
+        "t": 3182.2000000476837,
+        "duration": 0.21708333333333332
+      },
+      {
+        "t": 3182.2000000476837,
+        "duration": 0.6970833333333334
+      },
+      {
+        "t": 3182.2000000476837,
+        "duration": 1.2
+      },
+      {
+        "t": 3182.2000000476837,
+        "duration": 0.6170833333333333
+      },
+      {
+        "t": 3182.5,
+        "duration": 0.45858333333333334
+      },
+      {
+        "t": 3182.5,
+        "duration": 0.24708333333333332
+      },
+      {
+        "t": 3182.600000023842,
+        "duration": 0.07708333333333334
+      },
+      {
+        "t": 3182.7000000476837,
+        "duration": 0.23708333333333334
+      },
+      {
+        "t": 3182.7000000476837,
+        "duration": 1.55
+      },
+      {
+        "t": 3182.7000000476837,
+        "duration": 10
+      },
+      {
+        "t": 4492.400000035763,
+        "duration": 10
+      },
+      {
+        "t": 7693.400000035763,
+        "duration": 10
+      },
+      {
+        "t": 8768.400000035763,
+        "duration": 10
+      },
+      {
+        "t": 10046.300000011921,
+        "duration": 10
+      },
+      {
+        "t": 10046.300000011921,
+        "duration": 0.21708333333333332
+      },
+      {
+        "t": 10046.300000011921,
+        "duration": 0.6970833333333334
+      },
+      {
+        "t": 10046.300000011921,
+        "duration": 0.6170833333333333
+      },
+      {
+        "t": 10046.400000035763,
+        "duration": 1.2
+      },
+      {
+        "t": 10046.400000035763,
+        "duration": 0.24708333333333332
+      },
+      {
+        "t": 10515.200000047684,
+        "duration": 10
+      },
+      {
+        "t": 10515.200000047684,
+        "duration": 0.21708333333333332
+      },
+      {
+        "t": 10515.5,
+        "duration": 0.21708333333333332
+      },
+      {
+        "t": 10515.5,
+        "duration": 0.21708333333333332
+      },
+      {
+        "t": 10515.600000023842,
+        "duration": 0.6970833333333334
+      },
+      {
+        "t": 10515.600000023842,
+        "duration": 1.2
+      },
+      {
+        "t": 10515.600000023842,
+        "duration": 0.6170833333333333
+      },
+      {
+        "t": 10515.600000023842,
+        "duration": 0.45858333333333334
+      },
+      {
+        "t": 10515.600000023842,
+        "duration": 0.24708333333333332
+      },
+      {
+        "t": 10515.600000023842,
+        "duration": 0.07708333333333334
+      },
+      {
+        "t": 10515.600000023842,
+        "duration": 0.23708333333333334
+      },
+      {
+        "t": 10515.600000023842,
+        "duration": 1.55
+      },
+      {
+        "t": 10515.600000023842,
+        "duration": 10
+      },
+      {
+        "t": 10515.800000011921,
+        "duration": 0.23708333333333334
+      },
+      {
+        "t": 10515.900000035763,
+        "duration": 0.23708333333333334
+      },
+      {
+        "t": 10521.700000047684,
+        "duration": 10
+      },
+      {
+        "t": 10521.700000047684,
+        "duration": 0.21708333333333332
+      },
+      {
+        "t": 10521.700000047684,
+        "duration": 0.6970833333333334
+      },
+      {
+        "t": 10521.700000047684,
+        "duration": 0.6170833333333333
+      },
+      {
+        "t": 10521.700000047684,
+        "duration": 1.2
+      },
+      {
+        "t": 10521.700000047684,
+        "duration": 0.24708333333333332
+      },
+      {
+        "t": 10733.600000023842,
+        "duration": 10
+      },
+      {
+        "t": 10745.600000023842,
+        "duration": 10
+      },
+      {
+        "t": 10745.600000023842,
+        "duration": 0.21708333333333332
+      },
+      {
+        "t": 10745.700000047684,
+        "duration": 0.21708333333333332
+      },
+      {
+        "t": 10745.700000047684,
+        "duration": 0.21708333333333332
+      },
+      {
+        "t": 10745.700000047684,
+        "duration": 0.6970833333333334
+      },
+      {
+        "t": 10745.700000047684,
+        "duration": 1.2
+      },
+      {
+        "t": 10745.700000047684,
+        "duration": 0.6170833333333333
+      },
+      {
+        "t": 10745.700000047684,
+        "duration": 0.45858333333333334
+      },
+      {
+        "t": 10745.700000047684,
+        "duration": 0.24708333333333332
+      },
+      {
+        "t": 10745.700000047684,
+        "duration": 0.07708333333333334
+      },
+      {
+        "t": 10745.700000047684,
+        "duration": 0.23708333333333334
+      },
+      {
+        "t": 10745.700000047684,
+        "duration": 1.55
+      },
+      {
+        "t": 10745.700000047684,
+        "duration": 10
+      },
+      {
+        "t": 10745.700000047684,
+        "duration": 0.23708333333333334
+      },
+      {
+        "t": 10745.800000011921,
+        "duration": 0.23708333333333334
+      },
+      {
+        "t": 12040.700000047684,
+        "duration": 10
+      }
+    ],
+    "media": [
+      {
+        "action": "play",
+        "t": 3028.800000011921,
+        "src": "http://localhost:50000/audiocleaner_audiocleaner_download_contra%20(nes)%20-%20stage%208%20music_20261001_162802.ogg",
+        "duration": null
+      },
+      {
+        "action": "pause",
+        "t": 3134.400000035763,
+        "src": "http://localhost:50000/audiocleaner_audiocleaner_download_contra%20(nes)%20-%20stage%208%20music_20261001_162802.ogg",
+        "duration": null
+      },
+      {
+        "action": "play",
+        "t": 7693.600000023842,
+        "src": "http://localhost:50000/audiocleaner_audiocleaner_download_contra%20(nes)%20-%20stage%208%20music_20261001_162802.ogg",
+        "duration": 73.002902
+      },
+      {
+        "action": "pause",
+        "t": 8768,
+        "src": "http://localhost:50000/audiocleaner_audiocleaner_download_contra%20(nes)%20-%20stage%208%20music_20261001_162802.ogg",
+        "duration": 73.002902
+      },
+      {
+        "action": "play",
+        "t": 8993.400000035763,
+        "src": "http://localhost:50000/audiocleaner_audiocleaner_download_contra%20(nes)%20-%20stage%208%20music_20261001_162802.ogg",
+        "duration": 73.002902
+      },
+      {
+        "action": "pause",
+        "t": 10046,
+        "src": "http://localhost:50000/audiocleaner_audiocleaner_download_contra%20(nes)%20-%20stage%208%20music_20261001_162802.ogg",
+        "duration": 73.002902
+      },
+      {
+        "action": "play",
+        "t": 10522.100000023842,
+        "src": "http://localhost:50000/audiocleaner_audiocleaner_download_contra%20(nes)%20-%20stage%208%20music_20261001_162802.ogg",
+        "duration": 73.002902
+      },
+      {
+        "action": "pause",
+        "t": 10733.5,
+        "src": "http://localhost:50000/audiocleaner_audiocleaner_download_contra%20(nes)%20-%20stage%208%20music_20261001_162802.ogg",
+        "duration": 73.002902
+      }
+    ],
+    "contexts": [
+      "running"
+    ]
+  },
+  "alcance": "Vista previa real. Interacciones de menú y teclado; Web Audio instrumentado para verificar inicio, pausa y señal. Arena y misil reposicionados para probar impacto; victoria preparada por estado. No evalúa subjetivamente la mezcla ni una partida completa."
+}

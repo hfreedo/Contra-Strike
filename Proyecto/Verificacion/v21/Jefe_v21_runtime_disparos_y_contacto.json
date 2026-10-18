@@ -1,0 +1,17 @@
+{
+  "resultado": "PASS",
+  "sha256": "91dbff5936b949fb2069203df21cb2d8814ab962aa49a5538c4a663e4d8ef585",
+  "total": 9,
+  "tests": [
+    "Disparo a izquierda sigue orientación",
+    "Disparo a derecha sigue orientación",
+    "Las balas no atraviesan la primera pared de terreno",
+    "El disparo derrota al alien bípedo",
+    "El disparo derrota al alien corredor",
+    "Contacto con el jefe resta una carga",
+    "Caer durante el combate reaparece en el checkpoint de arena",
+    "Rayo alto permite quedarse en el suelo sin daño",
+    "El rayo daña al jugador si entra en su altura"
+  ],
+  "alcance": "Casos controlados en vista previa real: reposicionamiento para probar dirección, terreno, patrullas, contacto, checkpoint y altura del rayo. Sin recorrido completo."
+}

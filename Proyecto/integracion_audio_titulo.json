@@ -1,0 +1,48 @@
+{
+  "version": "v21_audio_titulo_impacto",
+  "sha256": "91dbff5936b949fb2069203df21cb2d8814ab962aa49a5538c4a663e4d8ef585",
+  "sha256_anterior": "36ccc7dd8f00e0e262502c00abfc3693a0272ca769e607a3b89cfc16e061a696",
+  "respaldo": "C:\\Users\\Soul Hoshi\\Documents\\ChatGPT\\PAL - Desarrollo de videojuegos\\Entregas\\Historial\\Superadas\\Contra_Strike\\Antes_audio_titulo_v21\\Contra_Strike_con_menu.capx",
+  "eventos": 88,
+  "margen_eventos": 12,
+  "capas": 4,
+  "audio": {
+    "efectos": 12,
+    "formatos": [
+      "OGG",
+      "M4A"
+    ],
+    "bloques_dano": 6,
+    "pausa_etiquetas": [
+      "musica",
+      "ambiente",
+      "jugador",
+      "enemigos",
+      "impactos",
+      "dano"
+    ]
+  },
+  "titulo": {
+    "cuadros": 95,
+    "dimensiones": [
+      800,
+      460
+    ],
+    "fps": 12,
+    "tamano_menu": [
+      232,
+      133.4
+    ]
+  },
+  "instancias_juego_preservadas": true,
+  "estructura": "PASS",
+  "motor": "PASS: 74 comprobaciones y tres impactos de trayectoria natural",
+  "correccion_impacto": "pisoFijo.BBoxTop-14 considera la rotación de las colisiones",
+  "estado": "v21 integrada: título Flow, audio y misil con explosión en suelo girado. 74 pruebas puntuales en motor PASS y tres misiles con impacto natural observado. Recorrido manual completo y ajuste subjetivo de mezcla pendientes.",
+  "verificacion": {
+    "combate": "Analisis de demos\\evidencia\\Contra_Strike\\Jefe_v21_runtime\\verificacion.json",
+    "disparos y checkpoint": "Analisis de demos\\evidencia\\Contra_Strike\\Jefe_v21_runtime\\disparos_y_contacto.json",
+    "misil e impacto": "Analisis de demos\\evidencia\\Contra_Strike\\Misil_Impacto_v20_1\\verificacion.json",
+    "audio y título": "Analisis de demos\\evidencia\\Contra_Strike\\Audio_Titulo_v21\\verificacion.json"
+  }
+}

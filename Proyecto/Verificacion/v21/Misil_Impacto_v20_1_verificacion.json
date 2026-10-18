@@ -1,0 +1,22 @@
+{
+  "resultado": "PASS",
+  "sha256": "91dbff5936b949fb2069203df21cb2d8814ab962aa49a5538c4a663e4d8ef585",
+  "total": 13,
+  "tests": [
+    "Misil con ocho cuadros y explosión con diecinueve",
+    "Sin prototipo de explosión al iniciar",
+    "Patrón real crea un misil animado",
+    "El misil apunta según su velocidad",
+    "Un impacto crea una sola explosión en el suelo",
+    "El radio del impacto resta una carga",
+    "La explosión avanza de cuadro",
+    "El impacto no repite daño",
+    "Pausa congela la explosión",
+    "Explosión termina y se destruye sin repetir",
+    "Dos misiles simultáneos generan dos impactos",
+    "Fuera del radio no recibe daño",
+    "Sin errores JavaScript"
+  ],
+  "errors": [],
+  "alcance": "Vista previa de Construct 2. Activación y misil reales; reposicionamiento controlado de misil para probar suelo/radio. Dos proyectiles inyectados para probar impactos simultáneos. Sin partida manual completa."
+}

@@ -1,0 +1,10 @@
+{
+  "resultado": "PASS",
+  "recursos": 59,
+  "miniaturas": 78,
+  "audios_catalogados": 13,
+  "enlaces_audio_nuevos": 12,
+  "musica_original_ole_identica": true,
+  "sha256": "dfa747ec2c26b50704959459efd64963d7c25813fee1cf879afbfa413bcb230e",
+  "limite": "Paquete Office y render revisados; no prueba de reproducción OLE en Excel."
+}

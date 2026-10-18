@@ -1,0 +1,122 @@
+[
+  {
+    "archivo": "disparo_jugador_01",
+    "nombre": "Disparo del jugador 1",
+    "duracion_s": 0.22,
+    "evento": "Al crear CS_BalaJugador; alternar variantes",
+    "volumen_sugerido_db": -14,
+    "loop": false,
+    "peak_dbfs": -3.1,
+    "rms_dbfs": -17.67
+  },
+  {
+    "archivo": "disparo_jugador_02",
+    "nombre": "Disparo del jugador 2",
+    "duracion_s": 0.22,
+    "evento": "Al crear CS_BalaJugador; alternar variantes",
+    "volumen_sugerido_db": -14,
+    "loop": false,
+    "peak_dbfs": -3.1,
+    "rms_dbfs": -17.62
+  },
+  {
+    "archivo": "disparo_jugador_03",
+    "nombre": "Disparo del jugador 3",
+    "duracion_s": 0.22,
+    "evento": "Al crear CS_BalaJugador; alternar variantes",
+    "volumen_sugerido_db": -14,
+    "loop": false,
+    "peak_dbfs": -3.1,
+    "rms_dbfs": -17.64
+  },
+  {
+    "archivo": "misil_lanzamiento",
+    "nombre": "Lanzamiento del misil",
+    "duracion_s": 0.7,
+    "evento": "Al crear CS_ProyectilJefe con Tipo=2",
+    "volumen_sugerido_db": -10,
+    "loop": false,
+    "peak_dbfs": -3.1,
+    "rms_dbfs": -20.81
+  },
+  {
+    "archivo": "misil_explosion",
+    "nombre": "Explosión de impacto",
+    "duracion_s": 1.2,
+    "evento": "Al crear CS_ExplosionMisil, una sola vez",
+    "volumen_sugerido_db": -8,
+    "loop": false,
+    "peak_dbfs": -3.1,
+    "rms_dbfs": -22.69
+  },
+  {
+    "archivo": "mecha_aviso",
+    "nombre": "Aviso del mecha",
+    "duracion_s": 0.62,
+    "evento": "Al entrar en una fase de aviso; no Every tick",
+    "volumen_sugerido_db": -14,
+    "loop": false,
+    "peak_dbfs": -3.1,
+    "rms_dbfs": -12.38
+  },
+  {
+    "archivo": "mecha_rayo",
+    "nombre": "Disparo de rayo alienígena",
+    "duracion_s": 0.46,
+    "evento": "Al crear el rayo Tipo=3",
+    "volumen_sugerido_db": -13,
+    "loop": false,
+    "peak_dbfs": -3.1,
+    "rms_dbfs": -16.08
+  },
+  {
+    "archivo": "jugador_dano",
+    "nombre": "Daño al jugador",
+    "duracion_s": 0.25,
+    "evento": "Cuando CS_Energia disminuye; respetar invulnerabilidad",
+    "volumen_sugerido_db": -12,
+    "loop": false,
+    "peak_dbfs": -3.1,
+    "rms_dbfs": -18.71
+  },
+  {
+    "archivo": "menu_cursor",
+    "nombre": "Cursor del menú",
+    "duracion_s": 0.08,
+    "evento": "Al entrar sobre un botón; una vez por entrada",
+    "volumen_sugerido_db": -22,
+    "loop": false,
+    "peak_dbfs": -3.1,
+    "rms_dbfs": -10.36
+  },
+  {
+    "archivo": "menu_confirmar",
+    "nombre": "Confirmar opción",
+    "duracion_s": 0.24,
+    "evento": "Al pulsar Jugar, Reintentar o confirmar",
+    "volumen_sugerido_db": -17,
+    "loop": false,
+    "peak_dbfs": -3.1,
+    "rms_dbfs": -14.07
+  },
+  {
+    "archivo": "demo_victoria",
+    "nombre": "Demo completada",
+    "duracion_s": 1.55,
+    "evento": "Al entrar en CS_EstadoEnergia=2, una vez",
+    "volumen_sugerido_db": -12,
+    "loop": false,
+    "peak_dbfs": -3.1,
+    "rms_dbfs": -15.22
+  },
+  {
+    "archivo": "ambiente_alien_loop",
+    "nombre": "Ambiente alienígena tenue",
+    "duracion_s": 10.0,
+    "evento": "Inicio del nivel, etiqueta ambiente; detener al salir",
+    "volumen_sugerido_db": -22,
+    "loop": true,
+    "peak_dbfs": -14.89,
+    "rms_dbfs": -23.36
+  }
+]

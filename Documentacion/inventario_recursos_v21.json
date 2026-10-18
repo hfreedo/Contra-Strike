@@ -1,0 +1,899 @@
+{
+  "version": "v21",
+  "fecha": "2026-10-18",
+  "capx_sha256": "91dbff5936b949fb2069203df21cb2d8814ab962aa49a5538c4a663e4d8ef585",
+  "recursos": 59,
+  "miniaturas": 78,
+  "audio": 13,
+  "records": [
+    {
+      "name": "Personaje jugable quieto",
+      "type": "Personaje",
+      "description": "Una imagen de reposo. Se muestra al estar apoyado y sin movimiento.",
+      "objects": [
+        "Jugador"
+      ],
+      "animation": "quieto",
+      "source_files": [
+        "Animations/Jugador/quieto/000.png"
+      ],
+      "id": "CS-001",
+      "use": "Partida"
+    },
+    {
+      "name": "Personaje jugable caminar",
+      "type": "Personaje",
+      "description": "Cinco fotogramas de marcha. El dibujo cambia de orientación según la flecha pulsada.",
+      "objects": [
+        "Jugador"
+      ],
+      "animation": "caminar",
+      "source_files": [
+        "Animations/Jugador/caminar/000.png",
+        "Animations/Jugador/caminar/001.png",
+        "Animations/Jugador/caminar/002.png",
+        "Animations/Jugador/caminar/003.png",
+        "Animations/Jugador/caminar/004.png"
+      ],
+      "id": "CS-002",
+      "use": "Partida"
+    },
+    {
+      "name": "Personaje jugable saltar",
+      "type": "Personaje",
+      "description": "Cuatro fotogramas para el salto y la caída. El cuerpo físico conserva su tamaño.",
+      "objects": [
+        "Jugador"
+      ],
+      "animation": "Saltar",
+      "source_files": [
+        "Animations/Jugador/Saltar/000.png",
+        "Animations/Jugador/Saltar/001.png",
+        "Animations/Jugador/Saltar/002.png",
+        "Animations/Jugador/Saltar/003.png"
+      ],
+      "id": "CS-003",
+      "use": "Partida"
+    },
+    {
+      "name": "Explorador del menú",
+      "type": "Personaje",
+      "description": "Ilustración del explorador de espaldas y con las manos vacías. Es una imagen estática del menú.",
+      "objects": [
+        "CS_Explorador"
+      ],
+      "animation": "Default",
+      "source_files": [
+        "Animations/CS_Explorador/Default/000.png"
+      ],
+      "id": "CS-004",
+      "use": "Menú"
+    },
+    {
+      "name": "Mapa de la base alienígena",
+      "type": "Escenario",
+      "description": "Mapa visual del nivel. Los objetos de colisión del suelo y techo se colocan por separado.",
+      "objects": [
+        "Sprite4"
+      ],
+      "animation": "Default",
+      "source_files": [
+        "Animations/Sprite4/Default/000.png"
+      ],
+      "id": "CS-005",
+      "use": "Partida"
+    },
+    {
+      "name": "Fondo del menú",
+      "type": "Fondo",
+      "description": "Ilustración alienígena que ambienta la pantalla principal.",
+      "objects": [
+        "CS_Fondo"
+      ],
+      "animation": "Default",
+      "source_files": [
+        "Animations/CS_Fondo/Default/000.png"
+      ],
+      "id": "CS-006",
+      "use": "Menú"
+    },
+    {
+      "name": "Textura de fondo extendido",
+      "type": "Fondo",
+      "description": "Textura repetida detrás del mapa para cubrir la vista de la cámara, incluso arriba y abajo.",
+      "objects": [
+        "CS_FondoVertical"
+      ],
+      "animation": "Default",
+      "source_files": [
+        "Textures/CS_FondoVertical.png"
+      ],
+      "id": "CS-007",
+      "use": "Partida"
+    },
+    {
+      "name": "Base de botones",
+      "type": "Interfaz",
+      "description": "Misma base reutilizada para Jugar demo, Cómo jugar, Créditos, Volver, Menú y confirmación. Los rótulos son textos editables.",
+      "objects": [
+        "CS_Jugar",
+        "CS_Como",
+        "CS_Creditos",
+        "CS_Cerrar",
+        "CS_MenuJuego",
+        "CS_SalirSi",
+        "CS_SalirNo"
+      ],
+      "animation": "Default",
+      "source_files": [
+        "Animations/CS_Jugar/Default/000.png"
+      ],
+      "id": "CS-008",
+      "use": "Menú y partida"
+    },
+    {
+      "name": "Panel de información",
+      "type": "Interfaz",
+      "description": "Fondo compartido por ayuda, créditos y confirmación de salida. Los textos se añaden en Construct 2.",
+      "objects": [
+        "CS_Panel"
+      ],
+      "animation": "Default",
+      "source_files": [
+        "Animations/CS_Panel/Default/000.png"
+      ],
+      "id": "CS-009",
+      "use": "Menú y partida"
+    },
+    {
+      "name": "Título Contra Strike",
+      "type": "Identidad",
+      "description": "Título Flow animado: 95 cuadros transparentes, 800×460, 12 FPS. Chispas atenuadas en los bordes y respuesta al cursor.",
+      "objects": [
+        "CS_Titulo"
+      ],
+      "animation": "Default",
+      "source_files": [
+        "Animations/CS_Titulo/Default/000.png",
+        "Animations/CS_Titulo/Default/025.png",
+        "Animations/CS_Titulo/Default/050.png",
+        "Animations/CS_Titulo/Default/075.png"
+      ],
+      "id": "CS-010",
+      "use": "Menú"
+    },
+    {
+      "name": "Escudo del colegio",
+      "type": "Identidad",
+      "description": "Emblema de la institución que aparece en el menú.",
+      "objects": [
+        "CS_Colegio"
+      ],
+      "animation": "Default",
+      "source_files": [
+        "Animations/CS_Colegio/Default/000.png"
+      ],
+      "id": "CS-011",
+      "use": "Menú"
+    },
+    {
+      "name": "Música del nivel",
+      "type": "Audio",
+      "description": "Música en bucle al entrar a la partida. OGG original en el CAPX; copia M4A de escucha incrustada en Excel. El nombre del archivo la identifica como Contra NES Stage 8. Completar procedencia y créditos.",
+      "objects": [
+        "Audio"
+      ],
+      "animation": "",
+      "source_files": [
+        "Files/AudioCleaner_AudioCleaner_Download_Contra (Nes) - Stage 8 Music_20261001_162802.ogg"
+      ],
+      "id": "CS-012",
+      "use": "Proyecto"
+    },
+    {
+      "name": "Icono de exportación",
+      "type": "Exportación",
+      "description": "Recurso incluido para la carga o exportación del proyecto.",
+      "objects": [],
+      "animation": "",
+      "source_files": [
+        "Files/icon-16.png",
+        "Files/icon-32.png",
+        "Files/icon-114.png",
+        "Files/icon-128.png",
+        "Files/icon-256.png"
+      ],
+      "id": "CS-013",
+      "use": "Proyecto"
+    },
+    {
+      "name": "Logo de carga",
+      "type": "Exportación",
+      "description": "Recurso incluido para la carga o exportación del proyecto.",
+      "objects": [],
+      "animation": "",
+      "source_files": [
+        "Files/loading-logo.png"
+      ],
+      "id": "CS-014",
+      "use": "Proyecto"
+    },
+    {
+      "name": "Formas de colisión y reinicio",
+      "type": "Soporte",
+      "description": "Imagen compartida por pisoFijo (Solid), pisoTraspasable (Jumpthru), Techo (Solid) y zonaDeMuerte (reinicio). Sus funciones dependen del objeto, no del dibujo.",
+      "objects": [
+        "pisoFijo",
+        "pisoTraspasable",
+        "Techo",
+        "zonaDeMuerte"
+      ],
+      "animation": "Default",
+      "source_files": [
+        "Animations/pisoFijo/Default/000.png"
+      ],
+      "id": "CS-015",
+      "use": "Soporte del proyecto"
+    },
+    {
+      "name": "Fondo original superior",
+      "type": "Soporte",
+      "description": "Textura conservada del prototipo. Su instancia actual comienza invisible.",
+      "objects": [
+        "TiledBackground"
+      ],
+      "animation": "Default",
+      "source_files": [
+        "Textures/TiledBackground.png"
+      ],
+      "id": "CS-016",
+      "use": "Soporte del proyecto"
+    },
+    {
+      "name": "Imagen del prototipo",
+      "type": "Soporte",
+      "description": "Recurso conservado del proyecto original; revisar su función antes de reutilizarlo.",
+      "objects": [
+        "Sprite"
+      ],
+      "animation": "Default",
+      "source_files": [
+        "Animations/Sprite/Default/000.png"
+      ],
+      "id": "CS-017",
+      "use": "Soporte del proyecto"
+    },
+    {
+      "name": "Fondo original inferior",
+      "type": "Soporte",
+      "description": "Textura conservada del prototipo. Su instancia actual comienza invisible.",
+      "objects": [
+        "TiledBackground2"
+      ],
+      "animation": "Default",
+      "source_files": [
+        "Textures/TiledBackground2.png"
+      ],
+      "id": "CS-018",
+      "use": "Soporte del proyecto"
+    },
+    {
+      "name": "Cuerpo físico del jugador",
+      "type": "Soporte",
+      "description": "Rectángulo invisible con Platform y ScrollTo. Mantiene estable la colisión mientras cambia la animación.",
+      "objects": [
+        "CS_CuerpoJugador"
+      ],
+      "animation": "Default",
+      "source_files": [
+        "Animations/CS_CuerpoJugador/Default/000.png"
+      ],
+      "id": "CS-019",
+      "use": "Soporte del proyecto"
+    },
+    {
+      "id": "CS-020",
+      "name": "Marco de energía",
+      "type": "Interfaz",
+      "description": "Marco del indicador de tres cargas.",
+      "objects": [
+        "CS_EnergiaMarco"
+      ],
+      "animation": "Default",
+      "source_files": [
+        "Animations/CS_EnergiaMarco/Default/000.png"
+      ],
+      "use": "Partida"
+    },
+    {
+      "id": "CS-021",
+      "name": "Icono de energía",
+      "type": "Interfaz",
+      "description": "Identifica la energía del jugador.",
+      "objects": [
+        "CS_EnergiaIcono"
+      ],
+      "animation": "Default",
+      "source_files": [
+        "Animations/CS_EnergiaIcono/Default/000.png"
+      ],
+      "use": "Partida"
+    },
+    {
+      "id": "CS-022",
+      "name": "Segmentos de energía",
+      "type": "Interfaz",
+      "description": "Estados lleno, vacío y daño para los tres segmentos del HUD.",
+      "objects": [
+        "CS_Energia1",
+        "CS_Energia2",
+        "CS_Energia3"
+      ],
+      "animation": "lleno, vacio, danio",
+      "source_files": [
+        "Animations/CS_Energia1/lleno/000.png",
+        "Animations/CS_Energia1/vacio/000.png",
+        "Animations/CS_Energia1/danio/000.png"
+      ],
+      "use": "Partida"
+    },
+    {
+      "id": "CS-023",
+      "name": "Panel de resultado",
+      "type": "Interfaz",
+      "description": "Base de las pantallas de derrota y demo completada.",
+      "objects": [
+        "CS_DerrotaPanel"
+      ],
+      "animation": "Default",
+      "source_files": [
+        "Animations/CS_DerrotaPanel/Default/000.png"
+      ],
+      "use": "Partida"
+    },
+    {
+      "id": "CS-024",
+      "name": "Botón Reintentar",
+      "type": "Interfaz",
+      "description": "Reinicia la partida desde la pantalla de resultado.",
+      "objects": [
+        "CS_Reintentar"
+      ],
+      "animation": "Default",
+      "source_files": [
+        "Animations/CS_Reintentar/Default/000.png"
+      ],
+      "use": "Partida"
+    },
+    {
+      "id": "CS-025",
+      "name": "Botón volver al menú",
+      "type": "Interfaz",
+      "description": "Regresa al menú desde la pantalla de resultado.",
+      "objects": [
+        "CS_DerrotaMenu"
+      ],
+      "animation": "Default",
+      "source_files": [
+        "Animations/CS_DerrotaMenu/Default/000.png"
+      ],
+      "use": "Partida"
+    },
+    {
+      "id": "CS-026",
+      "name": "Alien bípedo",
+      "type": "Enemigo",
+      "description": "Patrulla animada de ocho cuadros; recibe impactos del jugador.",
+      "objects": [
+        "CS_AlienBipedo"
+      ],
+      "animation": "Caminar",
+      "source_files": [
+        "Animations/CS_AlienBipedo/Caminar/000.png",
+        "Animations/CS_AlienBipedo/Caminar/004.png",
+        "Animations/CS_AlienBipedo/Caminar/007.png"
+      ],
+      "use": "Partida"
+    },
+    {
+      "id": "CS-027",
+      "name": "Alien corredor",
+      "type": "Enemigo",
+      "description": "Patrulla animada de doce cuadros; recibe impactos del jugador.",
+      "objects": [
+        "CS_AlienCorredor"
+      ],
+      "animation": "Caminar",
+      "source_files": [
+        "Animations/CS_AlienCorredor/Caminar/000.png",
+        "Animations/CS_AlienCorredor/Caminar/006.png",
+        "Animations/CS_AlienCorredor/Caminar/011.png"
+      ],
+      "use": "Partida"
+    },
+    {
+      "id": "CS-028",
+      "name": "Conducto alienígena",
+      "type": "Ambiente",
+      "description": "Decoración de maquinaria del escenario.",
+      "objects": [
+        "CS_AmbConducto"
+      ],
+      "animation": "Default",
+      "source_files": [
+        "Animations/CS_AmbConducto/Default/000.png"
+      ],
+      "use": "Partida"
+    },
+    {
+      "id": "CS-029",
+      "name": "Ventilación alienígena",
+      "type": "Ambiente",
+      "description": "Decoración de ventilación del escenario.",
+      "objects": [
+        "CS_AmbVentila"
+      ],
+      "animation": "Default",
+      "source_files": [
+        "Animations/CS_AmbVentila/Default/000.png"
+      ],
+      "use": "Partida"
+    },
+    {
+      "id": "CS-030",
+      "name": "Panel tecnológico",
+      "type": "Ambiente",
+      "description": "Dispositivo de la base alienígena.",
+      "objects": [
+        "CS_AmbPanel"
+      ],
+      "animation": "Default",
+      "source_files": [
+        "Animations/CS_AmbPanel/Default/000.png"
+      ],
+      "use": "Partida"
+    },
+    {
+      "id": "CS-031",
+      "name": "Luz del dispositivo",
+      "type": "Ambiente",
+      "description": "Emisión luminosa de maquinaria.",
+      "objects": [
+        "CS_AmbLuz"
+      ],
+      "animation": "Default",
+      "source_files": [
+        "Animations/CS_AmbLuz/Default/000.png"
+      ],
+      "use": "Partida"
+    },
+    {
+      "id": "CS-032",
+      "name": "Cristal luminoso",
+      "type": "Ambiente",
+      "description": "Decoración con brillo variable.",
+      "objects": [
+        "CS_AmbCristal"
+      ],
+      "animation": "Default",
+      "source_files": [
+        "Animations/CS_AmbCristal/Default/000.png"
+      ],
+      "use": "Partida"
+    },
+    {
+      "id": "CS-033",
+      "name": "Halo violeta",
+      "type": "Ambiente",
+      "description": "Luz suave alrededor de los cristales.",
+      "objects": [
+        "CS_AmbHaloVioleta"
+      ],
+      "animation": "Default",
+      "source_files": [
+        "Animations/CS_AmbHaloVioleta/Default/000.png"
+      ],
+      "use": "Partida"
+    },
+    {
+      "id": "CS-034",
+      "name": "Halo ámbar",
+      "type": "Ambiente",
+      "description": "Luz cálida de los dispositivos.",
+      "objects": [
+        "CS_AmbHaloAmbar"
+      ],
+      "animation": "Default",
+      "source_files": [
+        "Animations/CS_AmbHaloAmbar/Default/000.png"
+      ],
+      "use": "Partida"
+    },
+    {
+      "id": "CS-035",
+      "name": "Chispa ambiental",
+      "type": "Ambiente",
+      "description": "Partículas de maquinaria.",
+      "objects": [
+        "CS_AmbChispa"
+      ],
+      "animation": "Default",
+      "source_files": [
+        "Animations/CS_AmbChispa/Default/000.png"
+      ],
+      "use": "Partida"
+    },
+    {
+      "id": "CS-036",
+      "name": "Tono de la atmósfera",
+      "type": "Ambiente",
+      "description": "Coloración suave del nivel.",
+      "objects": [
+        "CS_AtmTono"
+      ],
+      "animation": "Default",
+      "source_files": [
+        "Animations/CS_AtmTono/Default/000.png"
+      ],
+      "use": "Partida"
+    },
+    {
+      "id": "CS-037",
+      "name": "Bruma lejana",
+      "type": "Ambiente",
+      "description": "Neblina de fondo tenue.",
+      "objects": [
+        "CS_AtmBrumaLejos"
+      ],
+      "animation": "Default",
+      "source_files": [
+        "Animations/CS_AtmBrumaLejos/Default/000.png"
+      ],
+      "use": "Partida"
+    },
+    {
+      "id": "CS-038",
+      "name": "Bruma cercana",
+      "type": "Ambiente",
+      "description": "Neblina del primer plano; atenuada en la entrada.",
+      "objects": [
+        "CS_AtmBrumaCerca"
+      ],
+      "animation": "Default",
+      "source_files": [
+        "Animations/CS_AtmBrumaCerca/Default/000.png"
+      ],
+      "use": "Partida"
+    },
+    {
+      "id": "CS-039",
+      "name": "Motas ambientales",
+      "type": "Ambiente",
+      "description": "Partículas suspendidas en el nivel.",
+      "objects": [
+        "CS_AtmMota"
+      ],
+      "animation": "Default",
+      "source_files": [
+        "Animations/CS_AtmMota/Default/000.png"
+      ],
+      "use": "Partida"
+    },
+    {
+      "id": "CS-040",
+      "name": "Penumbra exterior",
+      "type": "Ambiente",
+      "description": "Oscurece los límites y áreas fuera del mapa.",
+      "objects": [
+        "CS_PenumbraExterior"
+      ],
+      "animation": "Default",
+      "source_files": [
+        "Animations/CS_PenumbraExterior/Default/000.png"
+      ],
+      "use": "Partida"
+    },
+    {
+      "id": "CS-041",
+      "name": "Jefe mecha",
+      "type": "Enemigo",
+      "description": "Nueve animaciones, 72 cuadros y 24 puntos de vida. Ciclo de 17 s con avisos, ataques y recuperación.",
+      "objects": [
+        "CS_Jefe"
+      ],
+      "animation": "reposo, movimiento, disparo_principal, canones_secundarios, rayos_laterales, misiles, danio, explosion, desaparicion",
+      "source_files": [
+        "Animations/CS_Jefe/reposo/000.png",
+        "Animations/CS_Jefe/movimiento/000.png",
+        "Animations/CS_Jefe/disparo_principal/000.png",
+        "Animations/CS_Jefe/canones_secundarios/000.png",
+        "Animations/CS_Jefe/rayos_laterales/000.png",
+        "Animations/CS_Jefe/misiles/000.png",
+        "Animations/CS_Jefe/danio/000.png",
+        "Animations/CS_Jefe/explosion/000.png",
+        "Animations/CS_Jefe/desaparicion/000.png"
+      ],
+      "use": "Partida"
+    },
+    {
+      "id": "CS-042",
+      "name": "Proyectil del jugador",
+      "type": "Efecto",
+      "description": "Disparo con Z; se destruye al tocar terreno o enemigos.",
+      "objects": [
+        "CS_BalaJugador"
+      ],
+      "animation": "Default",
+      "source_files": [
+        "Animations/CS_BalaJugador/Default/000.png"
+      ],
+      "use": "Partida"
+    },
+    {
+      "id": "CS-043",
+      "name": "Proyectiles del mecha",
+      "type": "Efecto",
+      "description": "Bala, misil de ocho cuadros y rayo. El misil gira con su trayectoria; la llama no forma parte de su colisión.",
+      "objects": [
+        "CS_ProyectilJefe"
+      ],
+      "animation": "bala, misil, rayo",
+      "source_files": [
+        "Animations/CS_ProyectilJefe/bala/000.png",
+        "Animations/CS_ProyectilJefe/misil/000.png",
+        "Animations/CS_ProyectilJefe/rayo/000.png"
+      ],
+      "use": "Partida"
+    },
+    {
+      "id": "CS-044",
+      "name": "Marco de vida del jefe",
+      "type": "Interfaz",
+      "description": "Contorno de la barra de vida del mecha.",
+      "objects": [
+        "CS_JefeMarco"
+      ],
+      "animation": "Default",
+      "source_files": [
+        "Animations/CS_JefeMarco/Default/000.png"
+      ],
+      "use": "Partida"
+    },
+    {
+      "id": "CS-045",
+      "name": "Barra de vida del jefe",
+      "type": "Interfaz",
+      "description": "Relleno proporcional a los 24 puntos de vida.",
+      "objects": [
+        "CS_JefeBarra"
+      ],
+      "animation": "Default",
+      "source_files": [
+        "Animations/CS_JefeBarra/Default/000.png"
+      ],
+      "use": "Partida"
+    },
+    {
+      "id": "CS-046",
+      "name": "Aviso de caída del misil",
+      "type": "Interfaz",
+      "description": "Marca la posición objetivo antes del lanzamiento.",
+      "objects": [
+        "CS_MarcaMisil"
+      ],
+      "animation": "Default",
+      "source_files": [
+        "Animations/CS_MarcaMisil/Default/000.png"
+      ],
+      "use": "Partida"
+    },
+    {
+      "id": "CS-047",
+      "name": "Explosión del misil",
+      "type": "Efecto",
+      "description": "19 cuadros, 1 s y una sola reproducción. Aparece en la superficie real del suelo. Radio de daño inicial: 34 px.",
+      "objects": [
+        "CS_ExplosionMisil"
+      ],
+      "animation": "Impacto",
+      "source_files": [
+        "Animations/CS_ExplosionMisil/Impacto/000.png",
+        "Animations/CS_ExplosionMisil/Impacto/009.png",
+        "Animations/CS_ExplosionMisil/Impacto/018.png"
+      ],
+      "use": "Partida"
+    },
+    {
+      "id": "CS-048",
+      "name": "Disparo del jugador 1",
+      "type": "Audio",
+      "description": "Al crear CS_BalaJugador; alternar variantes. 0.22 s; mezcla inicial -14 dB. Una reproducción por evento.",
+      "objects": [
+        "Audio"
+      ],
+      "animation": "",
+      "source_files": [
+        "Files/disparo_jugador_01.ogg",
+        "Files/disparo_jugador_01.m4a"
+      ],
+      "use": "Partida",
+      "link": "https://github.com/hfreedo/Contra-Strike/raw/refs/heads/main/Proyecto/Assets/Audio/Propuesta_v1/M4A/disparo_jugador_01.m4a"
+    },
+    {
+      "id": "CS-049",
+      "name": "Disparo del jugador 2",
+      "type": "Audio",
+      "description": "Al crear CS_BalaJugador; alternar variantes. 0.22 s; mezcla inicial -14 dB. Una reproducción por evento.",
+      "objects": [
+        "Audio"
+      ],
+      "animation": "",
+      "source_files": [
+        "Files/disparo_jugador_02.ogg",
+        "Files/disparo_jugador_02.m4a"
+      ],
+      "use": "Partida",
+      "link": "https://github.com/hfreedo/Contra-Strike/raw/refs/heads/main/Proyecto/Assets/Audio/Propuesta_v1/M4A/disparo_jugador_02.m4a"
+    },
+    {
+      "id": "CS-050",
+      "name": "Disparo del jugador 3",
+      "type": "Audio",
+      "description": "Al crear CS_BalaJugador; alternar variantes. 0.22 s; mezcla inicial -14 dB. Una reproducción por evento.",
+      "objects": [
+        "Audio"
+      ],
+      "animation": "",
+      "source_files": [
+        "Files/disparo_jugador_03.ogg",
+        "Files/disparo_jugador_03.m4a"
+      ],
+      "use": "Partida",
+      "link": "https://github.com/hfreedo/Contra-Strike/raw/refs/heads/main/Proyecto/Assets/Audio/Propuesta_v1/M4A/disparo_jugador_03.m4a"
+    },
+    {
+      "id": "CS-051",
+      "name": "Lanzamiento del misil",
+      "type": "Audio",
+      "description": "Al crear CS_ProyectilJefe con Tipo=2. 0.7 s; mezcla inicial -10 dB. Una reproducción por evento.",
+      "objects": [
+        "Audio"
+      ],
+      "animation": "",
+      "source_files": [
+        "Files/misil_lanzamiento.ogg",
+        "Files/misil_lanzamiento.m4a"
+      ],
+      "use": "Partida",
+      "link": "https://github.com/hfreedo/Contra-Strike/raw/refs/heads/main/Proyecto/Assets/Audio/Propuesta_v1/M4A/misil_lanzamiento.m4a"
+    },
+    {
+      "id": "CS-052",
+      "name": "Explosión de impacto",
+      "type": "Audio",
+      "description": "Al crear CS_ExplosionMisil, una sola vez. 1.2 s; mezcla inicial -8 dB. Una reproducción por evento.",
+      "objects": [
+        "Audio"
+      ],
+      "animation": "",
+      "source_files": [
+        "Files/misil_explosion.ogg",
+        "Files/misil_explosion.m4a"
+      ],
+      "use": "Partida",
+      "link": "https://github.com/hfreedo/Contra-Strike/raw/refs/heads/main/Proyecto/Assets/Audio/Propuesta_v1/M4A/misil_explosion.m4a"
+    },
+    {
+      "id": "CS-053",
+      "name": "Aviso del mecha",
+      "type": "Audio",
+      "description": "Al entrar en una fase de aviso; no Every tick. 0.62 s; mezcla inicial -14 dB. Una reproducción por evento.",
+      "objects": [
+        "Audio"
+      ],
+      "animation": "",
+      "source_files": [
+        "Files/mecha_aviso.ogg",
+        "Files/mecha_aviso.m4a"
+      ],
+      "use": "Partida",
+      "link": "https://github.com/hfreedo/Contra-Strike/raw/refs/heads/main/Proyecto/Assets/Audio/Propuesta_v1/M4A/mecha_aviso.m4a"
+    },
+    {
+      "id": "CS-054",
+      "name": "Disparo de rayo alienígena",
+      "type": "Audio",
+      "description": "Al crear el rayo Tipo=3. 0.46 s; mezcla inicial -13 dB. Una reproducción por evento.",
+      "objects": [
+        "Audio"
+      ],
+      "animation": "",
+      "source_files": [
+        "Files/mecha_rayo.ogg",
+        "Files/mecha_rayo.m4a"
+      ],
+      "use": "Partida",
+      "link": "https://github.com/hfreedo/Contra-Strike/raw/refs/heads/main/Proyecto/Assets/Audio/Propuesta_v1/M4A/mecha_rayo.m4a"
+    },
+    {
+      "id": "CS-055",
+      "name": "Daño al jugador",
+      "type": "Audio",
+      "description": "Cuando CS_Energia disminuye; respetar invulnerabilidad. 0.25 s; mezcla inicial -12 dB. Una reproducción por evento.",
+      "objects": [
+        "Audio"
+      ],
+      "animation": "",
+      "source_files": [
+        "Files/jugador_dano.ogg",
+        "Files/jugador_dano.m4a"
+      ],
+      "use": "Partida",
+      "link": "https://github.com/hfreedo/Contra-Strike/raw/refs/heads/main/Proyecto/Assets/Audio/Propuesta_v1/M4A/jugador_dano.m4a"
+    },
+    {
+      "id": "CS-056",
+      "name": "Cursor del menú",
+      "type": "Audio",
+      "description": "Al entrar sobre un botón; una vez por entrada. 0.08 s; mezcla inicial -22 dB. Una reproducción por evento.",
+      "objects": [
+        "Audio"
+      ],
+      "animation": "",
+      "source_files": [
+        "Files/menu_cursor.ogg",
+        "Files/menu_cursor.m4a"
+      ],
+      "use": "Menú",
+      "link": "https://github.com/hfreedo/Contra-Strike/raw/refs/heads/main/Proyecto/Assets/Audio/Propuesta_v1/M4A/menu_cursor.m4a"
+    },
+    {
+      "id": "CS-057",
+      "name": "Confirmar opción",
+      "type": "Audio",
+      "description": "Al pulsar Jugar, Reintentar o confirmar. 0.24 s; mezcla inicial -17 dB. Una reproducción por evento.",
+      "objects": [
+        "Audio"
+      ],
+      "animation": "",
+      "source_files": [
+        "Files/menu_confirmar.ogg",
+        "Files/menu_confirmar.m4a"
+      ],
+      "use": "Menú",
+      "link": "https://github.com/hfreedo/Contra-Strike/raw/refs/heads/main/Proyecto/Assets/Audio/Propuesta_v1/M4A/menu_confirmar.m4a"
+    },
+    {
+      "id": "CS-058",
+      "name": "Demo completada",
+      "type": "Audio",
+      "description": "Al entrar en CS_EstadoEnergia=2, una vez. 1.55 s; mezcla inicial -12 dB. Una reproducción por evento.",
+      "objects": [
+        "Audio"
+      ],
+      "animation": "",
+      "source_files": [
+        "Files/demo_victoria.ogg",
+        "Files/demo_victoria.m4a"
+      ],
+      "use": "Partida",
+      "link": "https://github.com/hfreedo/Contra-Strike/raw/refs/heads/main/Proyecto/Assets/Audio/Propuesta_v1/M4A/demo_victoria.m4a"
+    },
+    {
+      "id": "CS-059",
+      "name": "Ambiente alienígena tenue",
+      "type": "Audio",
+      "description": "Inicio del nivel, etiqueta ambiente; detener al salir. 10.0 s; mezcla inicial -22 dB. Bucle.",
+      "objects": [
+        "Audio"
+      ],
+      "animation": "",
+      "source_files": [
+        "Files/ambiente_alien_loop.ogg",
+        "Files/ambiente_alien_loop.m4a"
+      ],
+      "use": "Partida",
+      "link": "https://github.com/hfreedo/Contra-Strike/raw/refs/heads/main/Proyecto/Assets/Audio/Propuesta_v1/M4A/ambiente_alien_loop.m4a"
+    }
+  ]
+}

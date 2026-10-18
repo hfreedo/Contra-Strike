@@ -1,11 +1,11 @@
 # 🪐 Contra Strike — Un Mundo por Descubrir
 
-## Versión vigente: v20.0
+## Versión vigente: v21.0
 
-Jefe mecha con nueve animaciones, disparos con Z, barra de vida y patrón de ataques. Atmósfera conservada; 81 eventos y cuatro capas.
+Título Flow animado, sonido sincronizado y misil con explosión en el punto de impacto. Incluye el jefe mecha; 88 eventos y cuatro capas.
 
 - **Abrir en Construct 2:** [`Proyecto/Contra_Strike_con_menu.capx`](Proyecto/Contra_Strike_con_menu.capx).
-- **Descargar:** [CAPX](https://github.com/hfreedo/Contra-Strike/releases/download/v20.0/Contra_Strike_con_menu.capx) · [paquete de proyecto y recursos](https://github.com/hfreedo/Contra-Strike/releases/download/v20.0/Contra_Strike_actual_v20.zip).
+- **Descargar:** [CAPX](https://github.com/hfreedo/Contra-Strike/releases/download/v21.0/Contra_Strike_con_menu.capx) · [paquete de proyecto y recursos](https://github.com/hfreedo/Contra-Strike/releases/download/v21.0/Contra_Strike_actual_v21.zip).
 - **Historial:** [CHANGELOG.md](CHANGELOG.md). Las versiones anteriores se conservan en Git y Releases.
 - **Pruebas y límites:** [Proyecto/VALIDACION.md](Proyecto/VALIDACION.md). Los recursos de etapas anteriores conservan sus nombres originales.
 
@@ -16,7 +16,7 @@ Jefe mecha con nueve animaciones, disparos con Z, barra de vida y patrón de ata
 
 <p align="center">
   <a href="https://github.com/hfreedo/Contra-Strike/releases/latest/download/Contra_Strike_con_menu.capx">
-    <img src="https://img.shields.io/badge/🎮_Descargar_Juego_Integrado_v20-Contra__Strike__con__menu.capx-22c55e?style=for-the-badge" alt="Descargar CAPX v20 con Menú y Patrullas">
+    <img src="https://img.shields.io/badge/🎮_Descargar_Juego_Integrado_v21-Contra__Strike__con__menu.capx-22c55e?style=for-the-badge" alt="Descargar CAPX v21 con Menú y Patrullas">
   </a>
   <a href="https://github.com/hfreedo/Contra-Strike/raw/refs/heads/main/Proyecto/Contra_Strike_original.capx">
     <img src="https://img.shields.io/badge/🕹️_Descargar_Proyecto_Original-Contra__Strike__original.capx-7c3aed?style=for-the-badge" alt="Descargar CAPX Original">
@@ -27,14 +27,14 @@ Jefe mecha con nueve animaciones, disparos con Z, barra de vida y patrón de ata
 
 ## 👋 ¡Bienvenidos al repositorio oficial de Contra Strike!
 
-Este repositorio contiene la versión más avanzada del proyecto **Contra Strike** (desarrollado en **Construct 2**): la **Entrega v20**, que incluye el **menú principal interactivo**, **dos patrullas de enemigos alienígenas animados con daño por contacto**, la **interfaz de energía HD integrada en el HUD**, **física de salto y avance suavemente calibrada**, escenarios extendidos y la portada imprimible para el stand escolar.
+Este repositorio contiene la versión más avanzada del proyecto **Contra Strike** (desarrollado en **Construct 2**): la **Entrega v21**, que incluye el **menú principal interactivo**, **dos patrullas de enemigos alienígenas animados con daño por contacto**, la **interfaz de energía HD integrada en el HUD**, **física de salto y avance suavemente calibrada**, escenarios extendidos y la portada imprimible para el stand escolar.
 
 ---
 
 ## 📥 1. ¿Cómo descargar el juego y los recursos? (Guía para alumnos)
 
 1. **Quiero el juego completo con Menú, Patrullas y Energía HD listo para jugar en Construct 2 (⭐ Muy Recomendado):**
-   - Haz clic en el botón verde superior **🎮 Descargar Juego Integrado v20 (`Contra_Strike_con_menu.capx`)** o entra en [`Proyecto/Contra_Strike_con_menu.capx`](Proyecto/Contra_Strike_con_menu.capx) y pulsa **Download raw file**.
+   - Haz clic en el botón verde superior **🎮 Descargar Juego Integrado v21 (`Contra_Strike_con_menu.capx`)** o entra en [`Proyecto/Contra_Strike_con_menu.capx`](Proyecto/Contra_Strike_con_menu.capx) y pulsa **Download raw file**.
    - ¡Ya tiene los enemigos patrullando, colisiones de techo reparadas, barra de energía HD y menú conectado!
 2. **Quiero descargar versiones anteriores o archivos individuales:**
    - Visita la sección [**Releases (Lanzamientos)**](https://github.com/hfreedo/Contra-Strike/releases) para obtener `Contra_Strike_con_menu.capx`, `Contra_Strike_original.capx` o kits en `.zip`.
@@ -43,9 +43,9 @@ Este repositorio contiene la versión más avanzada del proyecto **Contra Strike
 
 ---
 
-## Jefe final v20
+## Jefe final v21
 
-Ver [patrón y controles](Proyecto/JEFE_MECHA_PATRON.md). La última corrección de reaparición tiene prueba de motor pendiente; consultar [validación](Proyecto/VALIDACION.md).
+Ver [patrón y controles](Proyecto/JEFE_MECHA_PATRON.md). 74 pruebas de motor pasaron, incluida la reaparición en la arena; consultar [validación](Proyecto/VALIDACION.md).
 
 ## 👾 2. Novedades de la Versión v12 (Patrullas Alienígenas, Energía HD y Movimiento Suave)
 

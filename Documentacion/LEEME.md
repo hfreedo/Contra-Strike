@@ -1,9 +1,7 @@
-# Documentos de Contra Strike
+# Documentación de Contra Strike
 
-- [GDD Contra Strike.docx](GDD%20Contra%20Strike.docx): diseño del juego, organización y bitácora del grupo.
-- [Inventario Contra Strike.xlsx](Inventario%20Contra%20Strike.xlsx): 19 recursos agrupados, 25 miniaturas y una copia M4A de escucha de la música incrustada.
-- [Guía Contra Strike.pptx](Gu%C3%ADa%20Contra%20Strike.pptx): diez diapositivas con navegación interna.
+- Inventario Contra Strike.xlsx: actualizado a v21, con 59 recursos agrupados y 78 miniaturas. Conserva la música original incrustada y añade enlaces M4A de los 12 sonidos sintetizados nuevos. Para la música incrustada se necesita Excel de escritorio y un reproductor asociado; los enlaces requieren Internet.
+- inventario_recursos_v21.json: listado de recursos y objetos con el SHA-256 del CAPX de referencia.
+- GDD Contra Strike.docx y Guía Contra Strike.pptx: documentación de una etapa anterior, conservada como antecedente. Consultar Proyecto/LEEME.md y Proyecto/VALIDACION.md para el juego vigente.
 
-Descargar los archivos para editarlos en Office. El audio incrustado requiere Excel de escritorio para Windows y un reproductor asociado a M4A. Los enlaces de la guía funcionan en modo presentación.
-
-Completar los integrantes, responsables y créditos reales. Las pruebas pendientes figuran en el GDD. Las imágenes y los audios necesarios están dentro de los documentos.
+El inventario enumera tanto recursos del juego actual como recursos de soporte conservados del prototipo. Las vistas previas son muestras, no todos los fotogramas de cada animación. El libro y las relaciones de sus enlaces se verificaron estructuralmente; la reproducción del objeto OLE no se volvió a probar en Excel.

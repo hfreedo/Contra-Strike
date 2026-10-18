@@ -1,0 +1,851 @@
+{
+  "version": "v21",
+  "fecha": "2026-10-18",
+  "capx_sha256": "91dbff5936b949fb2069203df21cb2d8814ab962aa49a5538c4a663e4d8ef585",
+  "eventos": 88,
+  "capas": 4,
+  "pruebas_motor": 74,
+  "trayectorias_naturales": 3,
+  "sprites_y_animaciones": [
+    {
+      "objeto": "Sprite4",
+      "plugin": "Sprite",
+      "animaciones": [
+        {
+          "nombre": "Default",
+          "cuadros": 1,
+          "fps": 5.0,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "objeto": "pisoFijo",
+      "plugin": "Sprite",
+      "animaciones": [
+        {
+          "nombre": "Default",
+          "cuadros": 1,
+          "fps": 5.0,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "objeto": "pisoTraspasable",
+      "plugin": "Sprite",
+      "animaciones": [
+        {
+          "nombre": "Default",
+          "cuadros": 1,
+          "fps": 5.0,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "objeto": "Techo",
+      "plugin": "Sprite",
+      "animaciones": [
+        {
+          "nombre": "Default",
+          "cuadros": 1,
+          "fps": 5.0,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "objeto": "Jugador",
+      "plugin": "Sprite",
+      "animaciones": [
+        {
+          "nombre": "quieto",
+          "cuadros": 1,
+          "fps": 5.0,
+          "loop": false
+        },
+        {
+          "nombre": "caminar",
+          "cuadros": 5,
+          "fps": 5.0,
+          "loop": true
+        },
+        {
+          "nombre": "Saltar",
+          "cuadros": 4,
+          "fps": 5.0,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "objeto": "zonaDeMuerte",
+      "plugin": "Sprite",
+      "animaciones": [
+        {
+          "nombre": "Default",
+          "cuadros": 1,
+          "fps": 5.0,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "objeto": "Sprite",
+      "plugin": "Sprite",
+      "animaciones": [
+        {
+          "nombre": "Default",
+          "cuadros": 1,
+          "fps": 5.0,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "objeto": "CS_Fondo",
+      "plugin": "Sprite",
+      "animaciones": [
+        {
+          "nombre": "Default",
+          "cuadros": 1,
+          "fps": 5.0,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "objeto": "CS_Explorador",
+      "plugin": "Sprite",
+      "animaciones": [
+        {
+          "nombre": "Default",
+          "cuadros": 1,
+          "fps": 5.0,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "objeto": "CS_Titulo",
+      "plugin": "Sprite",
+      "animaciones": [
+        {
+          "nombre": "Default",
+          "cuadros": 95,
+          "fps": 12.0,
+          "loop": true
+        }
+      ]
+    },
+    {
+      "objeto": "CS_Colegio",
+      "plugin": "Sprite",
+      "animaciones": [
+        {
+          "nombre": "Default",
+          "cuadros": 1,
+          "fps": 5.0,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "objeto": "CS_Jugar",
+      "plugin": "Sprite",
+      "animaciones": [
+        {
+          "nombre": "Default",
+          "cuadros": 1,
+          "fps": 5.0,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "objeto": "CS_Como",
+      "plugin": "Sprite",
+      "animaciones": [
+        {
+          "nombre": "Default",
+          "cuadros": 1,
+          "fps": 5.0,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "objeto": "CS_Creditos",
+      "plugin": "Sprite",
+      "animaciones": [
+        {
+          "nombre": "Default",
+          "cuadros": 1,
+          "fps": 5.0,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "objeto": "CS_Panel",
+      "plugin": "Sprite",
+      "animaciones": [
+        {
+          "nombre": "Default",
+          "cuadros": 1,
+          "fps": 5.0,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "objeto": "CS_Cerrar",
+      "plugin": "Sprite",
+      "animaciones": [
+        {
+          "nombre": "Default",
+          "cuadros": 1,
+          "fps": 5.0,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "objeto": "CS_MenuJuego",
+      "plugin": "Sprite",
+      "animaciones": [
+        {
+          "nombre": "Default",
+          "cuadros": 1,
+          "fps": 5.0,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "objeto": "CS_SalirSi",
+      "plugin": "Sprite",
+      "animaciones": [
+        {
+          "nombre": "Default",
+          "cuadros": 1,
+          "fps": 5.0,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "objeto": "CS_SalirNo",
+      "plugin": "Sprite",
+      "animaciones": [
+        {
+          "nombre": "Default",
+          "cuadros": 1,
+          "fps": 5.0,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "objeto": "CS_CuerpoJugador",
+      "plugin": "Sprite",
+      "animaciones": [
+        {
+          "nombre": "Default",
+          "cuadros": 1,
+          "fps": 0.0,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "objeto": "CS_EnergiaMarco",
+      "plugin": "Sprite",
+      "animaciones": [
+        {
+          "nombre": "Default",
+          "cuadros": 1,
+          "fps": 0.0,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "objeto": "CS_EnergiaIcono",
+      "plugin": "Sprite",
+      "animaciones": [
+        {
+          "nombre": "Default",
+          "cuadros": 1,
+          "fps": 0.0,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "objeto": "CS_Energia1",
+      "plugin": "Sprite",
+      "animaciones": [
+        {
+          "nombre": "lleno",
+          "cuadros": 1,
+          "fps": 0.0,
+          "loop": false
+        },
+        {
+          "nombre": "vacio",
+          "cuadros": 1,
+          "fps": 0.0,
+          "loop": false
+        },
+        {
+          "nombre": "danio",
+          "cuadros": 1,
+          "fps": 0.0,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "objeto": "CS_Energia2",
+      "plugin": "Sprite",
+      "animaciones": [
+        {
+          "nombre": "lleno",
+          "cuadros": 1,
+          "fps": 0.0,
+          "loop": false
+        },
+        {
+          "nombre": "vacio",
+          "cuadros": 1,
+          "fps": 0.0,
+          "loop": false
+        },
+        {
+          "nombre": "danio",
+          "cuadros": 1,
+          "fps": 0.0,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "objeto": "CS_Energia3",
+      "plugin": "Sprite",
+      "animaciones": [
+        {
+          "nombre": "lleno",
+          "cuadros": 1,
+          "fps": 0.0,
+          "loop": false
+        },
+        {
+          "nombre": "vacio",
+          "cuadros": 1,
+          "fps": 0.0,
+          "loop": false
+        },
+        {
+          "nombre": "danio",
+          "cuadros": 1,
+          "fps": 0.0,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "objeto": "CS_DerrotaPanel",
+      "plugin": "Sprite",
+      "animaciones": [
+        {
+          "nombre": "Default",
+          "cuadros": 1,
+          "fps": 0.0,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "objeto": "CS_Reintentar",
+      "plugin": "Sprite",
+      "animaciones": [
+        {
+          "nombre": "Default",
+          "cuadros": 1,
+          "fps": 0.0,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "objeto": "CS_DerrotaMenu",
+      "plugin": "Sprite",
+      "animaciones": [
+        {
+          "nombre": "Default",
+          "cuadros": 1,
+          "fps": 0.0,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "objeto": "CS_AlienBipedo",
+      "plugin": "Sprite",
+      "animaciones": [
+        {
+          "nombre": "Caminar",
+          "cuadros": 8,
+          "fps": 10.0,
+          "loop": true
+        }
+      ]
+    },
+    {
+      "objeto": "CS_AlienCorredor",
+      "plugin": "Sprite",
+      "animaciones": [
+        {
+          "nombre": "Caminar",
+          "cuadros": 12,
+          "fps": 10.0,
+          "loop": true
+        }
+      ]
+    },
+    {
+      "objeto": "CS_AmbConducto",
+      "plugin": "Sprite",
+      "animaciones": [
+        {
+          "nombre": "Default",
+          "cuadros": 1,
+          "fps": 0.0,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "objeto": "CS_AmbVentila",
+      "plugin": "Sprite",
+      "animaciones": [
+        {
+          "nombre": "Default",
+          "cuadros": 1,
+          "fps": 0.0,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "objeto": "CS_AmbPanel",
+      "plugin": "Sprite",
+      "animaciones": [
+        {
+          "nombre": "Default",
+          "cuadros": 1,
+          "fps": 0.0,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "objeto": "CS_AmbLuz",
+      "plugin": "Sprite",
+      "animaciones": [
+        {
+          "nombre": "Default",
+          "cuadros": 1,
+          "fps": 0.0,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "objeto": "CS_AmbCristal",
+      "plugin": "Sprite",
+      "animaciones": [
+        {
+          "nombre": "Default",
+          "cuadros": 1,
+          "fps": 0.0,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "objeto": "CS_AmbHaloVioleta",
+      "plugin": "Sprite",
+      "animaciones": [
+        {
+          "nombre": "Default",
+          "cuadros": 1,
+          "fps": 0.0,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "objeto": "CS_AmbHaloAmbar",
+      "plugin": "Sprite",
+      "animaciones": [
+        {
+          "nombre": "Default",
+          "cuadros": 1,
+          "fps": 0.0,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "objeto": "CS_AmbChispa",
+      "plugin": "Sprite",
+      "animaciones": [
+        {
+          "nombre": "Default",
+          "cuadros": 1,
+          "fps": 0.0,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "objeto": "CS_AtmTono",
+      "plugin": "Sprite",
+      "animaciones": [
+        {
+          "nombre": "Default",
+          "cuadros": 1,
+          "fps": 0.0,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "objeto": "CS_AtmBrumaLejos",
+      "plugin": "Sprite",
+      "animaciones": [
+        {
+          "nombre": "Default",
+          "cuadros": 1,
+          "fps": 0.0,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "objeto": "CS_AtmBrumaCerca",
+      "plugin": "Sprite",
+      "animaciones": [
+        {
+          "nombre": "Default",
+          "cuadros": 1,
+          "fps": 0.0,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "objeto": "CS_AtmMota",
+      "plugin": "Sprite",
+      "animaciones": [
+        {
+          "nombre": "Default",
+          "cuadros": 1,
+          "fps": 0.0,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "objeto": "CS_PenumbraExterior",
+      "plugin": "Sprite",
+      "animaciones": [
+        {
+          "nombre": "Default",
+          "cuadros": 1,
+          "fps": 0.0,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "objeto": "CS_Jefe",
+      "plugin": "Sprite",
+      "animaciones": [
+        {
+          "nombre": "reposo",
+          "cuadros": 8,
+          "fps": 7.6923076923076925,
+          "loop": true
+        },
+        {
+          "nombre": "movimiento",
+          "cuadros": 8,
+          "fps": 8.333333333333334,
+          "loop": true
+        },
+        {
+          "nombre": "disparo_principal",
+          "cuadros": 8,
+          "fps": 10.0,
+          "loop": false
+        },
+        {
+          "nombre": "canones_secundarios",
+          "cuadros": 8,
+          "fps": 10.0,
+          "loop": false
+        },
+        {
+          "nombre": "rayos_laterales",
+          "cuadros": 8,
+          "fps": 10.0,
+          "loop": false
+        },
+        {
+          "nombre": "misiles",
+          "cuadros": 8,
+          "fps": 8.333333333333334,
+          "loop": false
+        },
+        {
+          "nombre": "danio",
+          "cuadros": 8,
+          "fps": 10.0,
+          "loop": false
+        },
+        {
+          "nombre": "explosion",
+          "cuadros": 8,
+          "fps": 8.333333333333334,
+          "loop": false
+        },
+        {
+          "nombre": "desaparicion",
+          "cuadros": 8,
+          "fps": 6.666666666666667,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "objeto": "CS_BalaJugador",
+      "plugin": "Sprite",
+      "animaciones": [
+        {
+          "nombre": "Default",
+          "cuadros": 1,
+          "fps": 0.0,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "objeto": "CS_ProyectilJefe",
+      "plugin": "Sprite",
+      "animaciones": [
+        {
+          "nombre": "bala",
+          "cuadros": 1,
+          "fps": 0.0,
+          "loop": false
+        },
+        {
+          "nombre": "misil",
+          "cuadros": 8,
+          "fps": 8.333333333333334,
+          "loop": true
+        },
+        {
+          "nombre": "rayo",
+          "cuadros": 1,
+          "fps": 0.0,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "objeto": "CS_JefeMarco",
+      "plugin": "Sprite",
+      "animaciones": [
+        {
+          "nombre": "Default",
+          "cuadros": 1,
+          "fps": 0.0,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "objeto": "CS_JefeBarra",
+      "plugin": "Sprite",
+      "animaciones": [
+        {
+          "nombre": "Default",
+          "cuadros": 1,
+          "fps": 0.0,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "objeto": "CS_MarcaMisil",
+      "plugin": "Sprite",
+      "animaciones": [
+        {
+          "nombre": "Default",
+          "cuadros": 1,
+          "fps": 0.0,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "objeto": "CS_ExplosionMisil",
+      "plugin": "Sprite",
+      "animaciones": [
+        {
+          "nombre": "Impacto",
+          "cuadros": 19,
+          "fps": 25.0,
+          "loop": false
+        }
+      ]
+    }
+  ],
+  "audio": [
+    {
+      "archivo": "Files/AudioCleaner_AudioCleaner_Download_Contra (Nes) - Stage 8 Music_20261001_162802.ogg",
+      "bytes": 1096533,
+      "sha256": "e217b77ac933b4edb14294fe8aaaf62430e66d458245d5125825826f68070830"
+    },
+    {
+      "archivo": "Files/disparo_jugador_01.ogg",
+      "bytes": 6478,
+      "sha256": "e247ce90ca3a2db964132946fb5a38445e76d340b3b08b5df84e7a7fcac58d42"
+    },
+    {
+      "archivo": "Files/disparo_jugador_01.m4a",
+      "bytes": 4067,
+      "sha256": "466a16be9c1f2d132005a51247169ec56d1b39a7bb447faa1d27dda53efe1e9d"
+    },
+    {
+      "archivo": "Files/disparo_jugador_02.ogg",
+      "bytes": 6471,
+      "sha256": "9841a5e0cb741f96a5def090668d22aef2d4b41253c47ffc08e55b5481a79a0f"
+    },
+    {
+      "archivo": "Files/disparo_jugador_02.m4a",
+      "bytes": 4048,
+      "sha256": "0da5da3eb1233b3213975da0d1fec128a8371972d2bcb467d786d29038531548"
+    },
+    {
+      "archivo": "Files/disparo_jugador_03.ogg",
+      "bytes": 6473,
+      "sha256": "2a161d7b086fe657db863a49069bf5f3162bf188dbb42692825130c0cba03391"
+    },
+    {
+      "archivo": "Files/disparo_jugador_03.m4a",
+      "bytes": 3999,
+      "sha256": "1273dd1effc9acaef9c3d230a8f0b5d9fcb4ae1f5cb577f2cf328ad04dd62eda"
+    },
+    {
+      "archivo": "Files/misil_lanzamiento.ogg",
+      "bytes": 12110,
+      "sha256": "15ed06dbf56022207b559b27945e707bf24532c6a348e35edaae3831f41ff34b"
+    },
+    {
+      "archivo": "Files/misil_lanzamiento.m4a",
+      "bytes": 9750,
+      "sha256": "962c73954eb4066e86e2676115ba3c3acfb005cb8b70241d81a2bfeab1be73cc"
+    },
+    {
+      "archivo": "Files/misil_explosion.ogg",
+      "bytes": 16447,
+      "sha256": "d91095fc33b7e52d00d89eeaae1f1faf6698ec47f1f9761aeab5c2b920e2b52c"
+    },
+    {
+      "archivo": "Files/misil_explosion.m4a",
+      "bytes": 15953,
+      "sha256": "ee94455526e11fd1e3f802cb8d292a2b1015659af7709a6527d4ca44f0c59fbb"
+    },
+    {
+      "archivo": "Files/mecha_aviso.ogg",
+      "bytes": 5340,
+      "sha256": "fdd4f57769a0f445105ee812534c1a58c2bfde8c57bf57249f0d05ae139cad2d"
+    },
+    {
+      "archivo": "Files/mecha_aviso.m4a",
+      "bytes": 7901,
+      "sha256": "bc38d3ad8a9091fdece714c2f225c98ca94525862c0c130c183f9f621d68ecf6"
+    },
+    {
+      "archivo": "Files/mecha_rayo.ogg",
+      "bytes": 9082,
+      "sha256": "4632707d70b21496f3dcbf19adf0a015fc2ce02b0ee54a26cf7f5447c34a1a36"
+    },
+    {
+      "archivo": "Files/mecha_rayo.m4a",
+      "bytes": 6828,
+      "sha256": "36c1a055254b767e5b892a77d8a27e697185e7764efdfdaf940e3f8f6bff5957"
+    },
+    {
+      "archivo": "Files/jugador_dano.ogg",
+      "bytes": 6763,
+      "sha256": "cf813d98e2c9d2ae41be34c340824492a72d79156ec9e9537cbe7de1e8bf6974"
+    },
+    {
+      "archivo": "Files/jugador_dano.m4a",
+      "bytes": 4273,
+      "sha256": "9ec68d9736fcbb886e95b92d7d7cf0fa8685db154fce2d1ff814469153ce92e8"
+    },
+    {
+      "archivo": "Files/menu_cursor.ogg",
+      "bytes": 4297,
+      "sha256": "b7130aa9f28bc550dd76c5a825188d6c7baf551732b645f239b4dac3713a0a8b"
+    },
+    {
+      "archivo": "Files/menu_cursor.m4a",
+      "bytes": 2270,
+      "sha256": "a7085c7374bcb60072e3a745e25af33348a145ac7b8678ce6e4a2ccfd2192df5"
+    },
+    {
+      "archivo": "Files/menu_confirmar.ogg",
+      "bytes": 4976,
+      "sha256": "c61766f84efb21bb5d1aa3acacb7b0024377eeaa3d6055c7533477e390138aba"
+    },
+    {
+      "archivo": "Files/menu_confirmar.m4a",
+      "bytes": 4292,
+      "sha256": "49732d0d8915c75f77d501b448521f5db97993f5c67afd3e7fd21f406fc58408"
+    },
+    {
+      "archivo": "Files/demo_victoria.ogg",
+      "bytes": 10426,
+      "sha256": "d353e872af3d00046aecbc5d12cbfc368113679b22ee06fdbd278c4a9db16c0a"
+    },
+    {
+      "archivo": "Files/demo_victoria.m4a",
+      "bytes": 20116,
+      "sha256": "521284f50f8a1daff533205d57f09ad71133f7eccc81a6c2a18baabc545befdd"
+    },
+    {
+      "archivo": "Files/ambiente_alien_loop.ogg",
+      "bytes": 40304,
+      "sha256": "012d8dfb3984ff65a19e9cd6e4049624d0f0aae78ac824aab48ad35dea2e9741"
+    },
+    {
+      "archivo": "Files/ambiente_alien_loop.m4a",
+      "bytes": 125832,
+      "sha256": "75ad7cc8a5ddd67230cbd28bd96dcfa6ab0f0773fb20c5250918b81e525014d5"
+    }
+  ],
+  "pendiente": [
+    "Recorrido manual completo",
+    "Ajuste auditivo final de mezcla",
+    "Exportación probada en otro equipo"
+  ]
+}

@@ -1,3 +1,5 @@
+> Actualización v21: misil y explosión animados, sonido y checkpoint comprobados en motor. Consultar VALIDACION.md. Los detalles de la integración inicial que aparecen abajo se conservan como antecedente.
+
 # Jefe mecha: uso y patrón
 
 - Abrir `Contra_Strike_con_menu.capx` en Construct 2. Z dispara; flechas mueven y saltan; ESC pausa.

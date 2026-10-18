@@ -1,0 +1,5506 @@
+{
+  "resultado": "PASS",
+  "fecha": "2026-10-18T22:11:57.373Z",
+  "sha256": "91dbff5936b949fb2069203df21cb2d8814ab962aa49a5538c4a663e4d8ef585",
+  "url": "http://localhost:50000/",
+  "total": 27,
+  "tests": [
+    "Carga real sin jefe activado al inicio",
+    "Cuatro capas y física original",
+    "No quedan proyectiles prototipo",
+    "Nueve animaciones incorporadas con ocho cuadros",
+    "Activación al final del mapa y energía repuesta",
+    "Jefe apoyado en plataforma final",
+    "Mira hacia el jugador",
+    "Z crea bala del jugador",
+    "Bala resta vida en fase vulnerable",
+    "Barra proporcional a la vida",
+    "Escudo rechaza daño durante aviso y ataque",
+    "Pausa congela reloj y proyectiles",
+    "Reanuda combate",
+    "Recorre todos los pasos reconocibles del patrón",
+    "Se desplaza en su plataforma",
+    "Dispara cañón, ráfaga, misiles y rayo",
+    "Aviso de misiles visible antes de lanzarlos",
+    "Usa las animaciones de los cuatro ataques",
+    "Proyectiles dañan al jugador con invulnerabilidad",
+    "No repite daño durante invulnerabilidad",
+    "Último disparo inicia explosión y bloquea controles",
+    "Explosión continúa en desaparición",
+    "Victoria de demo con panel, tiempo detenido y jefe oculto",
+    "No quedan proyectiles en victoria",
+    "Reintentar restaura jefe, vida, controles y diálogo de derrota",
+    "Menú y nueva partida limpian el combate",
+    "Sin errores JavaScript"
+  ],
+  "shots": [
+    {
+      "clock": -1.248499999999999,
+      "step": -1,
+      "x": 3300,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": -1.211999999999999,
+      "step": -1,
+      "x": 3300,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": -1.1814999999999989,
+      "step": -1,
+      "x": 3300,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": -1.145099999999999,
+      "step": -1,
+      "x": 3300,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": -1.1090999999999989,
+      "step": -1,
+      "x": 3300,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": -1.072499999999999,
+      "step": -1,
+      "x": 3300,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": -1.0420999999999987,
+      "step": -1,
+      "x": 3300,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": -1.0060999999999987,
+      "step": -1,
+      "x": 3300,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": -0.9696999999999986,
+      "step": -1,
+      "x": 3300,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": -0.9391999999999986,
+      "step": -1,
+      "x": 3300,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": -0.9029999999999988,
+      "step": -1,
+      "x": 3300,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": -0.8666999999999986,
+      "step": -1,
+      "x": 3300,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": -0.8302999999999989,
+      "step": -1,
+      "x": 3300,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": -0.7938999999999988,
+      "step": -1,
+      "x": 3300,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": -0.7697999999999989,
+      "step": -1,
+      "x": 3300,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": -0.7270999999999986,
+      "step": -1,
+      "x": 3300,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": -0.6905999999999985,
+      "step": -1,
+      "x": 3300,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": -0.6544999999999986,
+      "step": -1,
+      "x": 3300,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": -0.6180999999999985,
+      "step": -1,
+      "x": 3300,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": -0.5756999999999984,
+      "step": -1,
+      "x": 3300,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": -0.5514999999999987,
+      "step": -1,
+      "x": 3300,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": -0.515099999999999,
+      "step": -1,
+      "x": 3300,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": -0.47889999999999827,
+      "step": -1,
+      "x": 3300,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": -0.4421999999999985,
+      "step": -1,
+      "x": 3300,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": -0.41179999999999883,
+      "step": -1,
+      "x": 3300,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": -0.37539999999999824,
+      "step": -1,
+      "x": 3300,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": -0.33909999999999896,
+      "step": -1,
+      "x": 3300,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": -0.3030999999999989,
+      "step": -1,
+      "x": 3300,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": -0.27869999999999834,
+      "step": -1,
+      "x": 3300,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": -0.23639999999999814,
+      "step": -1,
+      "x": 3300,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": -0.19999999999999848,
+      "step": -1,
+      "x": 3300,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": -0.16349999999999848,
+      "step": -1,
+      "x": 3300,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": -0.12729999999999864,
+      "step": -1,
+      "x": 3300,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": -0.0970999999999988,
+      "step": -1,
+      "x": 3300,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": -0.0605999999999988,
+      "step": -1,
+      "x": 3300,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": -0.024299999999998614,
+      "step": -1,
+      "x": 3300,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 0.012400000000001205,
+      "step": 0,
+      "x": 3300.8764489289238,
+      "types": [],
+      "anim": "movimiento",
+      "marker": 0
+    },
+    {
+      "clock": 0.042800000000001746,
+      "step": 0,
+      "x": 3303.02307519907,
+      "types": [],
+      "anim": "movimiento",
+      "marker": 0
+    },
+    {
+      "clock": 0.0789000000000012,
+      "step": 0,
+      "x": 3305.5628458281567,
+      "types": [],
+      "anim": "movimiento",
+      "marker": 0
+    },
+    {
+      "clock": 0.1152000000000014,
+      "step": 0,
+      "x": 3308.0986404233518,
+      "types": [],
+      "anim": "movimiento",
+      "marker": 0
+    },
+    {
+      "clock": 0.14560000000000192,
+      "step": 0,
+      "x": 3310.2023686455445,
+      "types": [],
+      "anim": "movimiento",
+      "marker": 0
+    },
+    {
+      "clock": 0.1818000000000017,
+      "step": 0,
+      "x": 3312.676731915208,
+      "types": [],
+      "anim": "movimiento",
+      "marker": 0
+    },
+    {
+      "clock": 0.2121000000000019,
+      "step": 0,
+      "x": 3314.7166414102003,
+      "types": [],
+      "anim": "movimiento",
+      "marker": 0
+    },
+    {
+      "clock": 0.24840000000000118,
+      "step": 0,
+      "x": 3317.1162118651305,
+      "types": [],
+      "anim": "movimiento",
+      "marker": 0
+    },
+    {
+      "clock": 0.2909000000000012,
+      "step": 0,
+      "x": 3319.854372887039,
+      "types": [],
+      "anim": "movimiento",
+      "marker": 0
+    },
+    {
+      "clock": 0.3212000000000014,
+      "step": 0,
+      "x": 3321.753207740319,
+      "types": [],
+      "anim": "movimiento",
+      "marker": 0
+    },
+    {
+      "clock": 0.35760000000000197,
+      "step": 0,
+      "x": 3323.9687979114015,
+      "types": [],
+      "anim": "movimiento",
+      "marker": 0
+    },
+    {
+      "clock": 0.3939000000000012,
+      "step": 0,
+      "x": 3326.1002926178385,
+      "types": [],
+      "anim": "movimiento",
+      "marker": 0
+    },
+    {
+      "clock": 0.4242000000000014,
+      "step": 0,
+      "x": 3327.8147971076546,
+      "types": [],
+      "anim": "movimiento",
+      "marker": 0
+    },
+    {
+      "clock": 0.466600000000002,
+      "step": 0,
+      "x": 3330.1073751335675,
+      "types": [],
+      "anim": "movimiento",
+      "marker": 0
+    },
+    {
+      "clock": 0.4972000000000015,
+      "step": 0,
+      "x": 3331.6795470246384,
+      "types": [],
+      "anim": "movimiento",
+      "marker": 0
+    },
+    {
+      "clock": 0.5334000000000012,
+      "step": 0,
+      "x": 3333.4446701668094,
+      "types": [],
+      "anim": "movimiento",
+      "marker": 0
+    },
+    {
+      "clock": 0.5700000000000015,
+      "step": 0,
+      "x": 3335.119368330225,
+      "types": [],
+      "anim": "movimiento",
+      "marker": 0
+    },
+    {
+      "clock": 0.6060000000000015,
+      "step": 0,
+      "x": 3336.653432718173,
+      "types": [],
+      "anim": "movimiento",
+      "marker": 0
+    },
+    {
+      "clock": 0.6364000000000013,
+      "step": 0,
+      "x": 3337.8577985755533,
+      "types": [],
+      "anim": "movimiento",
+      "marker": 0
+    },
+    {
+      "clock": 0.6727000000000015,
+      "step": 0,
+      "x": 3339.182625473919,
+      "types": [],
+      "anim": "movimiento",
+      "marker": 0
+    },
+    {
+      "clock": 0.7090000000000017,
+      "step": 0,
+      "x": 3340.3800935992153,
+      "types": [],
+      "anim": "movimiento",
+      "marker": 0
+    },
+    {
+      "clock": 0.7454000000000014,
+      "step": 0,
+      "x": 3341.4490633717132,
+      "types": [],
+      "anim": "movimiento",
+      "marker": 0
+    },
+    {
+      "clock": 0.775800000000002,
+      "step": 0,
+      "x": 3342.2381492353547,
+      "types": [],
+      "anim": "movimiento",
+      "marker": 0
+    },
+    {
+      "clock": 0.8121000000000022,
+      "step": 0,
+      "x": 3343.0540990024438,
+      "types": [],
+      "anim": "movimiento",
+      "marker": 0
+    },
+    {
+      "clock": 0.8545000000000017,
+      "step": 0,
+      "x": 3343.829808418271,
+      "types": [],
+      "anim": "movimiento",
+      "marker": 0
+    },
+    {
+      "clock": 0.8848000000000019,
+      "step": 0,
+      "x": 3344.2652462242477,
+      "types": [],
+      "anim": "movimiento",
+      "marker": 0
+    },
+    {
+      "clock": 0.9152000000000015,
+      "step": 0,
+      "x": 3344.6013683891274,
+      "types": [],
+      "anim": "movimiento",
+      "marker": 0
+    },
+    {
+      "clock": 0.9518000000000018,
+      "step": 0,
+      "x": 3344.8710833897685,
+      "types": [],
+      "anim": "movimiento",
+      "marker": 0
+    },
+    {
+      "clock": 0.9882000000000013,
+      "step": 0,
+      "x": 3344.9922701004043,
+      "types": [],
+      "anim": "movimiento",
+      "marker": 0
+    },
+    {
+      "clock": 1.0245000000000015,
+      "step": 0,
+      "x": 3344.9666803186833,
+      "types": [],
+      "anim": "movimiento",
+      "marker": 0
+    },
+    {
+      "clock": 1.0606000000000018,
+      "step": 0,
+      "x": 3344.7962772356727,
+      "types": [],
+      "anim": "movimiento",
+      "marker": 0
+    },
+    {
+      "clock": 1.0970000000000015,
+      "step": 0,
+      "x": 3344.478654809914,
+      "types": [],
+      "anim": "movimiento",
+      "marker": 0
+    },
+    {
+      "clock": 1.1333000000000018,
+      "step": 0,
+      "x": 3344.0171318530643,
+      "types": [],
+      "anim": "movimiento",
+      "marker": 0
+    },
+    {
+      "clock": 1.163600000000002,
+      "step": 0,
+      "x": 3343.522261831867,
+      "types": [],
+      "anim": "movimiento",
+      "marker": 0
+    },
+    {
+      "clock": 1.1999000000000015,
+      "step": 0,
+      "x": 3342.799727017698,
+      "types": [],
+      "anim": "movimiento",
+      "marker": 0
+    },
+    {
+      "clock": 1.230500000000002,
+      "step": 0,
+      "x": 3342.082475573289,
+      "types": [],
+      "anim": "movimiento",
+      "marker": 0
+    },
+    {
+      "clock": 1.267000000000002,
+      "step": 0,
+      "x": 3341.0999564527738,
+      "types": [],
+      "anim": "movimiento",
+      "marker": 0
+    },
+    {
+      "clock": 1.3030000000000022,
+      "step": 0,
+      "x": 3339.998576663073,
+      "types": [],
+      "anim": "movimiento",
+      "marker": 0
+    },
+    {
+      "clock": 1.339400000000002,
+      "step": 0,
+      "x": 3338.7549632196597,
+      "types": [],
+      "anim": "movimiento",
+      "marker": 0
+    },
+    {
+      "clock": 1.3758000000000028,
+      "step": 0,
+      "x": 3337.3846862627656,
+      "types": [],
+      "anim": "movimiento",
+      "marker": 0
+    },
+    {
+      "clock": 1.4124000000000025,
+      "step": 0,
+      "x": 3335.8836952626643,
+      "types": [],
+      "anim": "movimiento",
+      "marker": 0
+    },
+    {
+      "clock": 1.4424000000000026,
+      "step": 0,
+      "x": 3334.564713358068,
+      "types": [],
+      "anim": "movimiento",
+      "marker": 0
+    },
+    {
+      "clock": 1.4788000000000032,
+      "step": 0,
+      "x": 3332.8615952633704,
+      "types": [],
+      "anim": "movimiento",
+      "marker": 0
+    },
+    {
+      "clock": 1.5154000000000027,
+      "step": 0,
+      "x": 3331.040841227116,
+      "types": [],
+      "anim": "movimiento",
+      "marker": 0
+    },
+    {
+      "clock": 1.5457000000000032,
+      "step": 0,
+      "x": 3329.455618461911,
+      "types": [],
+      "anim": "movimiento",
+      "marker": 0
+    },
+    {
+      "clock": 1.5878000000000034,
+      "step": 0,
+      "x": 3327.1431065900947,
+      "types": [],
+      "anim": "movimiento",
+      "marker": 0
+    },
+    {
+      "clock": 1.6185000000000036,
+      "step": 0,
+      "x": 3325.3813760323187,
+      "types": [],
+      "anim": "movimiento",
+      "marker": 0
+    },
+    {
+      "clock": 1.6544000000000034,
+      "step": 0,
+      "x": 3323.246689784735,
+      "types": [],
+      "anim": "movimiento",
+      "marker": 0
+    },
+    {
+      "clock": 1.6850000000000038,
+      "step": 0,
+      "x": 3321.3685375441764,
+      "types": [],
+      "anim": "movimiento",
+      "marker": 0
+    },
+    {
+      "clock": 1.7272000000000036,
+      "step": 0,
+      "x": 3318.6983516883183,
+      "types": [],
+      "anim": "movimiento",
+      "marker": 0
+    },
+    {
+      "clock": 1.7575000000000038,
+      "step": 0,
+      "x": 3316.7297817849394,
+      "types": [],
+      "anim": "movimiento",
+      "marker": 0
+    },
+    {
+      "clock": 1.7939000000000036,
+      "step": 0,
+      "x": 3314.3152000833516,
+      "types": [],
+      "anim": "movimiento",
+      "marker": 0
+    },
+    {
+      "clock": 1.830300000000004,
+      "step": 0,
+      "x": 3311.8538317668867,
+      "types": [],
+      "anim": "movimiento",
+      "marker": 0
+    },
+    {
+      "clock": 1.866700000000004,
+      "step": 0,
+      "x": 3309.3537213679874,
+      "types": [],
+      "anim": "movimiento",
+      "marker": 0
+    },
+    {
+      "clock": 1.8969000000000038,
+      "step": 0,
+      "x": 3307.2558948935457,
+      "types": [],
+      "anim": "movimiento",
+      "marker": 0
+    },
+    {
+      "clock": 1.9398000000000044,
+      "step": 0,
+      "x": 3304.2489483158124,
+      "types": [],
+      "anim": "movimiento",
+      "marker": 0
+    },
+    {
+      "clock": 1.9649000000000036,
+      "step": 0,
+      "x": 3302.479815969054,
+      "types": [],
+      "anim": "movimiento",
+      "marker": 0
+    },
+    {
+      "clock": 2.006300000000004,
+      "step": 1,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 2.0364000000000035,
+      "step": 1,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 2.073100000000004,
+      "step": 1,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 2.1091000000000037,
+      "step": 1,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 2.1457000000000033,
+      "step": 1,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 2.175900000000003,
+      "step": 1,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 2.2183000000000037,
+      "step": 1,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 2.248500000000003,
+      "step": 1,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 2.284800000000003,
+      "step": 1,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 2.315100000000003,
+      "step": 1,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 2.3515000000000024,
+      "step": 1,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 2.3881000000000028,
+      "step": 1,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 2.418200000000002,
+      "step": 1,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 2.460600000000002,
+      "step": 1,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 2.4970000000000017,
+      "step": 1,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 2.527200000000001,
+      "step": 1,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 2.563600000000002,
+      "step": 1,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 2.5999000000000008,
+      "step": 1,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 2.6363000000000008,
+      "step": 1,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 2.6727000000000003,
+      "step": 1,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 2.7031000000000005,
+      "step": 1,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 2.7394999999999996,
+      "step": 1,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 2.7756999999999987,
+      "step": 1,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 2.8063999999999982,
+      "step": 1,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 2.8367999999999984,
+      "step": 1,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 2.878899999999997,
+      "step": 1,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 2.9152999999999976,
+      "step": 1,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 2.951499999999997,
+      "step": 1,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 2.9880999999999975,
+      "step": 1,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 3.018499999999997,
+      "step": 2,
+      "x": 3300.4241087294913,
+      "types": [
+        0
+      ],
+      "anim": "disparo_principal",
+      "marker": 0
+    },
+    {
+      "clock": 3.0546999999999964,
+      "step": 2,
+      "x": 3300.4241087294913,
+      "types": [
+        0
+      ],
+      "anim": "disparo_principal",
+      "marker": 0
+    },
+    {
+      "clock": 3.090899999999996,
+      "step": 2,
+      "x": 3300.4241087294913,
+      "types": [
+        0
+      ],
+      "anim": "disparo_principal",
+      "marker": 0
+    },
+    {
+      "clock": 3.1273999999999953,
+      "step": 2,
+      "x": 3300.4241087294913,
+      "types": [
+        0
+      ],
+      "anim": "disparo_principal",
+      "marker": 0
+    },
+    {
+      "clock": 3.1575999999999955,
+      "step": 2,
+      "x": 3300.4241087294913,
+      "types": [
+        0
+      ],
+      "anim": "disparo_principal",
+      "marker": 0
+    },
+    {
+      "clock": 3.1941999999999946,
+      "step": 2,
+      "x": 3300.4241087294913,
+      "types": [
+        0
+      ],
+      "anim": "disparo_principal",
+      "marker": 0
+    },
+    {
+      "clock": 3.230699999999995,
+      "step": 2,
+      "x": 3300.4241087294913,
+      "types": [
+        0
+      ],
+      "anim": "disparo_principal",
+      "marker": 0
+    },
+    {
+      "clock": 3.2605999999999953,
+      "step": 2,
+      "x": 3300.4241087294913,
+      "types": [
+        0
+      ],
+      "anim": "disparo_principal",
+      "marker": 0
+    },
+    {
+      "clock": 3.3030999999999944,
+      "step": 2,
+      "x": 3300.4241087294913,
+      "types": [
+        0
+      ],
+      "anim": "disparo_principal",
+      "marker": 0
+    },
+    {
+      "clock": 3.333599999999994,
+      "step": 2,
+      "x": 3300.4241087294913,
+      "types": [
+        0,
+        0
+      ],
+      "anim": "disparo_principal",
+      "marker": 0
+    },
+    {
+      "clock": 3.370199999999993,
+      "step": 2,
+      "x": 3300.4241087294913,
+      "types": [
+        0,
+        0
+      ],
+      "anim": "disparo_principal",
+      "marker": 0
+    },
+    {
+      "clock": 3.406099999999993,
+      "step": 2,
+      "x": 3300.4241087294913,
+      "types": [
+        0,
+        0
+      ],
+      "anim": "disparo_principal",
+      "marker": 0
+    },
+    {
+      "clock": 3.436399999999992,
+      "step": 2,
+      "x": 3300.4241087294913,
+      "types": [
+        0,
+        0
+      ],
+      "anim": "disparo_principal",
+      "marker": 0
+    },
+    {
+      "clock": 3.472799999999992,
+      "step": 2,
+      "x": 3300.4241087294913,
+      "types": [
+        0,
+        0
+      ],
+      "anim": "disparo_principal",
+      "marker": 0
+    },
+    {
+      "clock": 3.5091999999999928,
+      "step": 2,
+      "x": 3300.4241087294913,
+      "types": [
+        0,
+        0
+      ],
+      "anim": "disparo_principal",
+      "marker": 0
+    },
+    {
+      "clock": 3.5456999999999925,
+      "step": 2,
+      "x": 3300.4241087294913,
+      "types": [
+        0,
+        0
+      ],
+      "anim": "disparo_principal",
+      "marker": 0
+    },
+    {
+      "clock": 3.5757999999999908,
+      "step": 2,
+      "x": 3300.4241087294913,
+      "types": [
+        0,
+        0
+      ],
+      "anim": "disparo_principal",
+      "marker": 0
+    },
+    {
+      "clock": 3.6183999999999905,
+      "step": 2,
+      "x": 3300.4241087294913,
+      "types": [
+        0,
+        0
+      ],
+      "anim": "disparo_principal",
+      "marker": 0
+    },
+    {
+      "clock": 3.6544999999999908,
+      "step": 2,
+      "x": 3300.4241087294913,
+      "types": [
+        0,
+        0,
+        0
+      ],
+      "anim": "disparo_principal",
+      "marker": 0
+    },
+    {
+      "clock": 3.6848999999999905,
+      "step": 2,
+      "x": 3300.4241087294913,
+      "types": [
+        0,
+        0,
+        0
+      ],
+      "anim": "disparo_principal",
+      "marker": 0
+    },
+    {
+      "clock": 3.7211999999999916,
+      "step": 2,
+      "x": 3300.4241087294913,
+      "types": [
+        0,
+        0,
+        0
+      ],
+      "anim": "disparo_principal",
+      "marker": 0
+    },
+    {
+      "clock": 3.7574999999999905,
+      "step": 2,
+      "x": 3300.4241087294913,
+      "types": [
+        0,
+        0,
+        0
+      ],
+      "anim": "disparo_principal",
+      "marker": 0
+    },
+    {
+      "clock": 3.79379999999999,
+      "step": 2,
+      "x": 3300.4241087294913,
+      "types": [
+        0,
+        0,
+        0
+      ],
+      "anim": "disparo_principal",
+      "marker": 0
+    },
+    {
+      "clock": 3.82439999999999,
+      "step": 2,
+      "x": 3300.4241087294913,
+      "types": [
+        0,
+        0,
+        0
+      ],
+      "anim": "disparo_principal",
+      "marker": 0
+    },
+    {
+      "clock": 3.8606999999999903,
+      "step": 2,
+      "x": 3300.4241087294913,
+      "types": [
+        0,
+        0,
+        0
+      ],
+      "anim": "disparo_principal",
+      "marker": 0
+    },
+    {
+      "clock": 3.8971999999999904,
+      "step": 2,
+      "x": 3300.4241087294913,
+      "types": [
+        0,
+        0,
+        0
+      ],
+      "anim": "disparo_principal",
+      "marker": 0
+    },
+    {
+      "clock": 3.9272999999999887,
+      "step": 2,
+      "x": 3300.4241087294913,
+      "types": [
+        0,
+        0,
+        0
+      ],
+      "anim": "disparo_principal",
+      "marker": 0
+    },
+    {
+      "clock": 3.96359999999999,
+      "step": 2,
+      "x": 3300.4241087294913,
+      "types": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "anim": "disparo_principal",
+      "marker": 0
+    },
+    {
+      "clock": 3.999999999999989,
+      "step": 2,
+      "x": 3300.4241087294913,
+      "types": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "anim": "disparo_principal",
+      "marker": 0
+    },
+    {
+      "clock": 4.036399999999988,
+      "step": 3,
+      "x": 3300.4241087294913,
+      "types": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 4.072699999999988,
+      "step": 3,
+      "x": 3300.4241087294913,
+      "types": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 4.109199999999988,
+      "step": 3,
+      "x": 3300.4241087294913,
+      "types": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 4.139699999999988,
+      "step": 3,
+      "x": 3300.4241087294913,
+      "types": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 4.175899999999986,
+      "step": 3,
+      "x": 3300.4241087294913,
+      "types": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 4.212099999999986,
+      "step": 3,
+      "x": 3300.4241087294913,
+      "types": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 4.2424999999999855,
+      "step": 3,
+      "x": 3300.4241087294913,
+      "types": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 4.278999999999986,
+      "step": 3,
+      "x": 3300.4241087294913,
+      "types": [
+        0,
+        0,
+        0
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 4.315399999999984,
+      "step": 3,
+      "x": 3300.4241087294913,
+      "types": [
+        0,
+        0,
+        0
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 4.352099999999985,
+      "step": 3,
+      "x": 3300.4241087294913,
+      "types": [
+        0,
+        0,
+        0
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 4.381899999999984,
+      "step": 3,
+      "x": 3300.4241087294913,
+      "types": [
+        0,
+        0,
+        0
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 4.418199999999985,
+      "step": 3,
+      "x": 3300.4241087294913,
+      "types": [
+        0,
+        0,
+        0
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 4.442499999999983,
+      "step": 3,
+      "x": 3300.4241087294913,
+      "types": [
+        0,
+        0,
+        0
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 4.491399999999982,
+      "step": 3,
+      "x": 3300.4241087294913,
+      "types": [
+        0,
+        0,
+        0
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 4.527199999999982,
+      "step": 3,
+      "x": 3300.4241087294913,
+      "types": [
+        0,
+        0,
+        0
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 4.5574999999999815,
+      "step": 3,
+      "x": 3300.4241087294913,
+      "types": [
+        0,
+        0,
+        0
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 4.593999999999981,
+      "step": 3,
+      "x": 3300.4241087294913,
+      "types": [
+        0,
+        0
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 4.63029999999998,
+      "step": 3,
+      "x": 3300.4241087294913,
+      "types": [
+        0,
+        0
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 4.666699999999981,
+      "step": 3,
+      "x": 3300.4241087294913,
+      "types": [
+        0,
+        0
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 4.69699999999998,
+      "step": 3,
+      "x": 3300.4241087294913,
+      "types": [
+        0,
+        0
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 4.73359999999998,
+      "step": 3,
+      "x": 3300.4241087294913,
+      "types": [
+        0,
+        0
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 4.769699999999979,
+      "step": 3,
+      "x": 3300.4241087294913,
+      "types": [
+        0,
+        0
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 4.800199999999978,
+      "step": 3,
+      "x": 3300.4241087294913,
+      "types": [
+        0,
+        0
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 4.8362999999999765,
+      "step": 3,
+      "x": 3300.4241087294913,
+      "types": [
+        0,
+        0
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 4.872999999999977,
+      "step": 3,
+      "x": 3300.4241087294913,
+      "types": [
+        0,
+        0
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 4.909199999999978,
+      "step": 3,
+      "x": 3300.4241087294913,
+      "types": [
+        0
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 4.945499999999976,
+      "step": 3,
+      "x": 3300.4241087294913,
+      "types": [
+        0
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 4.9696999999999765,
+      "step": 3,
+      "x": 3300.4241087294913,
+      "types": [
+        0
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 5.018099999999976,
+      "step": 3,
+      "x": 3300.4241087294913,
+      "types": [
+        0
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 5.048499999999975,
+      "step": 3,
+      "x": 3300.4241087294913,
+      "types": [
+        0
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 5.0848999999999736,
+      "step": 3,
+      "x": 3300.4241087294913,
+      "types": [
+        0
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 5.121299999999973,
+      "step": 3,
+      "x": 3300.4241087294913,
+      "types": [
+        0
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 5.151899999999973,
+      "step": 3,
+      "x": 3300.4241087294913,
+      "types": [
+        0
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 5.1938999999999735,
+      "step": 3,
+      "x": 3300.4241087294913,
+      "types": [
+        0
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 5.224299999999973,
+      "step": 3,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 5.260899999999974,
+      "step": 3,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 5.290899999999973,
+      "step": 3,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 5.327199999999975,
+      "step": 3,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 5.363699999999975,
+      "step": 3,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 5.399999999999975,
+      "step": 3,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 5.4361999999999755,
+      "step": 3,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 5.472699999999974,
+      "step": 3,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 5.503099999999973,
+      "step": 4,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 5.539599999999973,
+      "step": 4,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 5.569899999999972,
+      "step": 4,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 5.612099999999972,
+      "step": 4,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 5.642499999999972,
+      "step": 4,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 5.67889999999997,
+      "step": 4,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 5.71509999999997,
+      "step": 4,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 5.75149999999997,
+      "step": 4,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 5.787999999999969,
+      "step": 4,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 5.818199999999971,
+      "step": 4,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 5.84839999999997,
+      "step": 4,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 5.89089999999997,
+      "step": 4,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 5.92109999999997,
+      "step": 4,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 5.957599999999969,
+      "step": 4,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 5.993999999999968,
+      "step": 4,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 6.0241999999999685,
+      "step": 4,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 6.066699999999969,
+      "step": 4,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 6.103199999999968,
+      "step": 4,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 6.133399999999967,
+      "step": 4,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 6.170099999999967,
+      "step": 4,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 6.206099999999966,
+      "step": 4,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 6.2422999999999655,
+      "step": 4,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 6.272699999999967,
+      "step": 4,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 6.309099999999966,
+      "step": 4,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 6.3455999999999655,
+      "step": 4,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 6.3756999999999655,
+      "step": 4,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 6.418299999999964,
+      "step": 4,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 6.454799999999964,
+      "step": 4,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 6.485099999999965,
+      "step": 4,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 6.5213999999999634,
+      "step": 5,
+      "x": 3300.4241087294913,
+      "types": [
+        1
+      ],
+      "anim": "canones_secundarios",
+      "marker": 0
+    },
+    {
+      "clock": 6.557599999999963,
+      "step": 5,
+      "x": 3300.4241087294913,
+      "types": [
+        1
+      ],
+      "anim": "canones_secundarios",
+      "marker": 0
+    },
+    {
+      "clock": 6.587999999999962,
+      "step": 5,
+      "x": 3300.4241087294913,
+      "types": [
+        1
+      ],
+      "anim": "canones_secundarios",
+      "marker": 0
+    },
+    {
+      "clock": 6.624199999999963,
+      "step": 5,
+      "x": 3300.4241087294913,
+      "types": [
+        1
+      ],
+      "anim": "canones_secundarios",
+      "marker": 0
+    },
+    {
+      "clock": 6.654599999999961,
+      "step": 5,
+      "x": 3300.4241087294913,
+      "types": [
+        1
+      ],
+      "anim": "canones_secundarios",
+      "marker": 0
+    },
+    {
+      "clock": 6.70299999999996,
+      "step": 5,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1
+      ],
+      "anim": "canones_secundarios",
+      "marker": 0
+    },
+    {
+      "clock": 6.727399999999959,
+      "step": 5,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1
+      ],
+      "anim": "canones_secundarios",
+      "marker": 0
+    },
+    {
+      "clock": 6.763699999999959,
+      "step": 5,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1
+      ],
+      "anim": "canones_secundarios",
+      "marker": 0
+    },
+    {
+      "clock": 6.799999999999958,
+      "step": 5,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1
+      ],
+      "anim": "canones_secundarios",
+      "marker": 0
+    },
+    {
+      "clock": 6.830499999999957,
+      "step": 5,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1
+      ],
+      "anim": "canones_secundarios",
+      "marker": 0
+    },
+    {
+      "clock": 6.866699999999957,
+      "step": 5,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1,
+        1
+      ],
+      "anim": "canones_secundarios",
+      "marker": 0
+    },
+    {
+      "clock": 6.9031999999999565,
+      "step": 5,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1,
+        1
+      ],
+      "anim": "canones_secundarios",
+      "marker": 0
+    },
+    {
+      "clock": 6.939399999999955,
+      "step": 5,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1,
+        1
+      ],
+      "anim": "canones_secundarios",
+      "marker": 0
+    },
+    {
+      "clock": 6.969899999999955,
+      "step": 5,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1,
+        1
+      ],
+      "anim": "canones_secundarios",
+      "marker": 0
+    },
+    {
+      "clock": 7.006099999999955,
+      "step": 5,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1,
+        1
+      ],
+      "anim": "canones_secundarios",
+      "marker": 0
+    },
+    {
+      "clock": 7.042399999999954,
+      "step": 5,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1,
+        1
+      ],
+      "anim": "canones_secundarios",
+      "marker": 0
+    },
+    {
+      "clock": 7.078699999999954,
+      "step": 5,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "anim": "canones_secundarios",
+      "marker": 0
+    },
+    {
+      "clock": 7.1090999999999545,
+      "step": 5,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "anim": "canones_secundarios",
+      "marker": 0
+    },
+    {
+      "clock": 7.1456999999999535,
+      "step": 5,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "anim": "canones_secundarios",
+      "marker": 0
+    },
+    {
+      "clock": 7.181799999999952,
+      "step": 5,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "anim": "canones_secundarios",
+      "marker": 0
+    },
+    {
+      "clock": 7.224499999999952,
+      "step": 5,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "anim": "canones_secundarios",
+      "marker": 0
+    },
+    {
+      "clock": 7.254499999999951,
+      "step": 5,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "anim": "canones_secundarios",
+      "marker": 0
+    },
+    {
+      "clock": 7.284999999999952,
+      "step": 5,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "anim": "canones_secundarios",
+      "marker": 0
+    },
+    {
+      "clock": 7.327199999999952,
+      "step": 5,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "anim": "canones_secundarios",
+      "marker": 0
+    },
+    {
+      "clock": 7.363599999999951,
+      "step": 5,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "anim": "canones_secundarios",
+      "marker": 0
+    },
+    {
+      "clock": 7.3938999999999515,
+      "step": 5,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "anim": "canones_secundarios",
+      "marker": 0
+    },
+    {
+      "clock": 7.430199999999953,
+      "step": 5,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "anim": "canones_secundarios",
+      "marker": 0
+    },
+    {
+      "clock": 7.4544999999999515,
+      "step": 5,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "anim": "canones_secundarios",
+      "marker": 0
+    },
+    {
+      "clock": 7.49729999999995,
+      "step": 5,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "anim": "canones_secundarios",
+      "marker": 0
+    },
+    {
+      "clock": 7.53329999999995,
+      "step": 6,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 7.56979999999995,
+      "step": 6,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 7.60609999999995,
+      "step": 6,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 7.642599999999948,
+      "step": 6,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 7.678799999999947,
+      "step": 6,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 7.7091999999999485,
+      "step": 6,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 7.7458999999999465,
+      "step": 6,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 7.775699999999948,
+      "step": 6,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 7.818299999999946,
+      "step": 6,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 7.848499999999947,
+      "step": 6,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 7.884799999999946,
+      "step": 6,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 7.921399999999945,
+      "step": 6,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 7.957599999999944,
+      "step": 6,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 7.988199999999945,
+      "step": 6,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 8.024299999999943,
+      "step": 6,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 8.060499999999944,
+      "step": 6,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 8.096999999999946,
+      "step": 6,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 8.127399999999945,
+      "step": 6,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 8.163699999999947,
+      "step": 6,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 8.199899999999948,
+      "step": 6,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 8.23629999999995,
+      "step": 6,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1,
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 8.260699999999954,
+      "step": 6,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1,
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 8.296899999999953,
+      "step": 6,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1,
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 8.339399999999952,
+      "step": 6,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1,
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 8.369699999999952,
+      "step": 6,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1,
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 8.41209999999995,
+      "step": 6,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1,
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 8.44279999999995,
+      "step": 6,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1,
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 8.478699999999954,
+      "step": 6,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1,
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 8.515199999999954,
+      "step": 6,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1,
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 8.551499999999955,
+      "step": 6,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1,
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 8.581899999999957,
+      "step": 6,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1,
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 8.618199999999957,
+      "step": 6,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1,
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 8.654799999999955,
+      "step": 6,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1,
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 8.691099999999958,
+      "step": 6,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1,
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 8.727299999999957,
+      "step": 6,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1,
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 8.75759999999996,
+      "step": 6,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1,
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 8.79399999999996,
+      "step": 6,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 8.830399999999958,
+      "step": 6,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 8.866699999999959,
+      "step": 6,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 8.903099999999961,
+      "step": 6,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 8.93949999999996,
+      "step": 6,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 8.96969999999996,
+      "step": 6,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 9.006099999999961,
+      "step": 7,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0.5844609156484887
+    },
+    {
+      "clock": 9.036599999999963,
+      "step": 7,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0.7497480850802772
+    },
+    {
+      "clock": 9.066699999999965,
+      "step": 7,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0.8845412702706571
+    },
+    {
+      "clock": 9.109499999999967,
+      "step": 7,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0.9914907328494637
+    },
+    {
+      "clock": 9.145399999999967,
+      "step": 7,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0.985294395325302
+    },
+    {
+      "clock": 9.17569999999997,
+      "step": 7,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0.9117168994873635
+    },
+    {
+      "clock": 9.212399999999972,
+      "step": 7,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0.7547994157640389
+    },
+    {
+      "clock": 9.254599999999972,
+      "step": 7,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0.5759979030623262
+    },
+    {
+      "clock": 9.278699999999972,
+      "step": 7,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0.7087991577514485
+    },
+    {
+      "clock": 9.321199999999973,
+      "step": 7,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0.9010168307947004
+    },
+    {
+      "clock": 9.357599999999971,
+      "step": 7,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0.9892855531879633
+    },
+    {
+      "clock": 9.38789999999997,
+      "step": 7,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0.9941002934444189
+    },
+    {
+      "clock": 9.424399999999974,
+      "step": 7,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0.9160415888568215
+    },
+    {
+      "clock": 9.460699999999978,
+      "step": 7,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0.7633120325395878
+    },
+    {
+      "clock": 9.496899999999977,
+      "step": 7,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0.5675256535452323
+    },
+    {
+      "clock": 9.527299999999977,
+      "step": 7,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0.7013674727284308
+    },
+    {
+      "clock": 9.563699999999981,
+      "step": 7,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0.8729600055100707
+    },
+    {
+      "clock": 9.59989999999998,
+      "step": 7,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0.9778003494694788
+    },
+    {
+      "clock": 9.63639999999998,
+      "step": 7,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0.9953903379266995
+    },
+    {
+      "clock": 9.672799999999981,
+      "step": 7,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0.9212300639013071
+    },
+    {
+      "clock": 9.708999999999984,
+      "step": 7,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0.7717273036968082
+    },
+    {
+      "clock": 9.739399999999986,
+      "step": 7,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0.609764485957323
+    },
+    {
+      "clock": 9.775799999999988,
+      "step": 7,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0.6933530264608272
+    },
+    {
+      "clock": 9.81209999999999,
+      "step": 7,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0.8665946005941305
+    },
+    {
+      "clock": 9.842399999999989,
+      "step": 7,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0.9627646736922038
+    },
+    {
+      "clock": 9.878899999999991,
+      "step": 7,
+      "x": 3300.4241087294913,
+      "types": [
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0.9994596881008454
+    },
+    {
+      "clock": 9.91559999999999,
+      "step": 7,
+      "x": 3300.4241087294913,
+      "types": [
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0.9426922610070904
+    },
+    {
+      "clock": 9.95189999999999,
+      "step": 7,
+      "x": 3300.4241087294913,
+      "types": [
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0.8057365221431969
+    },
+    {
+      "clock": 9.98189999999999,
+      "step": 7,
+      "x": 3300.4241087294913,
+      "types": [
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0.6514728445611191
+    },
+    {
+      "clock": 10.024299999999993,
+      "step": 7,
+      "x": 3300.4241087294913,
+      "types": [
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0.6852876475454847
+    },
+    {
+      "clock": 10.054699999999997,
+      "step": 7,
+      "x": 3300.4241087294913,
+      "types": [
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0.835531615240603
+    },
+    {
+      "clock": 10.091299999999999,
+      "step": 7,
+      "x": 3300.4241087294913,
+      "types": [
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0.9602477464653097
+    },
+    {
+      "clock": 10.1215,
+      "step": 7,
+      "x": 3300.4241087294913,
+      "types": [
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0.9995648206051558
+    },
+    {
+      "clock": 10.1637,
+      "step": 7,
+      "x": 3300.4241087294913,
+      "types": [
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0.9478267590674718
+    },
+    {
+      "clock": 10.193900000000001,
+      "step": 7,
+      "x": 3300.4241087294913,
+      "types": [
+        1
+      ],
+      "anim": "reposo",
+      "marker": 0.841606103772543
+    },
+    {
+      "clock": 10.230400000000003,
+      "step": 8,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        2
+      ],
+      "anim": "misiles",
+      "marker": 0.6597181611825863
+    },
+    {
+      "clock": 10.260900000000003,
+      "step": 8,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        2
+      ],
+      "anim": "misiles",
+      "marker": 0.61144548925688
+    },
+    {
+      "clock": 10.296900000000004,
+      "step": 8,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        2
+      ],
+      "anim": "misiles",
+      "marker": 0.8001241387667238
+    },
+    {
+      "clock": 10.333400000000005,
+      "step": 8,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        2
+      ],
+      "anim": "misiles",
+      "marker": 0.9398997904829358
+    },
+    {
+      "clock": 10.369800000000005,
+      "step": 8,
+      "x": 3300.4241087294913,
+      "types": [
+        1,
+        2
+      ],
+      "anim": "misiles",
+      "marker": 0.9990395950451045
+    },
+    {
+      "clock": 10.406100000000007,
+      "step": 8,
+      "x": 3300.4241087294913,
+      "types": [
+        2
+      ],
+      "anim": "misiles",
+      "marker": 0.9660696544278328
+    },
+    {
+      "clock": 10.442400000000008,
+      "step": 8,
+      "x": 3300.4241087294913,
+      "types": [
+        2
+      ],
+      "anim": "misiles",
+      "marker": 0.8480142821327192
+    },
+    {
+      "clock": 10.47870000000001,
+      "step": 8,
+      "x": 3300.4241087294913,
+      "types": [
+        2
+      ],
+      "anim": "misiles",
+      "marker": 0.6690155712124911
+    },
+    {
+      "clock": 10.509200000000012,
+      "step": 8,
+      "x": 3300.4241087294913,
+      "types": [
+        2
+      ],
+      "anim": "misiles",
+      "marker": 0.6019089595338113
+    },
+    {
+      "clock": 10.545500000000011,
+      "step": 8,
+      "x": 3300.4241087294913,
+      "types": [
+        2
+      ],
+      "anim": "misiles",
+      "marker": 0.79350456345715
+    },
+    {
+      "clock": 10.581900000000012,
+      "step": 8,
+      "x": 3300.4241087294913,
+      "types": [
+        2
+      ],
+      "anim": "misiles",
+      "marker": 0.9355957819768105
+    },
+    {
+      "clock": 10.612000000000013,
+      "step": 8,
+      "x": 3300.4241087294913,
+      "types": [
+        2
+      ],
+      "anim": "misiles",
+      "marker": 0.994008674893553
+    },
+    {
+      "clock": 10.648500000000013,
+      "step": 8,
+      "x": 3300.4241087294913,
+      "types": [
+        2
+      ],
+      "anim": "misiles",
+      "marker": 0.9805204232014546
+    },
+    {
+      "clock": 10.684900000000013,
+      "step": 8,
+      "x": 3300.4241087294913,
+      "types": [
+        2
+      ],
+      "anim": "misiles",
+      "marker": 0.8784227254996136
+    },
+    {
+      "clock": 10.721200000000016,
+      "step": 8,
+      "x": 3300.4241087294913,
+      "types": [
+        2,
+        2
+      ],
+      "anim": "misiles",
+      "marker": 0.7093281388538287
+    },
+    {
+      "clock": 10.75760000000002,
+      "step": 8,
+      "x": 3300.4241087294913,
+      "types": [
+        2,
+        2
+      ],
+      "anim": "misiles",
+      "marker": 0.5929116844357991
+    },
+    {
+      "clock": 10.78780000000002,
+      "step": 8,
+      "x": 3300.4241087294913,
+      "types": [
+        2,
+        2
+      ],
+      "anim": "misiles",
+      "marker": 0.7558058265126055
+    },
+    {
+      "clock": 10.824400000000022,
+      "step": 8,
+      "x": 3300.4241087294913,
+      "types": [
+        2,
+        2
+      ],
+      "anim": "misiles",
+      "marker": 0.9120530098942673
+    },
+    {
+      "clock": 10.854500000000025,
+      "step": 8,
+      "x": 3300.4241087294913,
+      "types": [
+        2,
+        2
+      ],
+      "anim": "misiles",
+      "marker": 0.9851506694931313
+    },
+    {
+      "clock": 10.890900000000025,
+      "step": 8,
+      "x": 3300.4241087294913,
+      "types": [
+        2,
+        2
+      ],
+      "anim": "misiles",
+      "marker": 0.9910473587284369
+    },
+    {
+      "clock": 10.933300000000024,
+      "step": 8,
+      "x": 3300.4241087294913,
+      "types": [
+        2,
+        2
+      ],
+      "anim": "misiles",
+      "marker": 0.884541270270707
+    },
+    {
+      "clock": 10.963600000000024,
+      "step": 8,
+      "x": 3300.4241087294913,
+      "types": [
+        2,
+        2
+      ],
+      "anim": "misiles",
+      "marker": 0.7487340082253653
+    },
+    {
+      "clock": 11.000100000000025,
+      "step": 8,
+      "x": 3300.4241087294913,
+      "types": [
+        2,
+        2
+      ],
+      "anim": "misiles",
+      "marker": 0.5505654865289457
+    },
+    {
+      "clock": 11.036400000000024,
+      "step": 8,
+      "x": 3300.4241087294913,
+      "types": [
+        2,
+        2
+      ],
+      "anim": "misiles",
+      "marker": 0.7487340082256133
+    },
+    {
+      "clock": 11.072800000000026,
+      "step": 8,
+      "x": 3300.4241087294913,
+      "types": [
+        2,
+        2
+      ],
+      "anim": "misiles",
+      "marker": 0.9066069987100208
+    },
+    {
+      "clock": 11.103000000000028,
+      "step": 8,
+      "x": 3300.4241087294913,
+      "types": [
+        2,
+        2
+      ],
+      "anim": "misiles",
+      "marker": 0.9829124522137813
+    },
+    {
+      "clock": 11.139300000000029,
+      "step": 8,
+      "x": 3300.4241087294913,
+      "types": [
+        2,
+        2
+      ],
+      "anim": "misiles",
+      "marker": 0.9927538832283639
+    },
+    {
+      "clock": 11.175800000000029,
+      "step": 8,
+      "x": 3300.4241087294913,
+      "types": [
+        2,
+        2
+      ],
+      "anim": "misiles",
+      "marker": 0.911380217879879
+    },
+    {
+      "clock": 11.21210000000003,
+      "step": 8,
+      "x": 3300.4241087294913,
+      "types": [
+        2,
+        2,
+        2
+      ],
+      "anim": "misiles",
+      "marker": 0.7563085447906144
+    },
+    {
+      "clock": 11.24240000000003,
+      "step": 8,
+      "x": 3300.4241087294913,
+      "types": [
+        2,
+        2,
+        2
+      ],
+      "anim": "misiles",
+      "marker": 0.5929116844355238
+    },
+    {
+      "clock": 11.27880000000003,
+      "step": 8,
+      "x": 3300.4241087294913,
+      "types": [
+        2,
+        2,
+        2
+      ],
+      "anim": "misiles",
+      "marker": 0.7093281388540634
+    },
+    {
+      "clock": 11.315100000000033,
+      "step": 8,
+      "x": 3300.4241087294913,
+      "types": [
+        2,
+        2,
+        2
+      ],
+      "anim": "misiles",
+      "marker": 0.8784227254997852
+    },
+    {
+      "clock": 11.345700000000033,
+      "step": 8,
+      "x": 3300.4241087294913,
+      "types": [
+        2,
+        2,
+        2
+      ],
+      "anim": "misiles",
+      "marker": 0.9698403992817035
+    },
+    {
+      "clock": 11.382100000000033,
+      "step": 8,
+      "x": 3300.4241087294913,
+      "types": [
+        2,
+        2,
+        2
+      ],
+      "anim": "misiles",
+      "marker": 0.9982100915142595
+    },
+    {
+      "clock": 11.424300000000033,
+      "step": 9,
+      "x": 3300.4241087294913,
+      "types": [
+        2,
+        2,
+        2
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 11.460700000000035,
+      "step": 9,
+      "x": 3300.4241087294913,
+      "types": [
+        2,
+        2,
+        2
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 11.491300000000034,
+      "step": 9,
+      "x": 3300.4241087294913,
+      "types": [
+        2,
+        2,
+        2
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 11.527200000000036,
+      "step": 9,
+      "x": 3300.4241087294913,
+      "types": [
+        2,
+        2,
+        2
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 11.557700000000038,
+      "step": 9,
+      "x": 3300.4241087294913,
+      "types": [
+        2,
+        2,
+        2
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 11.593900000000039,
+      "step": 9,
+      "x": 3300.4241087294913,
+      "types": [
+        2,
+        2,
+        2
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 11.63050000000004,
+      "step": 9,
+      "x": 3300.4241087294913,
+      "types": [
+        2,
+        2,
+        2
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 11.660600000000041,
+      "step": 9,
+      "x": 3300.4241087294913,
+      "types": [
+        2,
+        2,
+        2
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 11.69710000000004,
+      "step": 9,
+      "x": 3300.4241087294913,
+      "types": [
+        2,
+        2,
+        2
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 11.73380000000004,
+      "step": 9,
+      "x": 3300.4241087294913,
+      "types": [
+        2,
+        2
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 11.769800000000043,
+      "step": 9,
+      "x": 3300.4241087294913,
+      "types": [
+        2,
+        2
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 11.800000000000045,
+      "step": 9,
+      "x": 3300.4241087294913,
+      "types": [
+        2,
+        2
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 11.842500000000047,
+      "step": 9,
+      "x": 3300.4241087294913,
+      "types": [
+        2,
+        2
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 11.878700000000052,
+      "step": 9,
+      "x": 3300.4241087294913,
+      "types": [
+        2,
+        2
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 11.909400000000053,
+      "step": 9,
+      "x": 3300.4241087294913,
+      "types": [
+        2,
+        2
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 11.945500000000054,
+      "step": 9,
+      "x": 3300.4241087294913,
+      "types": [
+        2,
+        2
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 11.981800000000055,
+      "step": 9,
+      "x": 3300.4241087294913,
+      "types": [
+        2,
+        2
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 12.018600000000056,
+      "step": 9,
+      "x": 3300.4241087294913,
+      "types": [
+        2,
+        2
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 12.049000000000058,
+      "step": 9,
+      "x": 3300.4241087294913,
+      "types": [
+        2,
+        2
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 12.085300000000057,
+      "step": 9,
+      "x": 3300.4241087294913,
+      "types": [
+        2,
+        2
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 12.115500000000058,
+      "step": 9,
+      "x": 3300.4241087294913,
+      "types": [
+        2,
+        2
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 12.157600000000055,
+      "step": 9,
+      "x": 3300.4241087294913,
+      "types": [
+        2,
+        2
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 12.188000000000057,
+      "step": 9,
+      "x": 3300.4241087294913,
+      "types": [
+        2,
+        2
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 12.224200000000058,
+      "step": 9,
+      "x": 3300.4241087294913,
+      "types": [
+        2,
+        2
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 12.260600000000059,
+      "step": 9,
+      "x": 3300.4241087294913,
+      "types": [
+        2
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 12.297400000000062,
+      "step": 9,
+      "x": 3300.4241087294913,
+      "types": [
+        2
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 12.321200000000063,
+      "step": 9,
+      "x": 3300.4241087294913,
+      "types": [
+        2
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 12.363700000000064,
+      "step": 9,
+      "x": 3300.4241087294913,
+      "types": [
+        2
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 12.400500000000065,
+      "step": 9,
+      "x": 3300.4241087294913,
+      "types": [
+        2
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 12.430400000000068,
+      "step": 9,
+      "x": 3300.4241087294913,
+      "types": [
+        2
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 12.472800000000067,
+      "step": 9,
+      "x": 3300.4241087294913,
+      "types": [
+        2
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 12.503000000000068,
+      "step": 9,
+      "x": 3300.4241087294913,
+      "types": [
+        2
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 12.539500000000066,
+      "step": 9,
+      "x": 3300.4241087294913,
+      "types": [
+        2
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 12.576000000000066,
+      "step": 9,
+      "x": 3300.4241087294913,
+      "types": [
+        2
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 12.612200000000069,
+      "step": 9,
+      "x": 3300.4241087294913,
+      "types": [
+        2
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 12.64240000000007,
+      "step": 9,
+      "x": 3300.4241087294913,
+      "types": [
+        2
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 12.678800000000068,
+      "step": 9,
+      "x": 3300.4241087294913,
+      "types": [
+        2
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 12.715100000000069,
+      "step": 9,
+      "x": 3300.4241087294913,
+      "types": [
+        2
+      ],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 12.75160000000007,
+      "step": 9,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 12.781800000000072,
+      "step": 9,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 12.818200000000074,
+      "step": 9,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 12.855000000000073,
+      "step": 9,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 12.891000000000075,
+      "step": 9,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 12.921200000000077,
+      "step": 9,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 12.957700000000077,
+      "step": 9,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 12.99390000000008,
+      "step": 9,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 13.030500000000078,
+      "step": 10,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 13.06660000000008,
+      "step": 10,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 13.096900000000083,
+      "step": 10,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 13.133400000000085,
+      "step": 10,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 13.169600000000083,
+      "step": 10,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 13.206200000000084,
+      "step": 10,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 13.236300000000083,
+      "step": 10,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 13.266600000000082,
+      "step": 10,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 13.309200000000084,
+      "step": 10,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 13.345900000000086,
+      "step": 10,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 13.381900000000087,
+      "step": 10,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 13.412400000000087,
+      "step": 10,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 13.454400000000087,
+      "step": 10,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 13.484900000000088,
+      "step": 10,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 13.521400000000089,
+      "step": 10,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 13.55160000000009,
+      "step": 10,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 13.593900000000094,
+      "step": 10,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 13.624300000000092,
+      "step": 10,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 13.654700000000094,
+      "step": 10,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 13.691300000000092,
+      "step": 10,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 13.733300000000096,
+      "step": 10,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 13.757600000000094,
+      "step": 10,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 13.800000000000097,
+      "step": 10,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 13.830300000000097,
+      "step": 10,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 13.867000000000099,
+      "step": 10,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 13.9032000000001,
+      "step": 10,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 13.9394000000001,
+      "step": 10,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 13.9759000000001,
+      "step": 10,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 14.012100000000098,
+      "step": 11,
+      "x": 3300.4241087294913,
+      "types": [
+        3
+      ],
+      "anim": "rayos_laterales",
+      "marker": 0
+    },
+    {
+      "clock": 14.042500000000098,
+      "step": 11,
+      "x": 3300.4241087294913,
+      "types": [
+        3
+      ],
+      "anim": "rayos_laterales",
+      "marker": 0
+    },
+    {
+      "clock": 14.078800000000099,
+      "step": 11,
+      "x": 3300.4241087294913,
+      "types": [
+        3
+      ],
+      "anim": "rayos_laterales",
+      "marker": 0
+    },
+    {
+      "clock": 14.1152000000001,
+      "step": 11,
+      "x": 3300.4241087294913,
+      "types": [
+        3
+      ],
+      "anim": "rayos_laterales",
+      "marker": 0
+    },
+    {
+      "clock": 14.145600000000098,
+      "step": 11,
+      "x": 3300.4241087294913,
+      "types": [
+        3
+      ],
+      "anim": "rayos_laterales",
+      "marker": 0
+    },
+    {
+      "clock": 14.1820000000001,
+      "step": 11,
+      "x": 3300.4241087294913,
+      "types": [
+        3
+      ],
+      "anim": "rayos_laterales",
+      "marker": 0
+    },
+    {
+      "clock": 14.2183000000001,
+      "step": 11,
+      "x": 3300.4241087294913,
+      "types": [
+        3
+      ],
+      "anim": "rayos_laterales",
+      "marker": 0
+    },
+    {
+      "clock": 14.254500000000103,
+      "step": 11,
+      "x": 3300.4241087294913,
+      "types": [
+        3
+      ],
+      "anim": "rayos_laterales",
+      "marker": 0
+    },
+    {
+      "clock": 14.290900000000105,
+      "step": 11,
+      "x": 3300.4241087294913,
+      "types": [
+        3
+      ],
+      "anim": "rayos_laterales",
+      "marker": 0
+    },
+    {
+      "clock": 14.327300000000104,
+      "step": 11,
+      "x": 3300.4241087294913,
+      "types": [
+        3
+      ],
+      "anim": "rayos_laterales",
+      "marker": 0
+    },
+    {
+      "clock": 14.357600000000105,
+      "step": 11,
+      "x": 3300.4241087294913,
+      "types": [
+        3
+      ],
+      "anim": "rayos_laterales",
+      "marker": 0
+    },
+    {
+      "clock": 14.394000000000105,
+      "step": 11,
+      "x": 3300.4241087294913,
+      "types": [
+        3
+      ],
+      "anim": "rayos_laterales",
+      "marker": 0
+    },
+    {
+      "clock": 14.424400000000107,
+      "step": 11,
+      "x": 3300.4241087294913,
+      "types": [
+        3
+      ],
+      "anim": "rayos_laterales",
+      "marker": 0
+    },
+    {
+      "clock": 14.460700000000108,
+      "step": 11,
+      "x": 3300.4241087294913,
+      "types": [
+        3
+      ],
+      "anim": "rayos_laterales",
+      "marker": 0
+    },
+    {
+      "clock": 14.502900000000109,
+      "step": 11,
+      "x": 3300.4241087294913,
+      "types": [
+        3
+      ],
+      "anim": "rayos_laterales",
+      "marker": 0
+    },
+    {
+      "clock": 14.533300000000105,
+      "step": 11,
+      "x": 3300.4241087294913,
+      "types": [
+        3
+      ],
+      "anim": "rayos_laterales",
+      "marker": 0
+    },
+    {
+      "clock": 14.563700000000107,
+      "step": 11,
+      "x": 3300.4241087294913,
+      "types": [
+        3
+      ],
+      "anim": "rayos_laterales",
+      "marker": 0
+    },
+    {
+      "clock": 14.606100000000104,
+      "step": 11,
+      "x": 3300.4241087294913,
+      "types": [
+        3
+      ],
+      "anim": "rayos_laterales",
+      "marker": 0
+    },
+    {
+      "clock": 14.636500000000106,
+      "step": 11,
+      "x": 3300.4241087294913,
+      "types": [
+        3
+      ],
+      "anim": "rayos_laterales",
+      "marker": 0
+    },
+    {
+      "clock": 14.678800000000106,
+      "step": 11,
+      "x": 3300.4241087294913,
+      "types": [
+        3
+      ],
+      "anim": "rayos_laterales",
+      "marker": 0
+    },
+    {
+      "clock": 14.703100000000106,
+      "step": 11,
+      "x": 3300.4241087294913,
+      "types": [
+        3
+      ],
+      "anim": "rayos_laterales",
+      "marker": 0
+    },
+    {
+      "clock": 14.745400000000107,
+      "step": 11,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "rayos_laterales",
+      "marker": 0
+    },
+    {
+      "clock": 14.781800000000104,
+      "step": 11,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "rayos_laterales",
+      "marker": 0
+    },
+    {
+      "clock": 14.818200000000106,
+      "step": 11,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "rayos_laterales",
+      "marker": 0
+    },
+    {
+      "clock": 14.842500000000106,
+      "step": 11,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "rayos_laterales",
+      "marker": 0
+    },
+    {
+      "clock": 14.884900000000107,
+      "step": 11,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "rayos_laterales",
+      "marker": 0
+    },
+    {
+      "clock": 14.921300000000105,
+      "step": 11,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "rayos_laterales",
+      "marker": 0
+    },
+    {
+      "clock": 14.957600000000104,
+      "step": 11,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "rayos_laterales",
+      "marker": 0
+    },
+    {
+      "clock": 14.988000000000106,
+      "step": 11,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "rayos_laterales",
+      "marker": 0
+    },
+    {
+      "clock": 15.024200000000107,
+      "step": 12,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 15.060600000000106,
+      "step": 12,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 15.09090000000011,
+      "step": 12,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 15.12740000000011,
+      "step": 12,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 15.16370000000011,
+      "step": 12,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 15.20000000000011,
+      "step": 12,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 15.236300000000108,
+      "step": 12,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 15.27300000000011,
+      "step": 12,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 15.303100000000109,
+      "step": 12,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 15.33960000000011,
+      "step": 12,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 15.376000000000111,
+      "step": 12,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 15.400000000000112,
+      "step": 12,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 15.448400000000117,
+      "step": 12,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 15.478700000000115,
+      "step": 12,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 15.515200000000116,
+      "step": 12,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 15.551400000000116,
+      "step": 12,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 15.582200000000116,
+      "step": 12,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    },
+    {
+      "clock": 15.624200000000116,
+      "step": 12,
+      "x": 3300.4241087294913,
+      "types": [],
+      "anim": "reposo",
+      "marker": 0
+    }
+  ],
+  "captures": [
+    {
+      "label": "01_inicio",
+      "vars": {
+        "CS_SalidaAbierta": 0,
+        "CS_SalidaTecla": 0,
+        "CS_Energia": 3,
+        "CS_EstadoEnergia": 0,
+        "CS_Invulnerable": 0,
+        "CS_AmbTiempo": 0.33033333333333337,
+        "CS_AmbIntensidad": 0.5,
+        "CS_AmbActivado": 1,
+        "CS_PanelMenu": 0
+      },
+      "boss": {
+        "x": 3300,
+        "y": 360.2173156738281,
+        "width": -640,
+        "vars": [
+          24,
+          24,
+          0,
+          -1.4,
+          -1,
+          -99,
+          0,
+          0,
+          0,
+          3000,
+          343,
+          -1,
+          0
+        ],
+        "animation": "reposo",
+        "frame": 2,
+        "opacity": 1
+      },
+      "body": {
+        "x": 73,
+        "y": 367.5519012777778,
+        "ignored": 0
+      },
+      "bullets": 0,
+      "enemy": [],
+      "bar": 300,
+      "scale": 1,
+      "layout": "Layout 1",
+      "layers": 4,
+      "panel": false,
+      "title": "ENERGÍA AGOTADA"
+    },
+    {
+      "label": "02_entrada_jefe",
+      "vars": {
+        "CS_SalidaAbierta": 0,
+        "CS_SalidaTecla": 0,
+        "CS_Energia": 3,
+        "CS_EstadoEnergia": 0,
+        "CS_Invulnerable": 1.4848999999999994,
+        "CS_AmbTiempo": 0.7300333333333335,
+        "CS_AmbIntensidad": 0.5,
+        "CS_AmbActivado": 1,
+        "CS_PanelMenu": 0
+      },
+      "boss": {
+        "x": 3300,
+        "y": 360.2173156738281,
+        "width": -640,
+        "vars": [
+          24,
+          24,
+          1,
+          -1.2848999999999993,
+          -1,
+          -1,
+          0,
+          0,
+          0,
+          3000,
+          343,
+          -1,
+          0
+        ],
+        "animation": "reposo",
+        "frame": 5,
+        "opacity": 1
+      },
+      "body": {
+        "x": 3000,
+        "y": 343,
+        "ignored": 0
+      },
+      "bullets": 0,
+      "enemy": [],
+      "bar": 300,
+      "scale": 1,
+      "layout": "Layout 1",
+      "layers": 4,
+      "panel": false,
+      "title": "ENERGÍA AGOTADA"
+    },
+    {
+      "label": "03_disparo_jugador",
+      "vars": {
+        "CS_SalidaAbierta": 0,
+        "CS_SalidaTecla": 0,
+        "CS_Energia": 3,
+        "CS_EstadoEnergia": 0,
+        "CS_Invulnerable": 99.84219999999995,
+        "CS_AmbTiempo": 1.178833333333334,
+        "CS_AmbIntensidad": 0.5,
+        "CS_AmbActivado": 1,
+        "CS_PanelMenu": 0
+      },
+      "boss": {
+        "x": 3323.9807616056905,
+        "y": 360.2173156738281,
+        "width": -640,
+        "vars": [
+          24,
+          24,
+          1,
+          0.3577999999999997,
+          0,
+          0,
+          0,
+          0.12880000000000016,
+          0,
+          3000,
+          343,
+          -1,
+          0
+        ],
+        "animation": "movimiento",
+        "frame": 1,
+        "opacity": 1
+      },
+      "body": {
+        "x": 3000,
+        "y": 343,
+        "ignored": 0
+      },
+      "bullets": 1,
+      "enemy": [],
+      "bar": 300,
+      "scale": 1,
+      "layout": "Layout 1",
+      "layers": 4,
+      "panel": false,
+      "title": "ENERGÍA AGOTADA"
+    },
+    {
+      "label": "04_danio_jefe",
+      "vars": {
+        "CS_SalidaAbierta": 0,
+        "CS_SalidaTecla": 0,
+        "CS_Energia": 3,
+        "CS_EstadoEnergia": 0,
+        "CS_Invulnerable": 98.92119999999987,
+        "CS_AmbTiempo": 2.0998333333333346,
+        "CS_AmbIntensidad": 0.5,
+        "CS_AmbActivado": 1,
+        "CS_PanelMenu": 0
+      },
+      "boss": {
+        "x": 3340.753260881846,
+        "y": 360.2173156738281,
+        "width": -640,
+        "vars": [
+          23,
+          24,
+          1,
+          1.2787999999999997,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3000,
+          343,
+          -1,
+          0
+        ],
+        "animation": "movimiento",
+        "frame": 3,
+        "opacity": 1
+      },
+      "body": {
+        "x": 3000,
+        "y": 343,
+        "ignored": 0
+      },
+      "bullets": 0,
+      "enemy": [],
+      "bar": 287.5,
+      "scale": 1,
+      "layout": "Layout 1",
+      "layers": 4,
+      "panel": false,
+      "title": "ENERGÍA AGOTADA"
+    },
+    {
+      "label": "05_escudo",
+      "vars": {
+        "CS_SalidaAbierta": 0,
+        "CS_SalidaTecla": 0,
+        "CS_Energia": 3,
+        "CS_EstadoEnergia": 0,
+        "CS_Invulnerable": 99.15759999999983,
+        "CS_AmbTiempo": 3.227033333333327,
+        "CS_AmbIntensidad": 0.5,
+        "CS_AmbActivado": 1,
+        "CS_PanelMenu": 0
+      },
+      "boss": {
+        "x": 3328.4875502238715,
+        "y": 360.2173156738281,
+        "width": -640,
+        "vars": [
+          23,
+          24,
+          1,
+          2.942399999999993,
+          1,
+          1,
+          0,
+          0,
+          0,
+          3000,
+          343,
+          -1,
+          0
+        ],
+        "animation": "reposo",
+        "frame": 6,
+        "opacity": 1
+      },
+      "body": {
+        "x": 3000,
+        "y": 343,
+        "ignored": 0
+      },
+      "bullets": 0,
+      "enemy": [],
+      "bar": 287.5,
+      "scale": 1,
+      "layout": "Layout 1",
+      "layers": 4,
+      "panel": false,
+      "title": "ENERGÍA AGOTADA"
+    },
+    {
+      "label": "06_pausa",
+      "vars": {
+        "CS_SalidaAbierta": 1,
+        "CS_SalidaTecla": 0,
+        "CS_Energia": 3,
+        "CS_EstadoEnergia": 0,
+        "CS_Invulnerable": 98.90309999999982,
+        "CS_AmbTiempo": 3.4815333333333256,
+        "CS_AmbIntensidad": 0.5,
+        "CS_AmbActivado": 1,
+        "CS_PanelMenu": 0
+      },
+      "boss": {
+        "x": 3328.4875502238715,
+        "y": 360.2173156738281,
+        "width": -640,
+        "vars": [
+          23,
+          24,
+          1,
+          3.1968999999999914,
+          2,
+          2,
+          0.13230000000000008,
+          0,
+          0,
+          3000,
+          343,
+          -1,
+          1
+        ],
+        "animation": "disparo_principal",
+        "frame": 1,
+        "opacity": 1
+      },
+      "body": {
+        "x": 3000,
+        "y": 343,
+        "ignored": 1
+      },
+      "bullets": 0,
+      "enemy": [
+        {
+          "x": 3216.2647361474183,
+          "y": 279.5960866736199,
+          "w": 12,
+          "h": 12,
+          "vars": [
+            -211.11407038226477,
+            61.893854998958886,
+            2.800000000000001,
+            0
+          ],
+          "animation": "bala"
+        }
+      ],
+      "bar": 287.5,
+      "scale": 0,
+      "layout": "Layout 1",
+      "layers": 4,
+      "panel": false,
+      "title": "ENERGÍA AGOTADA"
+    },
+    {
+      "label": "07_pausa_estable",
+      "vars": {
+        "CS_SalidaAbierta": 1,
+        "CS_SalidaTecla": 0,
+        "CS_Energia": 3,
+        "CS_EstadoEnergia": 0,
+        "CS_Invulnerable": 98.90309999999982,
+        "CS_AmbTiempo": 3.4815333333333256,
+        "CS_AmbIntensidad": 0.5,
+        "CS_AmbActivado": 1,
+        "CS_PanelMenu": 0
+      },
+      "boss": {
+        "x": 3328.4875502238715,
+        "y": 360.2173156738281,
+        "width": -640,
+        "vars": [
+          23,
+          24,
+          1,
+          3.1968999999999914,
+          2,
+          2,
+          0.13230000000000008,
+          0,
+          0,
+          3000,
+          343,
+          -1,
+          1
+        ],
+        "animation": "disparo_principal",
+        "frame": 1,
+        "opacity": 1
+      },
+      "body": {
+        "x": 3000,
+        "y": 343,
+        "ignored": 1
+      },
+      "bullets": 0,
+      "enemy": [
+        {
+          "x": 3216.2647361474183,
+          "y": 279.5960866736199,
+          "w": 12,
+          "h": 12,
+          "vars": [
+            -211.11407038226477,
+            61.893854998958886,
+            2.800000000000001,
+            0
+          ],
+          "animation": "bala"
+        }
+      ],
+      "bar": 287.5,
+      "scale": 0,
+      "layout": "Layout 1",
+      "layers": 4,
+      "panel": false,
+      "title": "ENERGÍA AGOTADA"
+    },
+    {
+      "label": "08_ciclo_completo",
+      "vars": {
+        "CS_SalidaAbierta": 0,
+        "CS_SalidaTecla": 0,
+        "CS_Energia": 3,
+        "CS_EstadoEnergia": 0,
+        "CS_Invulnerable": 82.95749999999822,
+        "CS_AmbTiempo": 17.51280000001217,
+        "CS_AmbIntensidad": 0.5,
+        "CS_AmbActivado": 1,
+        "CS_PanelMenu": 0
+      },
+      "boss": {
+        "x": 3300.4241087294913,
+        "y": 360.2173156738281,
+        "width": -640,
+        "vars": [
+          24,
+          24,
+          1,
+          15.751500000000117,
+          12,
+          12,
+          0,
+          0,
+          0,
+          3000,
+          343,
+          -1,
+          0
+        ],
+        "animation": "reposo",
+        "frame": 5,
+        "opacity": 1
+      },
+      "body": {
+        "x": 3000,
+        "y": 343,
+        "ignored": 0
+      },
+      "bullets": 0,
+      "enemy": [],
+      "bar": 300,
+      "scale": 1,
+      "layout": "Layout 1",
+      "layers": 4,
+      "panel": false,
+      "title": "ENERGÍA AGOTADA"
+    },
+    {
+      "label": "09_danio_jugador",
+      "vars": {
+        "CS_SalidaAbierta": 0,
+        "CS_SalidaTecla": 0,
+        "CS_Energia": 2,
+        "CS_EstadoEnergia": 0,
+        "CS_Invulnerable": 1.109,
+        "CS_AmbTiempo": 17.8765000000122,
+        "CS_AmbIntensidad": 0.5,
+        "CS_AmbActivado": 1,
+        "CS_PanelMenu": 0
+      },
+      "boss": {
+        "x": 3300.4241087294913,
+        "y": 360.2173156738281,
+        "width": -640,
+        "vars": [
+          24,
+          24,
+          1,
+          16.115200000000126,
+          12,
+          12,
+          0,
+          0,
+          0,
+          3000,
+          343,
+          -1,
+          0
+        ],
+        "animation": "reposo",
+        "frame": 0,
+        "opacity": 1
+      },
+      "body": {
+        "x": 3000,
+        "y": 343,
+        "ignored": 0
+      },
+      "bullets": 0,
+      "enemy": [],
+      "bar": 300,
+      "scale": 1,
+      "layout": "Layout 1",
+      "layers": 4,
+      "panel": false,
+      "title": "ENERGÍA AGOTADA"
+    },
+    {
+      "label": "10_explosion",
+      "vars": {
+        "CS_SalidaAbierta": 0,
+        "CS_SalidaTecla": 0,
+        "CS_Energia": 3,
+        "CS_EstadoEnergia": 0,
+        "CS_Invulnerable": 99.55149999999993,
+        "CS_AmbTiempo": 0.8566000000357623,
+        "CS_AmbIntensidad": 0.5,
+        "CS_AmbActivado": 1,
+        "CS_PanelMenu": 0
+      },
+      "boss": {
+        "x": 3333.5861759588292,
+        "y": 360.2173156738281,
+        "width": -640,
+        "vars": [
+          0,
+          24,
+          2,
+          0.01209999999999991,
+          0,
+          0,
+          0,
+          0,
+          0.23790000000000008,
+          3000,
+          343,
+          -1,
+          0
+        ],
+        "animation": "explosion",
+        "frame": 0,
+        "opacity": 1
+      },
+      "body": {
+        "x": 3000,
+        "y": 343,
+        "ignored": 1
+      },
+      "bullets": 0,
+      "enemy": [],
+      "bar": 1,
+      "scale": 1,
+      "layout": "Layout 1",
+      "layers": 4,
+      "panel": false,
+      "title": "ENERGÍA AGOTADA"
+    },
+    {
+      "label": "11_desaparicion",
+      "vars": {
+        "CS_SalidaAbierta": 0,
+        "CS_SalidaTecla": 0,
+        "CS_Energia": 3,
+        "CS_EstadoEnergia": 0,
+        "CS_Invulnerable": 98.59999999999981,
+        "CS_AmbTiempo": 1.808100000035764,
+        "CS_AmbIntensidad": 0.5,
+        "CS_AmbActivado": 1,
+        "CS_PanelMenu": 0
+      },
+      "boss": {
+        "x": 3333.5861759588292,
+        "y": 360.2173156738281,
+        "width": -640,
+        "vars": [
+          0,
+          24,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3000,
+          343,
+          -1,
+          0
+        ],
+        "animation": "desaparicion",
+        "frame": 0,
+        "opacity": 1
+      },
+      "body": {
+        "x": 3000,
+        "y": 343,
+        "ignored": 1
+      },
+      "bullets": 0,
+      "enemy": [],
+      "bar": 1,
+      "scale": 1,
+      "layout": "Layout 1",
+      "layers": 4,
+      "panel": false,
+      "title": "ENERGÍA AGOTADA"
+    },
+    {
+      "label": "12_victoria",
+      "vars": {
+        "CS_SalidaAbierta": 0,
+        "CS_SalidaTecla": 0,
+        "CS_Energia": 3,
+        "CS_EstadoEnergia": 2,
+        "CS_Invulnerable": 97.39999999999958,
+        "CS_AmbTiempo": 3.0081000000357565,
+        "CS_AmbIntensidad": 0.5,
+        "CS_AmbActivado": 1,
+        "CS_PanelMenu": 0
+      },
+      "boss": {
+        "x": 3333.5861759588292,
+        "y": 360.2173156738281,
+        "width": -640,
+        "vars": [
+          0,
+          24,
+          4,
+          1.2000000000000013,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3000,
+          343,
+          -1,
+          0
+        ],
+        "animation": "reposo",
+        "frame": 0,
+        "opacity": 0
+      },
+      "body": {
+        "x": 3000,
+        "y": 343,
+        "ignored": 1
+      },
+      "bullets": 0,
+      "enemy": [],
+      "bar": 1,
+      "scale": 0,
+      "layout": "Layout 1",
+      "layers": 4,
+      "panel": true,
+      "title": "¡DEMO COMPLETADA!"
+    },
+    {
+      "label": "13_reintentar",
+      "vars": {
+        "CS_SalidaAbierta": 0,
+        "CS_SalidaTecla": 0,
+        "CS_Energia": 3,
+        "CS_EstadoEnergia": 0,
+        "CS_Invulnerable": 0,
+        "CS_AmbTiempo": 0.04240000000000054,
+        "CS_AmbIntensidad": 0.5,
+        "CS_AmbActivado": 1,
+        "CS_PanelMenu": 0
+      },
+      "boss": {
+        "x": 3300,
+        "y": 360.2173156738281,
+        "width": -640,
+        "vars": [
+          24,
+          24,
+          0,
+          -1.4,
+          -1,
+          -99,
+          0,
+          0,
+          0,
+          3000,
+          343,
+          -1,
+          0
+        ],
+        "animation": "reposo",
+        "frame": 0,
+        "opacity": 1
+      },
+      "body": {
+        "x": 73,
+        "y": 366.013771,
+        "ignored": 0
+      },
+      "bullets": 0,
+      "enemy": [],
+      "bar": 300,
+      "scale": 1,
+      "layout": "Layout 1",
+      "layers": 4,
+      "panel": false,
+      "title": "ENERGÍA AGOTADA"
+    },
+    {
+      "label": "14_desde_menu",
+      "vars": {
+        "CS_SalidaAbierta": 0,
+        "CS_SalidaTecla": 0,
+        "CS_Energia": 3,
+        "CS_EstadoEnergia": 0,
+        "CS_Invulnerable": 0,
+        "CS_AmbTiempo": 0.02999999999999909,
+        "CS_AmbIntensidad": 0.5,
+        "CS_AmbActivado": 1,
+        "CS_PanelMenu": 0
+      },
+      "boss": {
+        "x": 3300,
+        "y": 360.2173156738281,
+        "width": -640,
+        "vars": [
+          24,
+          24,
+          0,
+          -1.4,
+          -1,
+          -99,
+          0,
+          0,
+          0,
+          3000,
+          343,
+          -1,
+          0
+        ],
+        "animation": "reposo",
+        "frame": 0,
+        "opacity": 1
+      },
+      "body": {
+        "x": 73,
+        "y": 365.17398349999996,
+        "ignored": 0
+      },
+      "bullets": 0,
+      "enemy": [],
+      "bar": 300,
+      "scale": 1,
+      "layout": "Layout 1",
+      "layers": 4,
+      "panel": false,
+      "title": "ENERGÍA AGOTADA"
+    }
+  ],
+  "errors": [],
+  "alcance": "Vista previa real de Construct 2. Ciclo completo observado con protección temporal al jugador. Impactos y último disparo ejecutan eventos reales; se reposiciona al jugador para preparar la arena y se fija HP=1 sólo al preparar el golpe final. No es un recorrido completo manual."
+}

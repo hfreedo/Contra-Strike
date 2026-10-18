@@ -1,0 +1,1 @@
+Título Flow integrado: 95 cuadros RGBA de 800×460 a 12 FPS. Bucle de unos 7,92 s; tamaño en menú 232×133,4, origen centro, posición conservada. Fuente completa a 1600×920 en el kit de menú. Los márgenes transparentes y la atenuación de partículas reducen la visibilidad de los límites. Respuesta al cursor y animación comprobadas en motor.

@@ -1,3 +1,17 @@
+# Versión vigente v21: título animado, audio y explosión de impacto
+
+Abrir `Contra_Strike_con_menu.capx` de esta carpeta. El título Flow de 95 cuadros ya está integrado en el menú. El misil usa los ocho cuadros proporcionados y gira según su velocidad. Al tocar el suelo crea una explosión de 19 cuadros, de una sola reproducción, anclada a la superficie real de la colisión.
+
+Los 12 sonidos sintetizados están conectados: disparos del jugador y del mecha, aviso, lanzamiento de misil, explosión, daño, cursor, confirmación, victoria y ambiente. La pausa y el regreso al menú controlan el audio; la música previa se conserva a -18 dB. Se incluyen OGG y M4A para los efectos nuevos.
+
+Controles: flechas para moverse y saltar, **Z para disparar**, ESC para pausa. Derrotar al mecha completa la demo. El proyecto utiliza 88 eventos y cuatro capas; quedan 12 espacios hasta 100.
+
+Validación: 74 comprobaciones puntuales de motor PASS y tres impactos de misil con trayectoria natural observados. Consultar `VALIDACION.md`. Recorrido manual completo y mezcla auditiva final pendientes.
+
+Recursos nuevos: `Assets/Audio/Propuesta_v1`, `Assets/Menu/Titulo_Flow_v1` y `Assets/Combate/Jefe_Mecha/Misil_Impacto_v1`. Ya están importados: no hay que volver a añadirlos para jugar. Cerrar las pestañas antiguas y reabrir este archivo antes de seguir editando.
+
+## Documentación de versiones anteriores
+
 # Versión vigente v20: jefe mecha animado
 
 El mecha aparece al final del escenario con nueve animaciones (72 cuadros), 24 puntos de vida y un patrón de movimiento y ataques de 17 segundos. Disparar con **Z**; las flechas y ESC conservan sus funciones. Se mantienen la iluminación, la atmósfera y la cámara de la versión anterior.

@@ -1,0 +1,12 @@
+{
+  "resultado": "PASS",
+  "archivos_sonoros": 12,
+  "formatos": [
+    "WAV PCM 16-bit mono 44100 Hz",
+    "OGG Vorbis mono 44100 Hz"
+  ],
+  "picos_max_dbfs": -3.1,
+  "sintesis": "original por codigo",
+  "integracion_capx": "Pendiente",
+  "evaluacion_auditiva": "Pendiente de escuchar y ajustar en juego"
+}

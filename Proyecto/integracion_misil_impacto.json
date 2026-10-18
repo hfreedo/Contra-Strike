@@ -1,0 +1,34 @@
+{
+  "sha256": "36ccc7dd8f00e0e262502c00abfc3693a0272ca769e607a3b89cfc16e061a696",
+  "sha256_anterior": "d2d278bbfe3cf69c66ba08e59c1d4f5c9f0ebcef6cf86657ef412a148fda0c03",
+  "respaldo": "C:\\Users\\Soul Hoshi\\Documents\\ChatGPT\\PAL - Desarrollo de videojuegos\\Entregas\\Historial\\Superadas\\Contra_Strike\\Antes_misil_impacto_v20_1\\Contra_Strike_con_menu.capx",
+  "eventos": 85,
+  "margen": 15,
+  "misil": {
+    "frames": 8,
+    "dimensiones": [
+      304,
+      72
+    ],
+    "origen": [
+      0.77,
+      0.5
+    ],
+    "fps": 8.333333333333334,
+    "tamano_juego": [
+      40,
+      9.473684210526315
+    ]
+  },
+  "explosion": {
+    "frames": 19,
+    "fps": 25,
+    "duracion_ms": 1000,
+    "loop": false,
+    "radio_dano": 34,
+    "ventana_dano": 0.18
+  },
+  "estructura": "PASS",
+  "instancias_anteriores_identicas": true,
+  "motor": "PENDIENTE"
+}

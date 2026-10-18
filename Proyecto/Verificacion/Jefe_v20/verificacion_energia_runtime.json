@@ -1,0 +1,470 @@
+{
+  "resultado": "PASS",
+  "fecha": "2026-10-18T10:48:39.817Z",
+  "url": "http://localhost:50004/",
+  "sha256": "1523d0c2d2aa8166fc17ca05ee983af2290be3b7a5b80e4ff157c17fa5ad29b4",
+  "total": 22,
+  "pruebas": [
+    "Inicio con tres cargas llenas",
+    "HUD fijo a la pantalla",
+    "Controles y cuerpo conservados",
+    "Sin contador numérico de vidas",
+    "Arte HD reducido al 80% y segmentos detrás del marco",
+    "Primer avance conserva caminar",
+    "Caída resta una carga y reaparece",
+    "HUD refleja dos cargas y una vacía",
+    "No repite daño al reaparecer",
+    "Fin del parpadeo restaura opacidad",
+    "ESC conserva pausa y energía",
+    "Reanuda controles",
+    "Segunda caída deja una carga",
+    "Tercera caída abre derrota",
+    "Energía no baja de cero",
+    "Derrota no superpone diálogo de salida",
+    "Botón Reintentar restaura partida",
+    "Botón Menú sale de derrota con tiempo normal",
+    "Jugar desde menú inicia tres cargas",
+    "ENTER reintenta desde derrota",
+    "ESC vuelve al menú desde derrota",
+    "Sin errores JavaScript"
+  ],
+  "captures": [
+    {
+      "label": "01_tres_cargas",
+      "layout": "Layout 1",
+      "vars": {
+        "CS_SalidaAbierta": 0,
+        "CS_SalidaTecla": 0,
+        "CS_Energia": 3,
+        "CS_EstadoEnergia": 0,
+        "CS_Invulnerable": 0,
+        "CS_AmbTiempo": 0.6409000000238417,
+        "CS_AmbIntensidad": 0.5,
+        "CS_AmbActivado": 1,
+        "CS_PanelMenu": 0
+      },
+      "timeScale": 1,
+      "body": {
+        "x": 73,
+        "y": 367.57098200225374,
+        "w": 16,
+        "h": 34,
+        "dy": 0,
+        "ignored": 0,
+        "onFloor": true
+      },
+      "visual": {
+        "animation": "quieto",
+        "opacity": 1
+      },
+      "segments": [
+        "lleno",
+        "lleno",
+        "lleno"
+      ],
+      "defeat": false,
+      "exit": false,
+      "hud": {
+        "parallaxX": 0,
+        "parallaxY": 0
+      },
+      "file": "01_tres_cargas.png"
+    },
+    {
+      "label": "02_movimiento",
+      "layout": "Layout 1",
+      "vars": {
+        "CS_SalidaAbierta": 0,
+        "CS_SalidaTecla": 0,
+        "CS_Energia": 3,
+        "CS_EstadoEnergia": 0,
+        "CS_Invulnerable": 0,
+        "CS_AmbTiempo": 1.095400000023842,
+        "CS_AmbIntensidad": 0.5,
+        "CS_AmbActivado": 1,
+        "CS_PanelMenu": 0
+      },
+      "timeScale": 1,
+      "body": {
+        "x": 88.71684400000005,
+        "y": 367.57098200225374,
+        "w": 16,
+        "h": 34,
+        "dy": 0,
+        "ignored": 0,
+        "onFloor": true
+      },
+      "visual": {
+        "animation": "caminar",
+        "opacity": 1
+      },
+      "segments": [
+        "lleno",
+        "lleno",
+        "lleno"
+      ],
+      "defeat": false,
+      "exit": false,
+      "hud": {
+        "parallaxX": 0,
+        "parallaxY": 0
+      },
+      "file": "02_movimiento.png"
+    },
+    {
+      "label": "03_primer_danio",
+      "layout": "Layout 1",
+      "vars": {
+        "CS_SalidaAbierta": 0,
+        "CS_SalidaTecla": 0,
+        "CS_Energia": 2,
+        "CS_EstadoEnergia": 0,
+        "CS_Invulnerable": 1.0668999999999997,
+        "CS_AmbTiempo": 1.4893000000238434,
+        "CS_AmbIntensidad": 0.5,
+        "CS_AmbActivado": 1,
+        "CS_PanelMenu": 0
+      },
+      "timeScale": 1,
+      "body": {
+        "x": 73,
+        "y": 367.586094,
+        "w": 16,
+        "h": 34,
+        "dy": 0,
+        "ignored": 0,
+        "onFloor": true
+      },
+      "visual": {
+        "animation": "quieto",
+        "opacity": 0.35
+      },
+      "segments": [
+        "lleno",
+        "lleno",
+        "danio"
+      ],
+      "defeat": false,
+      "exit": false,
+      "hud": {
+        "parallaxX": 0,
+        "parallaxY": 0
+      },
+      "file": "03_primer_danio.png"
+    },
+    {
+      "label": "04_dos_cargas",
+      "layout": "Layout 1",
+      "vars": {
+        "CS_SalidaAbierta": 0,
+        "CS_SalidaTecla": 0,
+        "CS_Energia": 2,
+        "CS_EstadoEnergia": 0,
+        "CS_Invulnerable": 0,
+        "CS_AmbTiempo": 3.101400000023837,
+        "CS_AmbIntensidad": 0.5,
+        "CS_AmbActivado": 1,
+        "CS_PanelMenu": 0
+      },
+      "timeScale": 1,
+      "body": {
+        "x": 73,
+        "y": 367.586094,
+        "w": 16,
+        "h": 34,
+        "dy": 0,
+        "ignored": 0,
+        "onFloor": true
+      },
+      "visual": {
+        "animation": "quieto",
+        "opacity": 1
+      },
+      "segments": [
+        "lleno",
+        "lleno",
+        "vacio"
+      ],
+      "defeat": false,
+      "exit": false,
+      "hud": {
+        "parallaxX": 0,
+        "parallaxY": 0
+      },
+      "file": "04_dos_cargas.png"
+    },
+    {
+      "label": "05_pausa",
+      "layout": "Layout 1",
+      "vars": {
+        "CS_SalidaAbierta": 1,
+        "CS_SalidaTecla": 0,
+        "CS_Energia": 2,
+        "CS_EstadoEnergia": 0,
+        "CS_Invulnerable": 0,
+        "CS_AmbTiempo": 3.344000000023835,
+        "CS_AmbIntensidad": 0.5,
+        "CS_AmbActivado": 1,
+        "CS_PanelMenu": 0
+      },
+      "timeScale": 0,
+      "body": {
+        "x": 73,
+        "y": 367.586094,
+        "w": 16,
+        "h": 34,
+        "dy": 0,
+        "ignored": 1,
+        "onFloor": true
+      },
+      "visual": {
+        "animation": "quieto",
+        "opacity": 1
+      },
+      "segments": [
+        "lleno",
+        "lleno",
+        "vacio"
+      ],
+      "defeat": false,
+      "exit": true,
+      "hud": {
+        "parallaxX": 0,
+        "parallaxY": 0
+      },
+      "file": "05_pausa.png"
+    },
+    {
+      "label": "06_reanudar",
+      "layout": "Layout 1",
+      "vars": {
+        "CS_SalidaAbierta": 0,
+        "CS_SalidaTecla": 1,
+        "CS_Energia": 2,
+        "CS_EstadoEnergia": 0,
+        "CS_Invulnerable": 0,
+        "CS_AmbTiempo": 3.471300000023834,
+        "CS_AmbIntensidad": 0.5,
+        "CS_AmbActivado": 1,
+        "CS_PanelMenu": 0
+      },
+      "timeScale": 1,
+      "body": {
+        "x": 73,
+        "y": 367.586094,
+        "w": 16,
+        "h": 34,
+        "dy": 0,
+        "ignored": 0,
+        "onFloor": true
+      },
+      "visual": {
+        "animation": "quieto",
+        "opacity": 1
+      },
+      "segments": [
+        "lleno",
+        "lleno",
+        "vacio"
+      ],
+      "defeat": false,
+      "exit": false,
+      "hud": {
+        "parallaxX": 0,
+        "parallaxY": 0
+      },
+      "file": "06_reanudar.png"
+    },
+    {
+      "label": "07_una_carga",
+      "layout": "Layout 1",
+      "vars": {
+        "CS_SalidaAbierta": 0,
+        "CS_SalidaTecla": 1,
+        "CS_Energia": 1,
+        "CS_EstadoEnergia": 0,
+        "CS_Invulnerable": 0,
+        "CS_AmbTiempo": 5.150400000023823,
+        "CS_AmbIntensidad": 0.5,
+        "CS_AmbActivado": 1,
+        "CS_PanelMenu": 0
+      },
+      "timeScale": 1,
+      "body": {
+        "x": 73,
+        "y": 367.605092,
+        "w": 16,
+        "h": 34,
+        "dy": 0,
+        "ignored": 0,
+        "onFloor": true
+      },
+      "visual": {
+        "animation": "quieto",
+        "opacity": 1
+      },
+      "segments": [
+        "lleno",
+        "vacio",
+        "vacio"
+      ],
+      "defeat": false,
+      "exit": false,
+      "hud": {
+        "parallaxX": 0,
+        "parallaxY": 0
+      },
+      "file": "07_una_carga.png"
+    },
+    {
+      "label": "08_derrota",
+      "layout": "Layout 1",
+      "vars": {
+        "CS_SalidaAbierta": 0,
+        "CS_SalidaTecla": 1,
+        "CS_Energia": 0,
+        "CS_EstadoEnergia": 1,
+        "CS_Invulnerable": 1.1938000000000002,
+        "CS_AmbTiempo": 5.3802000000238195,
+        "CS_AmbIntensidad": 0.5,
+        "CS_AmbActivado": 1,
+        "CS_PanelMenu": 0
+      },
+      "timeScale": 0,
+      "body": {
+        "x": 73,
+        "y": 365,
+        "w": 16,
+        "h": 34,
+        "dy": 0,
+        "ignored": 1,
+        "onFloor": false
+      },
+      "visual": {
+        "animation": "Saltar",
+        "opacity": 1
+      },
+      "segments": [
+        "vacio",
+        "vacio",
+        "vacio"
+      ],
+      "defeat": true,
+      "exit": false,
+      "hud": {
+        "parallaxX": 0,
+        "parallaxY": 0
+      },
+      "file": "08_derrota.png"
+    },
+    {
+      "label": "09_reintentar",
+      "layout": "Layout 1",
+      "vars": {
+        "CS_SalidaAbierta": 0,
+        "CS_SalidaTecla": 1,
+        "CS_Energia": 3,
+        "CS_EstadoEnergia": 0,
+        "CS_Invulnerable": 0,
+        "CS_AmbTiempo": 0.2967999999999993,
+        "CS_AmbIntensidad": 0.5,
+        "CS_AmbActivado": 1,
+        "CS_PanelMenu": 0
+      },
+      "timeScale": 1,
+      "body": {
+        "x": 73,
+        "y": 367.60811750000005,
+        "w": 16,
+        "h": 34,
+        "dy": 0,
+        "ignored": 0,
+        "onFloor": true
+      },
+      "visual": {
+        "animation": "quieto",
+        "opacity": 1
+      },
+      "segments": [
+        "lleno",
+        "lleno",
+        "lleno"
+      ],
+      "defeat": false,
+      "exit": false,
+      "hud": {
+        "parallaxX": 0,
+        "parallaxY": 0
+      },
+      "file": "09_reintentar.png"
+    },
+    {
+      "label": "10_menu",
+      "layout": "Menu",
+      "vars": {
+        "CS_SalidaAbierta": 0,
+        "CS_SalidaTecla": 1,
+        "CS_Energia": 0,
+        "CS_EstadoEnergia": 1,
+        "CS_Invulnerable": 1.1938999999999995,
+        "CS_AmbTiempo": 0.7938999999999994,
+        "CS_AmbIntensidad": 0.5,
+        "CS_AmbActivado": 1,
+        "CS_PanelMenu": 0
+      },
+      "timeScale": 1,
+      "body": null,
+      "visual": null,
+      "segments": [
+        null,
+        null,
+        null
+      ],
+      "hud": null,
+      "file": "10_menu.png"
+    },
+    {
+      "label": "11_nueva_partida",
+      "layout": "Layout 1",
+      "vars": {
+        "CS_SalidaAbierta": 0,
+        "CS_SalidaTecla": 1,
+        "CS_Energia": 3,
+        "CS_EstadoEnergia": 0,
+        "CS_Invulnerable": 0,
+        "CS_AmbTiempo": 0.303,
+        "CS_AmbIntensidad": 0.5,
+        "CS_AmbActivado": 1,
+        "CS_PanelMenu": 0
+      },
+      "timeScale": 1,
+      "body": {
+        "x": 73,
+        "y": 367.5737195,
+        "w": 16,
+        "h": 34,
+        "dy": 0,
+        "ignored": 0,
+        "onFloor": true
+      },
+      "visual": {
+        "animation": "quieto",
+        "opacity": 1
+      },
+      "segments": [
+        "lleno",
+        "lleno",
+        "lleno"
+      ],
+      "defeat": false,
+      "exit": false,
+      "hud": {
+        "parallaxX": 0,
+        "parallaxY": 0
+      },
+      "file": "11_nueva_partida.png"
+    }
+  ],
+  "errors": [],
+  "alcance": "Pruebas reales de la UI y reglas de energía. Las caídas se provocan reposicionando únicamente el cuerpo en la vista previa; no es una partida completa."
+}

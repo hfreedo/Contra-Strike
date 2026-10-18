@@ -1,5 +1,7 @@
-# Alcance de validación
+# Alcance de validación — v20.0
 
-El editor Construct 2 Free confirmó 60 eventos. Antes de la última corrección de cierre de Ayuda pasaron 22 pruebas de energía/pausa/derrota/reinicio, 19 de cámara/saltos y nueve de capas/atmósfera. La corrección final de cierre tiene comprobación XML y tabla de estados; su ejecución en motor quedó pendiente. No se afirma un recorrido completo.
+ZIP/XML y 72 cuadros verificados. 27 pruebas de combate y 22 de energía PASS en compilación previa a la última corrección de caída; esta corrección tiene validación XML, ejecución pendiente. Sin recorrido completo manual.
 
-La actualización del repositorio comprueba ZIP/XML y hashes de copia; no modifica el juego ni sustituye las pruebas de motor indicadas.
+CAPX publicado SHA-256: `d2d278bbfe3cf69c66ba08e59c1d4f5c9f0ebcef6cf86657ef412a148fda0c03`
+
+Las 49 pruebas corresponden al CAPX previo `1523d0c2d2aa8166fc17ca05ee983af2290be3b7a5b80e4ff157c17fa5ad29b4`. La corrección posterior cambia la rama de caída a una comparación de Y del cuerpo para que Construct seleccione al jugador al reaparecer.

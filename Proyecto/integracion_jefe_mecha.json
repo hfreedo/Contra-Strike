@@ -1,0 +1,30 @@
+{
+  "sha256": "d2d278bbfe3cf69c66ba08e59c1d4f5c9f0ebcef6cf86657ef412a148fda0c03",
+  "sha256_antes": "dabc531220a95f2d690851846a9db8fcc2df2ae7b9712d3461232ae41e98a9a2",
+  "respaldo": "C:\\Users\\Soul Hoshi\\Documents\\ChatGPT\\PAL - Desarrollo de videojuegos\\Entregas\\Historial\\Superadas\\Contra_Strike\\Antes_del_jefe_v20_dabc531220\\Contra_Strike_con_menu.capx",
+  "eventos_antes": 60,
+  "eventos_despues": 81,
+  "margen_eventos": 19,
+  "capas": 4,
+  "jefe": {
+    "posicion": [
+      3300,
+      360.217315674
+    ],
+    "vida": 24,
+    "activacion_x": 2940,
+    "periodo_segundos": 17,
+    "animaciones": 9,
+    "frames": 72
+  },
+  "controles": "Z disparar; flechas y ESC conservados",
+  "estado": "ZIP/XML y 72 cuadros verificados. 27 pruebas de combate y 22 de energía PASS en compilación previa a la última corrección de caída; esta corrección tiene validación XML, ejecución pendiente. Sin recorrido completo manual.",
+  "correccion_caida": "Comparación Y del cuerpo en OR selecciona al jugador y evita descuento repetido.",
+  "validacion_actual": {
+    "sha256": "d2d278bbfe3cf69c66ba08e59c1d4f5c9f0ebcef6cf86657ef412a148fda0c03",
+    "zip_xml": "PASS",
+    "eventos": 81,
+    "frames": 72,
+    "motor_ultima_correccion": "PENDIENTE"
+  }
+}

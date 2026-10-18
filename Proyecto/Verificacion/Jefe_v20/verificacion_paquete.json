@@ -1,0 +1,10 @@
+{
+  "resultado": "PASS",
+  "zip": "C:\\Users\\Soul Hoshi\\Documents\\ChatGPT\\PAL - Desarrollo de videojuegos\\Entregas\\Actuales\\Contra_Strike\\Contra_Strike_actual.zip",
+  "sha256_zip": "cb24c272f6c7c19c81a766f7334771344728f3bd145abe06181157b73b35cdfb",
+  "archivos": 386,
+  "hashes_extraidos": "PASS",
+  "capx_extraido_zip_xml": "PASS",
+  "extraccion": "C:\\Users\\Soul Hoshi\\Documents\\ChatGPT\\PAL - Desarrollo de videojuegos\\Entregas\\Historial\\Verificaciones_temporales\\strike-juego-7e234701",
+  "limite": "No ejecuta el motor Construct 2."
+}

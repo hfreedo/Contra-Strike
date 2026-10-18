@@ -2,6 +2,16 @@
 
 Las etapas locales se documentan como hitos incluidos en la entrega actual; no se inventaron commits ni publicaciones retroactivas. Las versiones ya publicadas siguen disponibles en [Releases](https://github.com/hfreedo/Contra-Strike/releases) y en el historial de Git.
 
+## v20.0 — 2026-10-18
+
+- Jefe mecha al final del mapa: nueve animaciones y 72 cuadros.
+- Disparos del jugador con Z; patrullas derrotables.
+- Vida del jefe, avisos, cañón, ráfagas, misiles marcados y rayo alto en ciclo de 17 segundos.
+- Explosión, desaparición y victoria de demo; pausa y reinicio integrados.
+- Reaparición prevista en arena durante el combate; corregida selección del cuerpo en la rama de caída.
+- 81 eventos, 19 espacios libres y cuatro capas. Atmósfera y cámara conservadas.
+- 49 pruebas de motor pasaron antes de la última corrección de caída; esa corrección queda pendiente de ejecución. ZIP/XML del CAPX final comprobados.
+
 ## v19.0 — 2026-10-17
 
 - Eventos reducidos de 90 a 60: se liberan 30 y quedan 40 hasta el límite de 100 del proyecto.

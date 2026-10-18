@@ -1,15 +1,16 @@
-# v19.0
+# v20.0 — Jefe mecha animado
 
-Atmósfera y penumbra ajustadas, cámara vertical estable y optimización a 60 eventos y cuatro capas.
+Jefe final con nueve animaciones (72 cuadros), barra de vida, avisos y cuatro tipos de ataque. Disparar con **Z**. Incluye victoria de demo, reinicio y recursos organizados; conserva luces, atmósfera y cámara.
 
-Proyecto: `Contra_Strike_con_menu.capx`. Recursos organizados en el paquete `Contra_Strike_actual_v19.zip`.
+- Abrir `Contra_Strike_con_menu.capx` en Construct 2.
+- Paquete completo: `Contra_Strike_actual_v20.zip`.
+- 81 eventos y cuatro capas; quedan 19 espacios hasta 100.
+- Historial y patrón: `CHANGELOG.md` y `Proyecto/JEFE_MECHA_PATRON.md`.
 
-Historial completo: [CHANGELOG.md](CHANGELOG.md). Las publicaciones anteriores se conservan.
+## Validación
 
-## Verificación
+ZIP/XML y 72 cuadros verificados. 27 pruebas de combate y 22 de energía PASS en compilación previa a la última corrección de caída; esta corrección tiene validación XML, ejecución pendiente. Sin recorrido completo manual.
 
-El editor Construct 2 Free confirmó 60 eventos. Antes de la última corrección de cierre de Ayuda pasaron 22 pruebas de energía/pausa/derrota/reinicio, 19 de cámara/saltos y nueve de capas/atmósfera. La corrección final de cierre tiene comprobación XML y tabla de estados; su ejecución en motor quedó pendiente. No se afirma un recorrido completo.
+CAPX SHA-256: `d2d278bbfe3cf69c66ba08e59c1d4f5c9f0ebcef6cf86657ef412a148fda0c03`
 
-CAPX SHA-256: `dabc531220a95f2d690851846a9db8fcc2df2ae7b9712d3461232ae41e98a9a2`
-
-ZIP SHA-256: `b21b1a69d7962fbbaa9b126bd863c62652986bf47190fd47e38ac40e6d4f6ece`
+ZIP SHA-256: `cb24c272f6c7c19c81a766f7334771344728f3bd145abe06181157b73b35cdfb`
